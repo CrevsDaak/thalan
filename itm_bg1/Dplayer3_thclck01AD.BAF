@@ -1,0 +1,7 @@
+IF
+	Global("thclck01","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("thclck01","LOCALS",0)
+		CreateCreature("thclck01",[0.0],1)
+END

@@ -1,0 +1,38 @@
+/* Declaration of Tutu Platform Variables */
+  ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
+    /* tp2, d, and baf parsing variables based on conversion */
+    OUTER_SPRINT "tutuorbgt" "Tutu"
+    OUTER_SPRINT "tutu_var" "_"
+    OUTER_SPRINT "tutu_scripta" "_"
+    OUTER_SPRINT "tutu_scriptb" "_"
+    OUTER_SPRINT "tutu_scriptbg" "_"
+    OUTER_SPRINT "tutu_scriptc" "_"
+    OUTER_SPRINT "tutu_scriptd" "_"
+    OUTER_SPRINT "tutu_scripte" "_"
+    OUTER_SPRINT "tutu_scriptf" "_"
+    OUTER_SPRINT "tutu_scriptg" "_"
+    OUTER_SPRINT "tutu_scripth" "_"
+    OUTER_SPRINT "tutu_scripti" "_"
+    OUTER_SPRINT "tutu_scriptj" "_"
+    OUTER_SPRINT "tutu_scriptk" "_"
+    OUTER_SPRINT "tutu_scriptl" "_"
+    OUTER_SPRINT "tutu_scriptm" "_"
+    OUTER_SPRINT "tutu_scriptn" "_"
+    OUTER_SPRINT "tutu_scripto" "_"
+    OUTER_SPRINT "tutu_scriptp" "_"
+    OUTER_SPRINT "tutu_scriptq" "_"
+    OUTER_SPRINT "tutu_scriptr" "_"
+    OUTER_SPRINT "tutu_scripts" "_"
+    OUTER_SPRINT "tutu_scriptt" "_"
+    OUTER_SPRINT "tutu_scriptu" "_"
+    OUTER_SPRINT "tutu_scriptv" "_"
+    OUTER_SPRINT "tutu_scriptw" "_"
+    OUTER_SPRINT "tutu_scriptx" "_"
+    OUTER_SPRINT "tutu_scripty" "_"
+    OUTER_SPRINT "tutu_scriptz" "_"
+    OUTER_SPRINT "percentage_sign" "%"
+    
+    /* special to comment out Tutu-incompatible code */
+    OUTER_SPRINT "fwdslash_sign" "/"
+    OUTER_SPRINT "star_sign" "*"
+END

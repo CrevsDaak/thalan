@@ -1,0 +1,123 @@
+//Player1
+IF
+	GlobalGT("thclck01_REFILL","GLOBAL",0)
+	HasItem("thclck01",Player1)
+THEN
+	RESPONSE #100
+		IncrementGlobal("thclck01_REFILL","GLOBAL",-1)
+		ActionOverride(Player1,ApplySpellRES("SPWI206",Myself))
+		DestroySelf()
+END
+
+IF
+	Global("thclck01_REFILL","GLOBAL",0)
+	HasItem("thclck01",Player1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayString(Myself,@132))
+		DestroySelf()
+END
+
+//Player2
+IF
+	GlobalGT("thclck01_REFILL","GLOBAL",0)
+	HasItem("thclck01",Player2)
+THEN
+	RESPONSE #100
+		IncrementGlobal("thclck01_REFILL","GLOBAL",-1)
+		ActionOverride(Player2,ApplySpellRES("SPWI206",Myself))
+		DestroySelf()
+END
+
+IF
+	Global("thclck01_REFILL","GLOBAL",0)
+	HasItem("thclck01",Player2)
+THEN
+	RESPONSE #100
+		ActionOverride(Player2,DisplayString(Myself,@132))
+		DestroySelf()
+END
+
+
+//Player3
+IF
+	GlobalGT("thclck01_REFILL","GLOBAL",0)
+	HasItem("thclck01",Player3)
+THEN
+	RESPONSE #100
+		IncrementGlobal("thclck01_REFILL","GLOBAL",-1)
+		ActionOverride(Player3,ApplySpellRES("SPWI206",Myself))
+		DestroySelf()
+END
+
+IF
+	Global("thclck01_REFILL","GLOBAL",0)
+	HasItem("thclck01",Player3)
+THEN
+	RESPONSE #100
+		ActionOverride(Player3,DisplayString(Myself,@132))
+		DestroySelf()
+END
+
+
+//Player4
+IF
+	GlobalGT("thclck01_REFILL","GLOBAL",0)
+	HasItem("thclck01",Player4)
+THEN
+	RESPONSE #100
+		IncrementGlobal("thclck01_REFILL","GLOBAL",-1)
+		ActionOverride(Player4,ApplySpellRES("SPWI206",Myself))
+		DestroySelf()
+END
+
+IF
+	Global("thclck01_REFILL","GLOBAL",0)
+	HasItem("thclck01",Player4)
+THEN
+	RESPONSE #100
+		ActionOverride(Player4,DisplayString(Myself,@132))
+		DestroySelf()
+END
+
+
+//Player5
+IF
+	GlobalGT("thclck01_REFILL","GLOBAL",0)
+	HasItem("thclck01",Player5)
+THEN
+	RESPONSE #100
+		IncrementGlobal("thclck01_REFILL","GLOBAL",-1)
+		ActionOverride(Player5,ApplySpellRES("SPWI206",Myself))
+		DestroySelf()
+END
+
+IF
+	Global("thclck01_REFILL","GLOBAL",0)
+	HasItem("thclck01",Player5)
+THEN
+	RESPONSE #100
+		ActionOverride(Player5,DisplayString(Myself,@132))
+		DestroySelf()
+END
+
+
+//Player6
+IF
+	GlobalGT("thclck01_REFILL","GLOBAL",0)
+	HasItem("thclck01",Player6)
+THEN
+	RESPONSE #100
+		IncrementGlobal("thclck01_REFILL","GLOBAL",-1)
+		ActionOverride(Player6,ApplySpellRES("SPWI206",Myself))
+		DestroySelf()
+END
+
+IF
+	Global("thclck01_REFILL","GLOBAL",0)
+	HasItem("thclck01",Player6)
+THEN
+	RESPONSE #100
+		ActionOverride(Player6,DisplayString(Myself,@132))
+		DestroySelf()
+END

@@ -1,0 +1,8 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		ReallyForceSpell(Myself,RED_HOLY_MIGHT)
+		Wait(4)
+		DestroySelf()
+END

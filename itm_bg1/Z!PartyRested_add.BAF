@@ -1,0 +1,8 @@
+IF
+	CheckStat(Player1,0,FATIGUE)
+THEN
+	RESPONSE #100
+		ApplySpellRES("Z!FATIG1",Player1)
+		SetGlobal("thclck01_REFILL","GLOBAL",2)
+		SetGlobal("thsw2h01_REFILL","GLOBAL",1)
+END

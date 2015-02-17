@@ -1,0 +1,483 @@
+@1    = ~Miecz wœciek³oœci~
+@2    = ~Miecz wœciek³oœci
+  
+Miecz ten powsta³ ze s³awetnego miecza Przeklêty berserker +3. Mo¿liwym sta³o siê zdjêcie zeñ kl¹twy i nadanie mu nowych w³aœciwoœci.
+
+PARAMETRY:
+
+Obra¿enia: 1K10 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne:
+ Raz dziennie pozwala u¿yæ zdolnosci Rozwœcieczenie
+ 10% szansy na wywo³anie strachu u ofiary (na okres 1 rundy)
+Waga: 10
+OpóŸnienie: 7
+Rodzaj bieg³oœci: miecz oburêczny
+Typ broni: 2-rêczna
+Wymagana si³a: 14 
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@3    = ~Sztylet jadu +3~
+@4    = ~Sztylet jadu jest potê¿n¹ broni¹, któr¹ upodobali sobie zabójcy. Ten sztylet zosta³ stworzony dla Z³odziei Cienia z Amn. Za ka¿dym razem kiedy trafi w przeciwnika, sztylet wydziela jad, który przedostaje siê do krwiobiegu ofiary. Jad dzia³a szybko i pewnie. Broñ zosta³a wzmocniona za pomoc¹ magii, dziêki czemu sta³a siê jeszcze potê¿niejsz¹.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +3
+TraK0: +3
+Typ obra¿eñ: k³ute
+Specjalne:
+ +1 dodatkowy atak na rundê
+ 1 pkt. obra¿eñ od trucizny co sekundê przez 15 sekund (rzut przeciw œmierci neguje)
+ Ka¿de trafienie spowalnia ofiarê na 15 sekund (rzut przeciw œmierci neguje)
+Waga: 2
+OpóŸnienie: 0
+Rodzaj bieg³oœci: sztylet
+Typ broni: 1-rêczna
+Wymagana si³a: 3
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@5    = ~Powracaj¹cy sztylet +1~
+@6    = ~Ten sztylet do rzucania jest w istocie ulepszonym za pomoc¹ magii Sztyletem +1, który cechuje siê tym, ¿e natychmiast po wykonaniu ataku wraca do dzier¿¹cej go rêki.
+
+PARAMETRY:
+  
+Obra¿enia: 1K4 +1
+TraK0: +1
+Typ obra¿eñ: pocisk (k³ute)
+Specjalne:
+ Sztylet wraca do dzier¿¹cej go rêki natychmiast po wykonaniu ataku.
+Waga: 1
+OpóŸnienie: 1
+Rodzaj bieg³oœci: sztylet
+Typ broni: 1-rêczna
+Wymagana si³a: 3
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@7    = ~Pierœcieñ swobody ruchów +1~
+@8    = ~Pierœcieñ swobody ruchów +1
+
+Pierœcieñ ten zosta³ ulepszony przy pomocy magii. Teraz ³¹czy cechy Pierœcienia ochrony +1: "Pierœcieñ Ksi¹¿¹t" i Pierœcienia swobody ruchów.
+
+PARAMETRY:
+
+Klasa pancerza: +1
+Rzuty obronne: +1
+Specjalne:
+ Nosz¹cy pierœcieñ jest odporny na ka¿de magiczne i naturalne dzia³anie, które w jakikolwiek sposób wp³ywa na swobodê ruchów. To dotyczy tak¿e zaklêæ spowalniania i przyspieszania ruchów.~
+@9    = ~Pierœcieñ swobody ruchów +2~
+@10   = ~Pierœcieñ swobody ruchów +2 
+
+Ten pierœcieñ zosta³ ulepszony przy pomocy magii. Teraz ³¹czy cechy Pierœcienia ochrony +2: "Pierœcieñ Stra¿nika" i Pierœcienia swobody ruchów.
+
+PARAMETRY:
+
+Klasa pancerza: +2
+Rzuty obronne: +2
+Specjalne:
+ Nosz¹cy pierœcieñ jest odporny na ka¿de magiczne i naturalne dzia³anie, które w jakikolwiek sposób wp³ywa na swobodê ruchów. To dotyczy tak¿e zaklêæ spowalniania i przyspieszania ruchów.~
+@11   = ~Rêkawice wielkiego mistrzostwa~
+@12   = ~Rêkawice wielkiego mistrzostwa
+
+Para tych œwietnych rêkawic magicznie po³¹czy³a w³aœciwoœci kilku prostszych przedmiotów, które obejmowa³y zdolnoœci zarówno ataku, jak i obrony tworz¹c zestaw godny ka¿dego wielkiego wojownika.
+
+PARAMETRY:
+
+TraK0: +2
+Obra¿enia: +2
+Klasa pancerza: +1
+Waga: 2
+Nie mo¿e u¿ywaæ:
+ Kensai
+ Zabójca magów~
+@13   = ~Ulepszony p³aszcz niewykrywalnoœci~
+@14   = ~Ulepszony p³aszcz niewykrywalnoœci: 'Szept ciszy'  
+ 
+P³aszcz ten stworzy³ ponoæ cz³onek rodu najwiêkszych w³amywaczy, którzy przemierzali mrok. Wszystko wskazuje na to, ¿e przedmiot okaza³ siê niezwykle przydatny. Nie istniej¹ ¿adne zapiski dotycz¹ce poprzednich w³aœcicieli. Obecnie zosta³ przy pomocy magii po³¹czony z P³aszczem ochrony +1.
+
+PARAMETRY:
+
+Klasa pancerza: +1
+Rzuty obronne: +1
+Specjalne:
+ Niewidzialnoœæ 2 razy dziennie
+ Uniemo¿liwia magiczne wykrywanie, takie jak Wykrycie niewidzialnoœci czy magiczne poszukiwania
+Waga: 3
+Nie mo¿e u¿ywaæ:
+ Zabójca magów~
+@15   = ~Szata maga 'Praktyczna Ochrona'~
+@16   = ~Szata maga 'Praktyczna Ochrona'
+   
+W tej szacie maga skoncentrowane zosta³y u¿yteczne w³aœciwoœci kilku prostszych przedmiotów, skutkiem czego zapewnia w³aœcicielowi ca³kiem niez³¹ ochronê.
+
+PARAMETRY:
+
+Klasa pancerza: +2
+Rzuty obronne: +1 
+Specjalne:
+ +20% do odpornoœci na ogieñ, zimno i elektrycznoœæ
+Waga: 6
+Mo¿e u¿ywaæ:
+ Mag (jedno, dwu i wieloklasowiec)~
+@17   = ~Pas mêstwa~
+@18   = ~Pas mêstwa
+  
+W tym œwietnym pasie za pomoc¹ magii po³¹czono u¿yteczne w³asnoœci Z³otego pasa, Pasa t³umienia, i Pasa przebiæ. Ponadto zwiêksza si³ê w³aœciciela i pomaga mu leczyæ rany.
+
+PARAMETRY:
+
+Klasa pancerza: +3
+Specjalne:
+ Si³a: +1
+ Regeneruje 1 pkt. ¿ycia co 6 sekund.
+Waga: 4
+Nie mo¿e u¿ywaæ:
+ Zabójca magów~
+@19   = ~Miecz mordercy~
+@20   = ~Miecz mordercy
+  
+Ten miecz jest ulepszonym krótkim mieczem ciosów w plecy: 'Cieniste ostrze'. Miecz zadaje dodatkowe obra¿enia podczas ciosu w plecy, poza tym mo¿e sparali¿owaæ ofiarê.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ: k³ute
+Specjalne:
+ +1 do wspó³czynnika ciosu w plecy
+ 10% szansy na sparali¿owanie ofiary na 2 rundy (bez rzutu obronnego)
+Waga: 3 
+OpóŸnienie: 0
+Rodzaj bieg³oœci: krótki miecz
+Typ broni: 1-rêczna
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an 
+ Mag~
+@21   = ~£uk œnie¿nej nawa³nicy~
+@22   = ~£uk œnie¿nej nawa³nicy
+  
+Ten ³uk jest magicznie zmienionym D³ugim ³ukiem celnoœci. Kiedy ciêciwa zostaje naci¹gniêta, powstaje mocna, ale niewidzialna strza³a, która podczas trafienia zadaje dodatkowe obra¿enia od zimna i elektrycznoœci
+Wa¿ne: unikaj zaopatrywania w normalne strza³y na karcie ekwipunku twojej postaci, inaczej ³uk bêdzie strzela³ nimi zamiast wytwarzaæ swoje.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 + po 1K2 od zimna i elektrycznoœci 
+TraK0: +3
+Typ obra¿eñ: pocisk (k³ute)
+Specjalne:
+ Ten potê¿ny ³uk nie potrzebuje amunicji
+Waga: 3 
+OpóŸnienie: 4
+Rodzaj bieg³oœci: d³ugi ³uk
+Typ broni: 2-rêczna
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@23   = ~Buty z³odzieja "Szybkie Nogi"~
+@24   = ~Buty z³odzieja "Szybkie Nogi"
+  
+Te buty nie tylko pomagaj¹ z³odziejowi w jego trudnej pracy, ale te¿ pozwalaj¹, szybko siê poruszaæ. Niestety, specyficzne w³asnoœci pozwalaj¹ na u¿ywanie ich tylko przez z³odziei.
+
+PARAMETRY:
+
+Specjalne:
+ Zwiêkszaj¹ prêdkoœæ poruszania siê
+ +20% do Cichego chodzenia
+ +15% do Krycia siê w cieniu
+ +10% do Otwierania zamków
+ +10% do Wykrywania pu³apek
+ +10% do Kradzie¿y kieszonkowej
+Waga: 4
+Mo¿e u¿ywaæ:
+ Z³odziej (jedno, dwu i wieloklasowiec)~
+@25   = ~Ulepszony amulet tarczy~
+@26   = ~Ulepszony amulet tarczy
+  
+Jest to magicznie zmieniony Amulet tarczy. Dziêki temu chroni w³aœciciela nieco lepiej, skutkiem czego zwiêkszy³a siê jego przydatnoœæ.
+
+PARAMETRY: 
+
+Klasa pancerza: 4
+Rzuty obronne: +1
+Waga: 1
+Nie mo¿e u¿ywaæ:
+ Zabójca magów~
+@27   = ~Wspania³y he³m~
+@28   = ~Wspania³y he³m
+   
+W he³mie tym zosta³y magicznie skoncentrowane u¿yteczne w³aœciwoœci He³mu chwa³y i He³mu ochrony 'Dar Pokoju'. Dziêki temu zapewnia w³aœcicielowi ca³kiem niez³¹ obronê.
+
+PARAMETRY:
+
+Specjalne:
+ +20% odpornoœci na ogieñ, zimno i elektrycznoœæ
+ Charyzma: +1
+Klasa pancerza: +1
+Rzuty obronne: +1
+Waga: 6
+Nie mo¿e u¿ywaæ:
+ Bard
+ Mag
+ Z³odziej~
+@29   = ~Ulepszony p³aszcz Baldurana~
+@30   = ~Ulepszony p³aszcz Baldurana 
+
+Ten p³aszcz nosi³ ponoæ Balduran, za³o¿yciel Wrót Baldura. Choæ nigdy nie u¿yto go w trakcie walki, zapewnia ponoæ ochronê godn¹ najwiêkszego przywódcy. Dodatkowo przy pomocy magii zosta³ po³¹czony z p³aszczem ochrony +2.
+
+PARAMETRY:
+
+Specjalne:
+ +2 do Klasy Pancerza
+ +2 do rzutów obronnych
+ +25% do odpornoœci na magiê
+Waga: 3
+Nie mo¿e u¿ywaæ:
+ Zabójca magów~
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// for vanilla BG1 //////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+@101    = ~Miecz wôciekñoôci~
+@102    = ~Miecz wôciekñoôci
+  
+Miecz ten powstañ ze sñawetnego miecza Przeklðty berserker +3. Moöliwym staño sið zdjðcie zeò klîtwy i nadanie mu nowych wñaôciwoôci.
+
+PARAMETRY:
+
+Obraöenia: 1K10 +3
+TraK0: +3
+Typ obraöeò: sieczne
+Specjalne:
+ Raz dziennie pozwala uöyï zdolnosci Rozwôcieczenie
+ 10% szansy na wywoñanie strachu u ofiary (na okres 1 rundy)
+Waga: 10
+Opóõnienie: 7
+Rodzaj biegñoôci: ciðökie miecze
+Typ broni: 2-rðczna
+Nie moöe uöywaï:
+ Druid
+ Kapñan
+ Mag
+ Zñodziej~
+@103    = ~Sztylet jadu +3~
+@104    = ~Sztylet jadu jest potðönî broniî, którî upodobali sobie zabójcy. Ten sztylet zostañ stworzony dla Zñodziei Cienia z Amn. Za kaödym razem kiedy trafi w przeciwnika, sztylet wydziela jad, który przedostaje sið do krwiobiegu ofiary. Jad dziaña szybko i pewnie. Broò zostaña wzmocniona za pomocî magii, dziðki czemu staña sið jeszcze potðöniejszî.
+
+PARAMETRY:
+
+Obraöenia: 1K4 +3
+TraK0: +3
+Typ obraöeò: kñute
+Specjalne:
+ +1 dodatkowy atak na rundð
+ 1 pkt. obraöeò od trucizny co sekundð przez 15 sekund (rzut przeciw ômierci neguje)
+ Kaöde trafienie spowalnia ofiarð na 15 sekund (rzut przeciw ômierci neguje)
+Waga: 2
+Opóõnienie: 0
+Rodzaj biegñoôci: lekkie miecze
+Typ broni: 1-rðczna
+Nie moöe uöywaï:
+ Kapñan~
+@105    = ~Powracajîcy sztylet +1~
+@106    = ~Ten sztylet do rzucania jest w istocie ulepszonym za pomocî magii Sztyletem +1, który cechuje sið tym, öe natychmiast po wykonaniu ataku wraca do dzieröîcej go rðki.
+
+PARAMETRY:
+  
+Obraöenia: 1K4 +1
+TraK0: +1
+Typ obraöeò: pocisk (kñute)
+Specjalne:
+ Sztylet wraca do dzieröîcej go rðki natychmiast po wykonaniu ataku.
+Waga: 1
+Opóõnienie: 1
+Rodzaj biegñoôci: lekkie miecze
+Typ broni: 1-rðczna
+Nie moöe uöywaï:
+ Kapñan~
+@107    = ~Pierôcieò swobody ruchów +1~
+@108    = ~Pierôcieò swobody ruchów +1
+
+Pierôcieò ten zostañ ulepszony przy pomocy magii. Teraz ñîczy cechy Pierôcienia ochrony +1: "Pierôcieò Ksiîöît" i Pierôcienia swobody ruchów.
+
+PARAMETRY:
+
+Klasa pancerza: +1
+Rzuty obronne: +1
+Specjalne:
+ Noszîcy pierôcieò jest odporny na kaöde magiczne i naturalne dziañanie, które w jakikolwiek sposób wpñywa na swobodð ruchów. To dotyczy taköe zaklðï spowalniania i przyspieszania ruchów.~
+@109    = ~Pierôcieò swobody ruchów +2~
+@110   = ~Pierôcieò swobody ruchów +2 
+
+Ten pierôcieò zostañ ulepszony przy pomocy magii. Teraz ñîczy cechy Pierôcienia ochrony +2: "Pierôcieò Straönika" i Pierôcienia swobody ruchów.
+
+PARAMETRY:
+
+Klasa pancerza: +2
+Rzuty obronne: +2
+Specjalne:
+ Noszîcy pierôcieò jest odporny na kaöde magiczne i naturalne dziañanie, które w jakikolwiek sposób wpñywa na swobodð ruchów. To dotyczy taköe zaklðï spowalniania i przyspieszania ruchów.~
+@111   = ~Rðkawice wielkiego mistrzostwa~
+@112   = ~Rðkawice wielkiego mistrzostwa
+
+Para tych ôwietnych rðkawic magicznie poñîczyña wñaôciwoôci kilku prostszych przedmiotów, które obejmowañy zdolnoôci zarówno ataku, jak i obrony tworzîc zestaw godny kaödego wielkiego wojownika.
+
+PARAMETRY:
+
+TraK0: +2
+Obraöenia: +2
+Klasa pancerza: +1
+Waga: 2
+Nie moöe uöywaï:~
+@113   = ~Ulepszony pñaszcz niewykrywalnoôci~
+@114   = ~Ulepszony pñaszcz niewykrywalnoôci: 'Szept ciszy'  
+ 
+Pñaszcz ten stworzyñ ponoï czñonek rodu najwiðkszych wñamywaczy, którzy przemierzali mrok. Wszystko wskazuje na to, öe przedmiot okazañ sið niezwykle przydatny. Nie istniejî öadne zapiski dotyczîce poprzednich wñaôcicieli. Obecnie zostañ przy pomocy magii poñîczony z Pñaszczem ochrony +1.
+
+PARAMETRY:
+
+Klasa pancerza: +1
+Rzuty obronne: +1
+Specjalne:
+ Niewidzialnoôï 2 razy dziennie
+ Uniemoöliwia magiczne wykrywanie, takie jak Wykrycie niewidzialnoôci czy magiczne poszukiwania
+Waga: 3
+Nie moöe uöywaï:~
+@115   = ~Szata maga 'Praktyczna Ochrona'~
+@116   = ~Szata maga 'Praktyczna Ochrona'
+   
+W tej szacie maga skoncentrowane zostañy uöyteczne wñaôciwoôci kilku prostszych przedmiotów, skutkiem czego zapewnia wñaôcicielowi cañkiem niezñî ochronð.
+
+PARAMETRY:
+
+Klasa pancerza: +2
+Rzuty obronne: +1 
+Specjalne:
+ +20% do odpornoôci na ogieò, zimno i elektrycznoôï
+Waga: 6
+Moöe uöywaï:
+ Mag (jedno, dwu i wieloklasowiec)~
+@117   = ~Pas mðstwa~
+@118   = ~Pas mðstwa
+  
+W tym ôwietnym pasie za pomocî magii poñîczono uöyteczne wñasnoôci Zñotego pasa, Pasa tñumienia, i Pasa przebiï. Ponadto zwiðksza siñð wñaôciciela i pomaga mu leczyï rany.
+
+PARAMETRY:
+
+Klasa pancerza: +3
+Specjalne:
+ Siña: +1
+ Regeneruje 1 pkt. öycia co 6 sekund.
+Waga: 4
+Nie moöe uöywaï:~
+@119   = ~Miecz mordercy~
+@120   = ~Miecz mordercy
+  
+Ten miecz jest ulepszonym krótkim mieczem ciosów w plecy: 'Cieniste ostrze'. Miecz zadaje dodatkowe obraöenia podczas ciosu w plecy, poza tym moöe sparaliöowaï ofiarð.
+
+PARAMETRY:
+
+Obraöenia: 1K6 +3
+TraK0: +3
+Typ obraöeò: kñute
+Specjalne:
+ 15% szansy na sparaliöowanie ofiary na 2 rundy (bez rzutu obronnego)
+Waga: 3 
+Opóõnienie: 0
+Rodzaj biegñoôci: lekkie miecze
+Typ broni: 1-rðczna
+Nie moöe uöywaï:
+ Druid
+ Kapñan 
+ Mag~
+@121   = ~èuk ônieönej nawañnicy~
+@122   = ~èuk ônieönej nawañnicy
+  
+Ten ñuk jest magicznie zmienionym Dñugim ñukiem celnoôci. Kiedy ciðciwa zostaje naciîgniðta, powstaje mocna, ale niewidzialna strzaña, która podczas trafienia zadaje dodatkowe obraöenia od zimna i elektrycznoôci
+Waöne: unikaj zaopatrywania w normalne strzañy na karcie ekwipunku twojej postaci, inaczej ñuk bðdzie strzelañ nimi zamiast wytwarzaï swoje.
+
+PARAMETRY:
+
+Obraöenia: 1K6 + po 1K2 od zimna i elektrycznoôci 
+TraK0: +3
+Typ obraöeò: pocisk (kñute)
+Specjalne:
+ Ten potðöny ñuk nie potrzebuje amunicji
+Waga: 3 
+Opóõnienie: 4
+Rodzaj biegñoôci: ñuki
+Typ broni: 2-rðczna
+Nie moöe uöywaï:
+ Druid
+ Kapñan
+ Mag
+ Zñodziej~
+@123   = ~Buty zñodzieja "Szybkie Nogi"~
+@124   = ~Buty zñodzieja "Szybkie Nogi"
+  
+Te buty nie tylko pomagajî zñodziejowi w jego trudnej pracy, ale teö pozwalajî, szybko sið poruszaï. Niestety, specyficzne wñasnoôci pozwalajî na uöywanie ich tylko przez zñodziei.
+
+PARAMETRY:
+
+Specjalne:
+ Zwiðkszajî prðdkoôï poruszania sið
+ +35% do Krycia sið w cieniu
+ +10% do Otwierania zamków
+ +10% do Wykrywania puñapek
+ +10% do Kradzieöy kieszonkowej
+Waga: 4
+Moöe uöywaï:
+ Zñodziej (jedno, dwu i wieloklasowiec)~
+@125   = ~Ulepszony amulet tarczy~
+@126   = ~Ulepszony amulet tarczy
+  
+Jest to magicznie zmieniony Amulet tarczy. Dziðki temu chroni wñaôciciela nieco lepiej, skutkiem czego zwiðkszyña sið jego przydatnoôï.
+
+PARAMETRY: 
+
+Klasa pancerza: 4
+Rzuty obronne: +1
+Waga: 1
+Nie moöe uöywaï:~
+@127   = ~Wspaniañy heñm~
+@128   = ~Wspaniañy heñm
+
+W heñmie tym zostañy magicznie skoncentrowane uöyteczne wñaôciwoôci Heñmu chwañy i Heñmu ochrony 'Dar Pokoju'. Dziðki temu zapewnia wñaôcicielowi cañkiem niezñî obronð.
+
+PARAMETRY:
+
+Specjalne:
+ +20% odpornoôci na ogieò, zimno i elektrycznoôï
+ Charyzma: +1
+Klasa pancerza: +1
+Rzuty obronne: +1
+Waga: 6
+Nie moöe uöywaï:
+ Bard
+ Mag
+ Zñodziej~
+@129   = ~Ulepszony pñaszcz Baldurana~
+@130   = ~Ulepszony pñaszcz Baldurana 
+
+Ten pñaszcz nosiñ ponoï Balduran, zañoöyciel Wrót Baldura. Choï nigdy nie uöyto go w trakcie walki, zapewnia ponoï ochronð godnî najwiðkszego przywódcy. Dodatkowo przy pomocy magii zostañ poñîczony z pñaszczem ochrony +2.
+
+PARAMETRY:
+
+Specjalne:
+ +2 do Klasy Pancerza
+ +2 do rzutów obronnych
+ +25% do odpornoôci na magið
+Waga: 3
+Nie moöe uöywaï:~
+
+
+@131   = ~Rozwôcieczenie~
+@132   = ~Przedmiot straciñ ñadunki~
