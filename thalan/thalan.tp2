@@ -4,19 +4,19 @@
 BACKUP ~thalan/backup~  
 AUTHOR "crevs.daak@gmail.com" /* ~serdrick@yandex.ru~ I think it would be
 				wise to put my email if I'm keeper of the mod */
-VERSION ~v4.0~
+VERSION ~v4.1~
 README "thalan/readme.txt" "thalan/readme_%LANGUAGE%.txt"
 
 ALWAYS
-  ACTION_IF GAME_IS "tutu tutu_totsc" BEGIN //Tutu
+  ACTION_IF GAME_IS "tutu tutu_totsc" BEGIN
     PRINT @90010
     INCLUDE ~thalan/lib/g3_tutu_cpmvars.tpa~
   END ELSE
-  ACTION_IF GAME_IS bgt BEGIN //BGT
+  ACTION_IF GAME_IS bgt BEGIN
     PRINT @90011
     INCLUDE ~thalan/lib/g3_bgt_cpmvars.tpa~
   END ELSE
-  ACTION_IF GAME_IS totsc BEGIN //BG1:TotSC and not IWD1
+  ACTION_IF GAME_IS totsc BEGIN
     PRINT @90012
     INCLUDE ~thalan/lib/g3_bg_cpmvars.tpa~
   END ELSE
@@ -29,17 +29,15 @@ ALWAYS
     INCLUDE ~thalan/lib/eet_cpmvars.tpa~
   END
 
-  ACTION_IF "%LANGUAGE%" STR_CMP "english" BEGIN
-    ACTION_DEFINE_ARRAY conv BEGIN
-      game
-      thalan
-    END
+  ACTION_DEFINE_ARRAY conv BEGIN
+    game
+    thalan
+  END
 
-    LAF HANDLE_CHARSETS
-      STR_VAR
-        tra_path = "thalan/tra"
-        convert_array = conv
-    END
+  LAF HANDLE_CHARSETS
+    STR_VAR
+      tra_path = "thalan/tra"
+      convert_array = conv
   END
 
   LOAD_TRA "thalan/tra/%LANGUAGE%/game.tra"
@@ -80,10 +78,15 @@ REQUIRE_PREDICATE GAME_IS "bgee eet tutu tutu_totsc totsc bgt" @90013
 //Storage bags - not implemented for BG:TotSC
 ACTION_IF !GAME_IS totsc BEGIN
   COPY ~thalan/Itm/thbag01.itm~ ~override/thbag01.itm~
+    PATCH_IF GAME_IS bgee BEGIN SAY 0x8 #25503 SAY 0xC #25503 SAY 0x50 #25504 SAY 0x54 #25504 END
   COPY ~thalan/Itm/thbag02.itm~ ~override/thbag02.itm~
+    PATCH_IF GAME_IS bgee BEGIN SAY 0x8 #25505 SAY 0xC #25505 SAY 0x50 #25507 SAY 0x54 #25507 END
   COPY ~thalan/Itm/thbag03.itm~ ~override/thbag03.itm~
+    PATCH_IF GAME_IS bgee BEGIN SAY 0x8 #25508 SAY 0xC #25508 SAY 0x50 #25510 SAY 0x54 #25510 END
   COPY ~thalan/Itm/thbag04.itm~ ~override/thbag04.itm~
+    PATCH_IF GAME_IS bgee BEGIN SAY 0x8 #31234 SAY 0xC #31234 SAY 0x50 #31235 SAY 0x54 #31235 END
   COPY ~thalan/Itm/thbag05.itm~ ~override/thbag05.itm~
+    PATCH_IF GAME_IS bgee BEGIN SAY 0x8 #31236 SAY 0xC #31236 SAY 0x50 #31237 SAY 0x54 #31237 END
 
   COPY ~thalan/Sto/thbag01.sto~ ~override/thbag01.sto~
   COPY ~thalan/Sto/thbag02.sto~ ~override/thbag02.sto~
@@ -109,49 +112,109 @@ ACTION_IF !GAME_IS totsc BEGIN
   //Items
   COPY ~thalan/Itm/thsw2h01.itm~ ~override/thsw2h01.itm~
     SAY NAME2 @1
-    SAY DESC  @2
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @2
+    END ELSE BEGIN
+      SAY DESC @133
+    END
   COPY ~thalan/Itm/thdagg01.itm~ ~override/thdagg01.itm~
     SAY NAME2 @3
-    SAY DESC  @4
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @4
+    END ELSE BEGIN
+      SAY DESC @134
+    END
   COPY ~thalan/Itm/thdagg02.itm~ ~override/thdagg02.itm~
     SAY NAME2 @5
-    SAY DESC  @6
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @6
+    END ELSE BEGIN
+      SAY DESC @135
+    END
   COPY ~thalan/Itm/thring01.itm~ ~override/thring01.itm~
     SAY NAME2 @7
-    SAY DESC  @8
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @8
+    END ELSE BEGIN
+      SAY DESC @136
+    END
   COPY ~thalan/Itm/thring02.itm~ ~override/thring02.itm~
     SAY NAME2 @9
-    SAY DESC  @10
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @10
+    END ELSE BEGIN
+      SAY DESC @137
+    END
   COPY ~thalan/Itm/thbrac01.itm~ ~override/thbrac01.itm~
     SAY NAME2 @11
-    SAY DESC  @12
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @12
+    END ELSE BEGIN
+      SAY DESC @138
+    END
   COPY ~thalan/Itm/thclck01.itm~ ~override/thclck01.itm~
     SAY NAME2 @13
-    SAY DESC  @14
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @14
+    END ELSE BEGIN
+      SAY DESC @139
+    END
   COPY ~thalan/Itm/thclck02.itm~ ~override/thclck02.itm~
     SAY NAME2 @15
-    SAY DESC  @16
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @16
+    END ELSE BEGIN
+      SAY DESC @140
+    END
   COPY ~thalan/Itm/thbelt01.itm~ ~override/thbelt01.itm~
     SAY NAME2 @17
-    SAY DESC  @18
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @18
+    END ELSE BEGIN
+      SAY DESC @141
+    END
   COPY ~thalan/Itm/thsw1h01.itm~ ~override/thsw1h01.itm~
     SAY NAME2 @19
-    SAY DESC  @20
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @20
+    END ELSE BEGIN
+      SAY DESC @142
+    END
   COPY ~thalan/Itm/thbow01.itm~ ~override/thbow01.itm~
     SAY NAME2 @21
-    SAY DESC  @22
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @22
+    END ELSE BEGIN
+      SAY DESC @143
+    END
   COPY ~thalan/Itm/thboot01.itm~ ~override/thboot01.itm~
     SAY NAME2 @23
-    SAY DESC  @24
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @24
+    END ELSE BEGIN
+      SAY DESC @144
+    END
   COPY ~thalan/Itm/thamul01.itm~ ~override/thamul01.itm~
     SAY NAME2 @25
-    SAY DESC  @26
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @26
+    END ELSE BEGIN
+      SAY DESC @145
+    END
   COPY ~thalan/Itm/thhelm01.itm~ ~override/thhelm01.itm~
     SAY NAME2 @27
-    SAY DESC  @28
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @28
+    END ELSE BEGIN
+      SAY DESC @146
+    END
   COPY ~thalan/Itm/thclck03.itm~ ~override/thclck03.itm~
     SAY NAME2 @29
-    SAY DESC  @30
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
+      SAY DESC  @30
+    END ELSE BEGIN
+      SAY DESC @147
+    END
     
   
   //Dialogue
@@ -172,12 +235,12 @@ ELSE BEGIN //BG:TotSC
   ACTION_IF (FILE_CONTAINS_EVALUATED (~dplayer3.BCS~ ~"Z!FATIG1"~))
     THEN BEGIN
       COPY_EXISTING ~dplayer3.BCS~ ~override~
-        DECOMPILE_BCS_TO_BAF
+        DECOMPILE_AND_PATCH BEGIN
         REPLACE_TEXTUALLY ~ApplySpellRES("Z!FATIG1",Player1)~
                           ~ApplySpellRES("Z!FATIG1",Player1)
                            SetGlobal("thclck01_REFILL","GLOBAL",2)
                            SetGlobal("thsw2h01_REFILL","GLOBAL",1)~
-        COMPILE_BAF_TO_BCS
+        END
     END
     ELSE BEGIN
       EXTEND_TOP ~dplayer3.BCS~ ~thalan/Itm_bg1/Z!PartyRested_add.BAF~
