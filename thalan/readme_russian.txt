@@ -1,5 +1,5 @@
                             Thalantyr Item Upgrade Mod
-                                     Version 4.0
+                                     Version 4.1
                            Serdrick (serdrick@yandex.ru)
             		Bugs reports to crevs.daak@gmail.com
 
@@ -306,6 +306,11 @@ Version 4.0 (17 Feb 2015)
 - Added partial compatibility with EET and BG:EE
 - Updated all translations to work with EET/BG:EE (no revised item desc. yet)
 - Updated to WeiDU v237
+
+Version 4.1 (11 March 2015)
+- Use BG:EE strings for the multiple containers items
+- Added a revised strings for Enhanced Edition games
+- Updated to WeiDU v238
 
 
 8. Most important differences between BG1:TotSC version and BGT/Tutu:
