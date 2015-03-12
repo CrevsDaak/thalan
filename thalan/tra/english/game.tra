@@ -511,3 +511,221 @@ Not Usable By:~
 
 @131   = ~Enrage~
 @132   = ~Item has lost all charges~
+
+@133    = ~Sword of Rage
+  
+This sword is made from the infamous Cursed Berserking Sword +3. It was possible to remove its curse, and enhance it with new properties.
+
+STATISTICS:
+
+Special Abilities:
+    Enrage 1 times per day
+    10 % chance of each hit to scare a victim for 1 round
+    
+THACO: +3 bonus
+Damage: 1D10 +3
+Damage type: Slashing
+Weight: 10
+Speed Factor: 7
+Proficiency Type: Two handed sword
+Type: 2-handed
+Requires: 14 Strength
+~
+@134    = ~The dagger of venom is a potent blade favored by assassins all across the Realms. This particular dagger of venom was created for use by the Shadow Thieves of Amn. Everytime it hits an opponent it secretes a venom into the blood stream of the creature. The venom works quickly and efficiently.
+This dagger was magically changed, and it became now a more powerful weapon.
+
+STATISTICS:
+
+Combat Abilities:
+  +1 additional attack per round
+  Each hit slows a victim for 15 seconds (saving throw vs death)
+  
+THAC0: +3 bonus
+Damage: 1D4 + 3
+Damage type: piercing
+Poison Damage: 6 points per round up to a total of 15 damage (saving throw vs poison)
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: 1-handed
+Requires: 3 Strength
+~
+@135    = ~This throwing dagger is made from a magically changed Dagger +1. The dagger instantly returns to the wielder's hand after an attack.
+
+STATISTICS:
+  
+THAC0: +1 bonus
+Damage: 1D4 + 1
+Damage type: missile (piercing)
+Weight: 1
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: 1-handed
+Requires: 3 Strength
+~
+@136    = ~Ring of Free Action +1
+
+This ring was changed magically. It combines the abilities of a Ring of Protection +1: 'Ring of the Princes' and a Ring of Free Action.
+
+STATISTICS:
+
+The wearer is immune to every effect, magical or not, that affects mobility in any way. This includes haste and slow spells.
+
+Equipped Abilities:
+ Armor Class: +1 Bonus
+ Saving Throws: +1 Bonus
+~
+@137   = ~Ring of Free Action +2 
+
+This ring was changed magically. It combines the abilities of a Ring of Protection +2: 'The Guard's Ring' and a Ring of Free Action.
+
+STATISTICS:
+
+The wearer is immune to every effect, magical or not, that affects mobility in any way. This includes haste and slow spells.
+
+Armor Class: +2 bonus
+Saving Throws: +2 bonus
+~
+@138   = ~Gauntlets of Grandmastery
+
+A pair of these fine gauntlets magically incorporates the properties of several more simple gauntlets in itself, providing attacking and protective abilities, worthy of any great warrior.
+
+STATISTICS:
+
+ THACO: +2 bonus
+ Damage: +2 bonus
+ Armor Class: +1 bonus
+Weight: 2
+~
+@139   = ~Improved Cloak of Non-Detection: 'Whispers of Silence'
+Reportedly created for a lineage of the greatest burglars ever to walk the night, this cloak was apparently a success. No record exists of previous owners.  
+This Cloak was magically combined with a Cloak of Protection +1.
+
+STATISTICS:
+
+Equipped Ability:
+ Non-detectable by magical means such as detect invisibility and scrying.
+ 
+Special Abilities:
+ Invisibility 2 times per day
+
+Armor Class: +1 bonus
+Saving Throws: +1 bonus 
+Weight: 3
+~
+@140   = ~Mage Robe: 'Practical Protection'
+   
+This Mage Robe combines the useful properties of several more simple items, and it gives the owner quite good protection.
+
+STATISTICS:
+
+Equipped Ability:
+ +20% bonus to fire, cold & electricity resistance
+
+Armor Class: +2 bonus
+Saving Throws: +1 bonus 
+Weight: 6
+~
+@141   = ~Girdle of Bravery
+  
+This fine belt magically combines useful properties of the Golden Girdle, the Girdle of Bluntness, and the Girdle of Piercing. Moreover it increases the strength of the wearer and helps him to cure wounds.
+
+STATISTICS: 
+
+Equipped Ability:
+ Strength: +1 bonus
+ Wearer regenerates 1 hit point every 6 seconds.
+
+Armor Class: +3 bonus
+Weight: 4
+~
+@142   = ~Sword of the Murderer
+  
+This sword is an improved Short Sword of Backstabbing: ' The Shadow's Blade '. The sword causes additional damage with a backstab, and can paralyse a victim.
+
+STATISTICS:
+
+Equipped Ability:
+ +1 to backstab multiplier
+ 10 % chance of each hit to paralyse a victim for 2 rounds (no save)
+ 
+THACO: +3 bonus
+Damage: 1D6 + 3
+Damage type: Piercing
+Weight: 3 
+Speed Factor: 0
+Proficiency Type: Short sword
+Type: 1-handed
+Requires: 5 Strength
+~
+@143   = ~Bow of the Snow Storm
+  
+This bow is a magically changed Long Bow of Marksmanship. When its bowstring is drawn, a strong, but invisible arrow is nocked. This arrow also causes additional cold and electricity damage when it hits.
+
+Note: avoid equipping normal arrows on your character, else the bow will fire these instead of the phantom arrows.
+
+STATISTICS:
+
+Combat Abilities:
+This powerful bow requires no ammunition
+ 
+THACO: +3 bonus
+Damage: 1D6 + additional 1D2 cold and 1D2 electricity damage
+Damage type: missile (piercing)
+Weight: 3 
+Speed Factor: 4
+Proficiency Type: Long Bow
+Type: 2-handed
+Requires: 6 Strength
+~
+@144   = ~Boots of the Thief: 'Fast Legs'
+  
+These boots not only help the thief in his difficult craft, but also allow him to move quickly. Unfortunately, their specific properties allow only to thieves to use them.
+
+STATISTICS:
+
+Equipped Ability:
+
+Increases movement rate
+Move Silently Bonus: +20%
+Hide in Shadows Bonus: +15%
+Open Locks Bonus: +10%
+Find Traps Bonus: +10%  
+Pick Pocketing Bonus: +10%
+
+Weight: 4
+~
+@145   = ~Improved Shield Amulet
+  
+It is a magically changed Shield Amulet. It protects the owner a little better, and it became more convenient to use.
+
+STATISTICS: 
+
+Armor Class: 4
+Saving Throws: +1 bonus
+
+Weight: 1
+~
+@146   = ~Magnificent Helm
+
+This Helmet magically combines useful properties of the Helm of Glory and the Helm of Defense: 'Gift of Peace'. Moreover it gives the owner quite good protection.
+
+STATISTICS:
+
+Equipped Ability:
+ +20% bonus to fire, cold & electricity resistance
+Charisma: +1 bonus
+Armor Class: +1 bonus
+Saving Throws: +1 bonus 
+Weight: 6
+~
+@147   = ~Improved Cloak of Balduran 
+This cloak was reputedly worn by Balduran, the founder of Baldur's Gate. Though it was never used in combat, it provides protection worthy of any great leader.
+This cloak was magically combined with a Cloak of Protection +2.
+
+STATISTICS:
+Magic Resistance: +25% 
+Armor Class: +2 bonus
+Saving Throws: +2 bonus 
+Weight: 3
+~

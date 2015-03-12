@@ -499,3 +499,216 @@ Non utilisable par :~
 
 @131   = ~Exaspération~
 @132   = ~Objet vide~
+
+
+@133    = ~Epée de Rage
+  
+Cette épée est faite à partir de la tristement célèbre "Epée à 2 mains maudite berserker +3". Il était possible de lui retirer la malédiction, et de lui donner de nouvelles propriétés.
+
+PARAMETRES :
+
+Capacités spéciales :
+ Exaspération 1 fois par jour
+ 10 % de chance à chaque coup d'effrayer la cible pour 1 round
+    
+TAC0 : +3
+Dégâts : 1D10 +3
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : Epée à deux mains
+Type d'arme : à deux mains
+Force nécessaire : 14 
+~
+@134    = ~La dague de venin est l'une des armes favorites des assassins des Royaumes. Celle-ci a été créée pour les Voleurs de l'Ombre d'Amn. Chaque fois qu'elle porte un coup, elle diffuse dans l'organisme de la victime un terrible poison agissant très rapidement. Un jet de sauvegarde contre la mort annule cet effet.
+Cette dague a été altérée par magie, et elle est maintenant devenue une arme encore plus puissante.
+
+PARAMETRES :
+
+Capacités de combat :
+ Octroie une attaque supplémentaire par round.
+ Chaque coup ralenti la cible pour 15 secondes (Jet de sauvegarde contre la mort pour annuler)
+ La victime subît 6 points de dégâts de poison par seconde pendant 15 secondes. (Jet de sauvegarde contre la mort pour annuler) 
+
+TAC0 : +3
+Dégâts : 1D4 +3
+Type de dégâts : perçant
+Poids : 2
+Facteur de vitesse : 0
+Type de compétence : Dague
+Type d'arme : à une main
+Force nécessaire : 3
+~
+@135    = ~Cette dague de jet est faite à partir d'une dague +1 réenchantée par magie. La dague retourne dans la main du lanceur instantanément après qu’une attaque soit faite.
+
+PARAMETRES :
+  
+TAC0 : +1
+Dégâts : 1D4 + 1
+Type de dégâts : projectile (perçant)
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Dague
+Type d'arme : à une main
+Force nécessaire : 3
+~
+@136    = ~Anneau d'Action libre +1
+
+Cet anneau à été changé par magie. Il associe les capacités de l'Anneau de Protection +1 "Anneau des princes" et de l'Anneau d'Action libre.
+
+PARAMETRES :
+
+Le porteur est immunisé contre tous les effets, magiques ou non, qui pourraient affecter sa mobilité. Cela inclus les sorts de Hâtes et de Lenteur.
+
+ Classe d'Armure : +2
+ Jets de sauvegarde : +2
+~
+@137   = ~Anneau d'Action libre +2 
+
+Cet anneau à été changé par magie. Il associe les capacités de l'Anneau de Protection +2 "l'Anneau du Garde" et de l'Anneau d'Action libre.
+
+PARAMETRES :
+
+Le porteur est immunisé contre tous les effets, magiques ou non, qui pourraient affecter sa mobilité. Cela inclus les sorts de Hâtes et de Lenteur.
+
+ Classe d'Armure : +2
+ Jets de sauvegarde : +2
+~
+@138   = ~Gantelets de Grande maîtrise
+
+Une paire de ces excellents gantelets inclue par magie les propriétés de plusieurs autres, elle fournie donc des habiletés d'attaque et de protection digne d'un grand guerrier.
+
+PARAMETRES :
+
+ TAC0 : bonus de +2 
+ Dégâts : bonus de +2
+ Classe d'Armure : bonus de +1
+Poids : 2
+~
+@139   = ~Cape de non-détection améliorée "Murmures du Silence"  
+Destinée, selon la légende, à l'une des plus grandes familles de cambrioleurs pour leurs déplacements nocturnes, cette cape fut apparemment un succès. Ses anciens propriétaires n'ont laissé aucune trace. 
+La cape a été réunie par magie avec une Cape de protection +1.
+
+PARAMETRES :
+
+ Classe d'Armure : +1
+ Jets de sauvegarde : +1
+ Capacité d'équipement : rend le porteur indétectable par des moyens magiques tels que la détection de l'invisibilité et de la scrutation
+ Spécial : Invisibilité 2 fois par jour
+
+Poids : 3
+~
+@140   = ~Robe de Mage "Protection Pratique"
+   
+Dans cette robe de mage sont concentrées les propriétés utiles de plusieurs autres objets, et elle donne au porteur une très bonne protection.
+
+PARAMETRES :
+
+ Résistance à l'électricité : +20 %
+ Résistance au froid : +20 %
+ Résistance au feu : +20 %
+ Classe d'Armure : +2
+ Jets de sauvegarde : +1
+Poids : 6
+~
+@141   = ~Ceinturon de courage
+  
+Dans cet excellent ceinturon sont incorporés par magie un Ceinturon doré, un Ceinturon de franchise, et un Ceinturon perceur. En plus il augmente la force du porteur et l'aide à récupérer de ses blessures.
+
+PARAMETRES : 
+
+Capacités d'équipement :
+ Force : bonus de +1
+ Le porteur régénère d'un point de vie toutes les 6 secondes.
+ Classe d'Armure : bonus de +3
+Poids : 4
+~
+@142   = ~Epée du meurtrier
+  
+Cette épée est une amélioration de l'Epée courte d'attaque sournoise : "la Lame de l'Ombre". Cette épée fait des dégâts additionnels en attaque sournoise, et a coté peut paralyser une victime.
+
+PARAMETRES :
+
+Capacités d'équipement:
+ +1 au multiplicateur d'attaque sournoise
+ 10 % de chance à chaque attaque de paralyser la victime pour 2 secondes (pas de sauvegarde)
+ 
+TAC0 : +3
+Dégâts : 1D6 +3
+Type de dégâts : perçant
+Poids : 3 
+Facteur de vitesse : 0
+Type de compétence : Epée courte
+Type d'arme : à une main
+Force nécessaire : 5
+~
+@143   = ~Arc de la tempête de neige
+  
+Cet arc est l'Arc long d'adresse au tir altéré par une puissante magie. Quand la corde est tirée, apparait une forte, mais invisible flèche. Au toucher sur la cible elle ajoute des dégâts additionnels de froid et d'électricité.
+Note : Evitez d'équiper votre personnage avec des flèches normales, sinon l'arc tirera ces flèches à la place des flèches fantômes.
+
+PARAMETRES :
+
+Capacités de combat :
+Ce puissant arc ne nécessite pas de flèches.
+ 
+TAC0 : +3
+Dégâts : 1D6, +1D2 de froid, +1D2 d'électricité
+Type de dégâts : projectile (perçant)
+Poids : 3 
+Facteur de vitesse : 4
+Type de compétence : Arc long
+Type d'arme : à deux mains
+Force nécessaire : 6
+~
+@144   = ~Bottes du Voleur "Pattes lestes"
+  
+Non seulement ces bottes aident le voleur dans son difficile métier, mais elles lui permettent en plus de se déplacer rapidement. Malheureusement, ces propriétés spécifiques ne peuvent être utilisées que par un voleur.
+
+PARAMETRES :
+
+Capacités d'équipement:
+Augmente la vitesse de déplacement
+Déplacement silencieux : Bonus de +20%
+Se cacher dans l'ombre : Bonus de 15%
+Crochetage : Bonus de +10%
+Trouver/désamorcer pièges : Bonus de +10%  
+Vol à la tire : Bonus de +10%
+
+Poids : 4
+~
+@145   = ~Amulette Bouclier améliorée
+  
+C'est l'Amulette Bouclier modifiée par magie. Elle protège le propriétaire un peu mieux, et elle devient plus commode à utiliser.
+
+PARAMETRES : 
+
+Classe d'armure : 4
+Jets de sauvegarde : bonus de +1 
+
+Poids :  1
+~
+@146   = ~Casque Magnifique
+   
+Dans ce casque son concentrés par magie les propriétés les plus utiles du Heaume de gloire et du Casque de gloire : "Don de la paix". Il donne à son porteur une très bonne protection.
+
+PARAMETRES :
+
+Résistance à l'électricité : +20 %
+Résistance au froid : +20 %
+Résistance au feu : +20 %
+Classe d'Armure : bonus de +1
+Charisme : bonus de +1
+Jets de sauvegarde : bonus de +1
+Poids : 6
+~
+@147   = ~Cape de Baldurien améliorée 
+D'après la rumeur, cette cape était portée par Baldurien, le fondateur de la Porte de Baldur. Bien qu'elle n'ait jamais servi au combat, elle assure la protection que méritent tous les grands commandants de ce monde.  
+Cape jumelée par magie avec une Cape de protection +2.
+
+PARAMETRES :
+Résistance à la magie : +25% 
+Classe d'Armure : bonus de +2
+Jets de sauvegarde : bonus de +2 
+Poids : 3
+~

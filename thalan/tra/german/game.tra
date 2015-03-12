@@ -515,3 +515,223 @@ Kann nicht verwendet werden von:~
 
 @131 = ~Raserei~
 @132 = ~Gegenstand hat alle Ladungen verloren~
+
+@133 = ~Schwert der Wut
+  
+Dieses Schwert wurde aus dem berüchtigten Schwert "Verfluchter Berserker" +3 gefertigt. Es war möglich, den Fluch zu entfernen, und ihm neue Eigenschaften zu verleihen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+    Macht 1 mal pro Tag wütend
+    Chance von 10 % bei jedem Treffer, das Opfer für 1 Runde zu verängstigen
+      
+ETW0: +3 Bonus
+Schaden: 1W10 +3
+Schadensart: mit Klingenwaffe aufschlitzen
+Gewicht: 10
+Geschwindigkeitsfaktor: 7
+Waffenfertigkeit: Zweihänderschwert
+Waffentyp: Beidhändig
+Mindeststärke: 14 
+~
+@134 = ~Der Giftdolch ist eine mächtige Klinge, die von Mördern in allen Reichen bevorzugt wird. Dieser besondere Giftdolch wurde für den Gebrauch von den Schattendieben aus Amn geschaffen. Jedesmal, wenn er einen Gegner trifft, sondert er ein Gift in den Blutstrom ab. Das Gift arbeitet schnell und wirkungsvoll.
+Dieser Dolch wurde magisch verändert und ist jetzt eine noch stärkere Waffe.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+  +1 zusätzlicher Angriff pro Runde
+  Jeder Treffer verlangsamt ein Opfer für 15 Sekunden (Rettungswurf gegen Tod)
+  
+ETW0: +3 Bonus
+Schaden: 1W4 + 3
+Schadensart: mit Stichwaffe durchbohren
+Gift-Schaden: 6 Punkte pro Runde bis zu insgesamt 15 Schadenspunkten (Rettungswurf gegen Gift)
+Gewicht: 2
+Geschwindigkeitsfaktor: 0
+Waffenfertigkeit: Dolch
+Waffentyp: einhändig
+Mindeststärke: 3
+~
+@135 = ~Dieser Wurfdolch wurde aus einem magisch veränderten Dolch +1 gefertigt. Der Dolch kehrt sofort in die Hand des Besitzers zurück, nachdem ein Angriff ausgeführt wurde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+  
+ETW0: +1 Bonus
+Schaden: 1W4 + 1
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+Gewicht: 1
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Dolch
+Waffentyp: einhändig
+Mindeststärke: 3
+~
+@136 = ~Ring der Handlungsfreiheit +1
+
+Dieser Ring wurde magisch verändert. Es vereint die Fähigkeiten eines Schutzringes +1 "Prinzenring" und eines Ringes der Handlungsfreiheit.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Der Träger ist gegen alle Einflüsse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch für Beeinflussung durch "Hast" und "Verlangsamen".
+
+Besonderheit:
+ Rüstungsklasse: +1 Bonus
+ Rettungswurf +1 Bonus
+~
+@137 = ~Ring der Handlungsfreiheit +2 
+
+Dieser Ring wurde magisch verändert. Es vereint die Fähigkeiten des Schutzringes +2 "Wächterring" und des Rings der Handlungsfreiheit.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Der Träger ist gegen alle Einflüsse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch für "Hast" und "Verlangsamen".
+
+Rüstungsklasse: +2 Bonus
+Rettungswurf +2 Bonus
+~
+@138 = ~Handschuhe der Großmeisterschaft
+
+Ein Paar dieser feinen Panzerhandschuhe vereint auf magische Weise die Eigenschaften von mehreren einfacheren Panzerhandschuhen, deshalb unterstützen sie die Fähigkeiten des Angreifens und des Verteidigens, ganz wie es eines großen Kriegers würdig ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ ETW0: +2 Bonus
+ Schaden: +2 Bonus
+ Rüstungsklasse: +1 Bonus
+Gewicht: 2
+~
+@139 = ~Verbesserter Umhang der Unauffindbarkeit "Flüstern der Stille"
+  
+Nachweislich geschaffen für die Erbfolge der heimtückischsten Einbrecher, die jemals durch die Nacht schlichen, war diesem Umhang anscheinend durchschlagender Erfolg beschert. Die vorherigen Eigentümer sind nicht bekannt.  
+Der Umhang wurde auf magische Weise mit dem Schutzumhang +1 vereint.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+
+Besonderheit: Der Träger kann nicht durch magische Mittel wie "Unsichtbares entdecken" enttarnt werden.
+
+Besondere Fähigkeiten:
+ Unsichtbarkeit 2 mal pro Tag
+
+Rüstungsklasse: +1 Bonus
+Rettungswurf +1 Bonus 
+Gewicht: 3
+~
+@140 = ~Magierrobe "Praktischer Schutz"
+    
+In dieser Magierrobe werden nützliche Eigenschaften mehrerer einfacher Gegenstände konzentriert, und sie gewährt dem Eigentümer umfassenden Schutz.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+ Bonus von +20 %, bei Feuer-, Kälte- und Elektrizitätsresistenz
+
+Rüstungsklasse: +2 Bonus
+Rettungswurf +1 Bonus 
+Gewicht: 6
+~
+@141 = ~Gürtel des Muts
+  
+In diesem feinen Gürtel sind auf magische Weise nützliche Eigenschaften der Goldenen Schärpe, des Gürtels der Wucht und des Gürtels der Durchdringung vereint. Darüber hinaus erhöht er die Körperkraft des Eigentümers und hilft ihm, Wunden zu heilen.
+
+SPEZIFISCHE EIGENSCHAFTEN: 
+
+Besondere Fähigkeiten:
+ Kraft: +1 Bonus
+ Träger regeneriert alle 6 Sekunden 1 Trefferpunkt.
+
+Rüstungsklasse: +3 Bonus
+Gewicht: 4
+~
+@142 = ~Schwert des Mörders
+  
+Dies ist ein verbessertes Kurzschwert der Heimtücke "Die Klinge des Schattens". Das Schwert verursacht zusätzlichen heimtückischen Schaden und kann außerdem ein Opfer lähmen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+ +1 zum mehrfachen hinterlistigen Angriff
+ Die Chance von 10 % bei jedem Treffer, das Opfer für 2 Runden zu lähmen (kein Rettungswurf)
+
+ETW0: +3 Bonus
+Schaden: 1W6 +3
+Schadensart: mit Stichwaffe durchbohren
+Gewicht: 3 
+Geschwindigkeitsfaktor: 0
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+Mindeststärke: 5
+~
+@143 = ~Bogen des Schneesturms
+  
+Dieser Bogen ist ein magisch veränderter Langbogen der Treffsicherheit. Wenn seine Bogensehne gespannt wird, entsteht ein starker aber unsichtbarer Pfeil. Beim Auftreffen verursacht der Pfeil zusätzlichen Kälte- und Elektrizitätsschaden.
+
+Beachtet: Vermeidet es euren Charakter mit normalen Pfeilen auszustatten, weil der Bogen sonst diese anstatt der Phantompfeile verschießt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+Dieser starke Bogen benötigt keine Munition
+
+ETW0: +3 Bonus
+Schaden: 1W6 + zusätzlicher 1W2 Kälteschaden und 1W2 Elektrizitätsschaden 
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+Gewicht: 3 
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Langbogen
+Waffentyp: Beidhändig
+Mindeststärke: 6
+~
+@144 = ~Stiefel des Diebs "Schnelle Beine"
+  
+Diese Stiefel helfen nicht nur dem Dieb bei seinem schwierigen Handwerk, sondern erlauben ihm auch, sich schnell zu bewegen. Leider können ihre spezifischen Eigenschaften nur Dieben zugute kommen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+
+Vergrößert die Bewegungsfreiheit
+Leise bewegen Bonus: +20 %
+Im Schatten verstecken: +15 %
+Schlösser öffnen Bonus: +10 %
+Fallen finden Bonus: +10 %  
+Taschendiebstahl Bonus: +10 %
+
+Gewicht: 4
+~
+@145 = ~Verbessertes Schildamulett
+  
+Das ist ein magisch verändertes Schildamulett. Es schützt den Eigentümer noch besser und ist praktischer zu verwenden.
+
+SPEZIFISCHE EIGENSCHAFTEN: 
+
+Rüstungsklasse: 4
+Rettungswurf +1 Bonus
+
+Gewicht: 1
+~
+@146 = ~Prachthelm
+    
+Bei diesem Helm sind die nützlichen Eigenschaften des Helms der Ehre und des Abwehrhelms "Geschenk des Friedens" auf magische Weise konzentriert. Darüber hinaus gewährt er dem Eigentümer hilfreichen Schutz.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+ Bonus von +20 % bei Feuer-, Kälte- und Elektrizitätswiderstand
+Charisma: +1 Bonus
+Rüstungsklasse: +1 Bonus
+Rettungswurf +1 Bonus 
+Gewicht: 6
+~
+@147 = ~Verbesserter Umhang von Balduran  
+Dieser Umhang wurde angeblich von Balduran, dem Gründer von Baldurs Tor, getragen. Obwohl er nie im Kampf verwendet wurde, gewährt er Schutz wie es eines großen Anführers würdig ist.  
+Der Umhang wurde auf magische Weise mit dem Schutzumhang +2 vereint.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Magiewiderstand: +25 % 
+Rüstungsklasse: +2 Bonus
+Rettungswurf +2 Bonus 
+Gewicht: 3
+~
