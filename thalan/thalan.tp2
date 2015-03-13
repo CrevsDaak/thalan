@@ -28,16 +28,18 @@ ALWAYS
     PRINT @90015
     INCLUDE ~thalan/lib/eet_cpmvars.tpa~
   END
+  
+  ACTION_IF "%LANGUAGE%" STR_CMP "english" BEGIN
+    ACTION_DEFINE_ARRAY conv BEGIN
+      game
+     thalan
+    END
 
-  ACTION_DEFINE_ARRAY conv BEGIN
-    game
-    thalan
-  END
-
-  LAF HANDLE_CHARSETS
-    STR_VAR
-      tra_path = "thalan/tra"
-      convert_array = conv
+    LAF HANDLE_CHARSETS
+      STR_VAR
+        tra_path = "thalan/tra"
+        convert_array = conv
+    END
   END
 
   LOAD_TRA "thalan/tra/%LANGUAGE%/game.tra"
