@@ -36,6 +36,8 @@ ALWAYS
     END
 
     LAF HANDLE_CHARSETS
+      INT_VAR
+        infer_charsets = 1
       STR_VAR
         tra_path = "thalan/tra"
         convert_array = conv
