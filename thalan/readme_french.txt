@@ -5,14 +5,14 @@
 
 
 1. Introduction
-Ce mod est seulement utilisable avec BG:TotSC, BGT-WeiDU + EasyTutu. Si vous utilisez Northern Tales of the Sword Coast BGT-Weidu, ThalantyrItemUpgrade Mod doit être installé après Northern Tales of the Sword Coast.
+Ce mod est seulement utilisable avec BG:TotSC, BGT-WeiDU, EET, BG:EE et EasyTutu. Si vous utilisez Northern Tales of the Sword Coast BGT-Weidu, ThalantyrItemUpgrade Mod doit être installé après Northern Tales of the Sword Coast.
 Dans ce mod Thalandyr, que tout le monde connait comme le Magicien de Hautes Haies, peut fabriquer de nouveaux objets. Il a également en vente pratiquement tous les contenants de BG2.
 J'ai testé cette version seulement avec un installation de BGT100, Baldurdash-WeiDU v1.5, BP-BGT Worldmap v5, DSotSC4BGTWeidu180, NTotSC4BGTWeidu140 (voir l'avertissement plus haut), TGC1e, SecretOfBoneHillv201. Il n'y a aucun problème de compatibilité à signaler.
 
 
 2. Installation 
 
-Mod WeiDU standard. Décompressez le contenu de l'archive dans le répertoire principal du jeu, et lancez SETUP-thalan.exe.
+Mod WeiDU standard. Décompressez le contenu de l'archive dans le répertoire principal du jeu, et lancez setup-thalan.exe.
 
 3. La liste des objets améliorés
 ------------------------------------------------------------------------------------------------
@@ -33,8 +33,8 @@ deux Parchemins d'Horreur
 Dague de venin +3
 
 Octroie une attaque supplémentaire par round.
-Chaque coup ralenti la cible pour 15 secondes (Jet de sauvegarde contre la mort pour annuler)
-La victime subît 6 points de dégâts de poison par seconde pendant 15 secondes. (Jet de sauvegarde contre la mort pour annuler) 
+Chaque coup ralentit la cible pour 15 secondes (Jet de sauvegarde contre la mort pour annuler)
+La victime subit 6 points de dégâts de poison par seconde pendant 15 secondes. (Jet de sauvegarde contre la mort pour annuler) 
 
 TAC0 : +3
 Dégâts : 1D4 +3
