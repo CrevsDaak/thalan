@@ -5,7 +5,7 @@ BACKUP ~thalan/backup~
 AUTHOR "crevs.daak@gmail.com" /* ~serdrick@yandex.ru~ I think it would be
 				wise to put my email if I'm keeper of the mod */
 VERSION ~v4.1~
-README "thalan/readme.txt" "thalan/readme_%LANGUAGE%.txt"
+README "thalan/readme_%LANGUAGE%.txt" "thalan/readme.txt"
 
 ALWAYS
   ACTION_IF GAME_IS "tutu tutu_totsc" BEGIN
@@ -43,7 +43,7 @@ ALWAYS
         convert_array = conv
     END
   END
-  ACTION_IF "%LANGUAGE%" STR_EQ "polish" BEGIN
+  ACTION_IF "%LANGUAGE%" STR_EQ "polish" && GAME_IS totsc BEGIN
     COPY "thalan/tra/polish/thalan.tra"
          "thalan/tra/polish/game.tra"
       PATCH_INCLUDE "thalan/lib/BG1polish_fonts.tpa"
@@ -346,13 +346,8 @@ ELSE BEGIN //BG:TotSC
   APPEND ~ITEMEXCL.2DA~ ~thring01  1~ IF ~RING~ UNLESS ~thring01~
   APPEND ~ITEMEXCL.2DA~ ~thring02  1~ IF ~RING~ UNLESS ~thring02~
 
-  //Dialogue
-  ACTION_IF "%LANGUAGE%" STR_EQ "polish" THEN BEGIN
-    COMPILE ~thalan/dlg_bg1/thalanPL-BG1.d~ USING ~thalan/tra/polish/thalanPL-BG1.TRA~
-  END
-  ELSE BEGIN
-    COMPILE ~thalan/dlg_bg1/thalan.d~ USING "thalan/tra/%LANGUAGE%/thalan.tra"
-  END
+
+  COMPILE ~thalan/dlg_bg1/thalan.d~ USING "thalan/tra/%LANGUAGE%/thalan.tra"
 
   COPY ~thalan/Itm_bg1/inv_cre.CRE~ ~override/z!visual.CRE~
     WRITE_ASCII SCRIPT_OVERRIDE ~z!visual~
