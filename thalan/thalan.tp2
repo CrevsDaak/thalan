@@ -43,6 +43,11 @@ ALWAYS
         convert_array = conv
     END
   END
+  ACTION_IF "%LANGUAGE%" STR_EQ "polish" BEGIN
+    COPY "thalan/tra/polish/thalan.tra"
+         "thalan/tra/polish/game.tra"
+      PATCH_INCLUDE "thalan/lib/BG1polish_fonts.tpa"
+  END
 
   LOAD_TRA "thalan/tra/%LANGUAGE%/game.tra"
 END
