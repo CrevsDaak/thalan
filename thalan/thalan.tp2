@@ -44,8 +44,8 @@ ALWAYS
     END
   END
   ACTION_IF "%LANGUAGE%" STR_EQ "polish" && GAME_IS totsc BEGIN
-    COPY "thalan/tra/polish/thalan.tra"
-         "thalan/tra/polish/game.tra"
+    COPY "thalan/tra/polish/thalan.tra" "thalan/tra/polish"
+         "thalan/tra/polish/game.tra" "thalan/tra/polish"
       PATCH_INCLUDE "thalan/lib/BG1polish_fonts.tpa"
   END
 
@@ -55,7 +55,6 @@ END
 LANGUAGE ~English~
          ~english~
          ~thalan/tra/english/setup.tra~
-	 ~thalan/tra/english/thalan.tra~
          
 LANGUAGE ~Russian~ 
          ~russian~
