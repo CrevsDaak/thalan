@@ -1,5 +1,5 @@
                             Thalantyr Item Upgrade Mod
-                                     Version 4.1
+                                     Version 4.2
                            Serdrick (serdrick@yandex.ru)
             		Bugs reports to crevs.daak@gmail.com
 
@@ -315,6 +315,10 @@ Version 4.1 (11 March 2015)
 - Use BG:EE strings for the multiple containers items
 - Added a revised strings for Enhanced Edition games
 - Updated to WeiDU v238
+
+Version 4.2 (2 April 2015)
+- Fix incorrect encoding on Polish .tra files
+- Convert Polish .tra files on-the-run for BG1
 
 
 8. Most important differences between BG1:TotSC version and BGT/Tutu:
