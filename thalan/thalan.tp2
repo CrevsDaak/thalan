@@ -47,6 +47,7 @@ ALWAYS
     COPY "thalan/tra/polish/thalan.tra" "thalan/tra/polish"
          "thalan/tra/polish/game.tra" "thalan/tra/polish"
       PATCH_INCLUDE "thalan/lib/BG1polish_fonts.tpa"
+    BUT_ONLY
   END
 
   LOAD_TRA "thalan/tra/%LANGUAGE%/game.tra"
