@@ -1,7 +1,7 @@
                             Thalantyr Item Upgrade Mod
-                                     Version 4.2
+                                    Version 4.2.1
                            Serdrick (serdrick@yandex.ru)
-            		Bugs reports to crevs.daak@gmail.com
+                        Bugs reports to crevs.daak@gmail.com
 
 
 1. Introduction
@@ -319,6 +319,9 @@ Version 4.1 (11 March 2015)
 Version 4.2 (2 April 2015)
 - Fix incorrect encoding on Polish .tra files
 - Convert Polish .tra files on-the-run for BG1
+
+Version 4.2.1 (9 April 2015)
+ - Fix incorrect Bags' store files' name on BG:EE.
 
 
 8. Most important differences between BG1:TotSC version and BGT/Tutu:
