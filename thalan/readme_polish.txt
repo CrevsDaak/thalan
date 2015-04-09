@@ -1,200 +1,200 @@
                             Thalantyr Item Upgrade Mod
-                                     Version 4.2
+                                    Version 4.2.1
                            Serdrick (serdrick@yandex.ru)
             		Bugs reports to crevs.daak@gmail.com
 
 
 1. Wprowadzenie
 
-Ten mod jest kombatybilny tylko z BG:TotSC, BGT Weidu + EasyTutu. Jeøeli uøywasz modyfikacji Opowieúci z PÛ≥nocy Wybrzeøa Mieczy BGT-Weidu, ThalantyrItemUpgradeMod powinien byÊ zainstalowany po Opowieúciach z PÛ≥nocy Wybrzeøa Mieczy.
-W tym modzie Thalantyr, znany wszystkim mag z Wysokiego Øywop≥otu, moøe zrobiÊ nowe przedmioty. W ofercie ma on rÛwnieø  praktycznie wszystkie pojemniki z BG2.
-Ta wersja by≥a testowana tylko z BGT100-Install, Baldurdash-WeiDU v1.5, BP-BGT Worldmap v5, DSotSC4BGTWeidu180, NTotSC4BGTWeidu140 (zobacz powyøsze ostrzeøenie), TGC1e, SecretOfBoneHillv201. Nie wykaza≥o to jednak jakichkolwiek problemÛw ze zgodnoúciπ.
+Ten mod jest kombatybilny tylko z BG:TotSC, BGT Weidu + EasyTutu. Je≈ºeli u≈ºywasz modyfikacji Opowie≈õci z P√≥≈Çnocy Wybrze≈ºa Mieczy BGT-Weidu, ThalantyrItemUpgradeMod powinien byƒá zainstalowany po Opowie≈õciach z P√≥≈Çnocy Wybrze≈ºa Mieczy.
+W tym modzie Thalantyr, znany wszystkim mag z Wysokiego ≈ªywop≈Çotu, mo≈ºe zrobiƒá nowe przedmioty. W ofercie ma on r√≥wnie≈º  praktycznie wszystkie pojemniki z BG2.
+Ta wersja by≈Ça testowana tylko z BGT100-Install, Baldurdash-WeiDU v1.5, BP-BGT Worldmap v5, DSotSC4BGTWeidu180, NTotSC4BGTWeidu140 (zobacz powy≈ºsze ostrze≈ºenie), TGC1e, SecretOfBoneHillv201. Nie wykaza≈Ço to jednak jakichkolwiek problem√≥w ze zgodno≈õciƒÖ.
 
 
 2. Instalacja 
 
-Standardowa dla modÛw WeiDU. Rozpakuj zawartoúÊ archiwum w katalogu z grπ, i rozpocznij od SETUP-thalan.exe.
+Standardowa dla mod√≥w WeiDU. Rozpakuj zawarto≈õƒá archiwum w katalogu z grƒÖ, i rozpocznij od SETUP-thalan.exe.
 
 
-3. Lista ulepszonych przedmiotÛw
+3. Lista ulepszonych przedmiot√≥w
 ------------------------------------------------------------------------------------------------
-Miecz Wúciek≥oúci
+Miecz W≈õciek≈Ço≈õci
 
-Obraøenia: 1K10 +3
+Obra≈ºenia: 1K10 +3
 TraK0: +3
 
 Specjalne:
- 1 raz dziennie rozwúcieczenie
- 10 % szansy na wywo≥anie strachu u ofiary (przez 1 rundÍ)
+ 1 raz dziennie rozw≈õcieczenie
+ 10 % szansy na wywo≈Çanie strachu u ofiary (przez 1 rundƒô)
     
 Wymagania:
-PrzeklÍty Berserker +3
-dwa zwoje: UsuniÍcie klπtwy
-dwa zwoje: Przeraøenie
-3000 sz. z≥ota
+Przeklƒôty Berserker +3
+dwa zwoje: Usuniƒôcie klƒÖtwy
+dwa zwoje: Przera≈ºenie
+3000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
 Sztylet Jadu +3
 
-Obraøenia: 1K4 + 3
+Obra≈ºenia: 1K4 + 3
 TraK0: +3
 
 Specjalne:
- +1 dodatkowy atak przez rundÍ
- Kaøde trafienie spowalnia ofiarÍ na 15 sekund (rzut przeciw úmierci neguje)
- Obraøenia od trucizny: 6 punktÛw na rundÍ do sumy 15 PØ (rzut przeciw truciünie neguje)
+ +1 dodatkowy atak przez rundƒô
+ Ka≈ºde trafienie spowalnia ofiarƒô na 15 sekund (rzut przeciw ≈õmierci neguje)
+ Obra≈ºenia od trucizny: 6 punkt√≥w na rundƒô do sumy 15 P≈ª (rzut przeciw truci≈∫nie neguje)
 
 Wymagania:
 Sztylet Jadu
 Sztylet +2
-Olej szybkoúci (bia≥y)
+Olej szybko≈õci (bia≈Çy)
 dziwne Antidotum
-4000 sz. z≥ota
+4000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
-RÍkawice Wielkiego Mistrzostwa
+Rƒôkawice Wielkiego Mistrzostwa
 
 TraK0: +2
-Obraøenia: +2
+Obra≈ºenia: +2
 Klasa pancerza: +1
 
 Wymagania:
-RÍkawice bieg≥oúci
-RÍkawice mistrzostwa
+Rƒôkawice bieg≈Ço≈õci
+Rƒôkawice mistrzostwa
 Bransolety ochrony KP7
 Mikstura ochrony
-5000 sz. z≥ota
+5000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
-Powracajπcy sztylet +1
+PowracajƒÖcy sztylet +1
 
-Obraøenia: 1K4 + 1
+Obra≈ºenia: 1K4 + 1
 TraK0: +1
 
-Specjalne: Sztylet wraca do dzierøπcej go rÍki natychmiast po wykonaniu ataku.
+Specjalne: Sztylet wraca do dzier≈ºƒÖcej go rƒôki natychmiast po wykonaniu ataku.
 
 Wymagania:
 Sztylet +1
-Olej szybkoúci (bia≥y)
-500 sz. z≥ota
+Olej szybko≈õci (bia≈Çy)
+500 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
 Do wyboru:
-PierúcieÒ swobody ruchÛw +1, albo +2
+Pier≈õcie≈Ñ swobody ruch√≥w +1, albo +2
 
-Specjalne: Swoboda dzia≥ania
+Specjalne: Swoboda dzia≈Çania
 Klasa pancerza: +1, albo +2
 Rzuty obronne: +1, albo +2
 
 Wymagania:
-PierúcieÒ swobody ruchÛw
-PierúcieÒ ochrony +1, albo +2
+Pier≈õcie≈Ñ swobody ruch√≥w
+Pier≈õcie≈Ñ ochrony +1, albo +2
 Mikstura ochrony
-Mikstura wolnoúci
-4000 sz. z≥ota
+Mikstura wolno≈õci
+4000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
-Ulepszony p≥aszcz niewykrywalnoúci
+Ulepszony p≈Çaszcz niewykrywalno≈õci
 
 Specjalne:
- NiewykrywalnoúÊ dla magicznych úrodkÛw takich, jak Wykrycie niewidzialnego i Wyrocznia.
- NiewidzialnoúÊ 2 razy dziennie
+ Niewykrywalno≈õƒá dla magicznych ≈õrodk√≥w takich, jak Wykrycie niewidzialnego i Wyrocznia.
+ Niewidzialno≈õƒá 2 razy dziennie
 
 
 Wymagania:
-P≥aszcz niewykrywalnoúci
-P≥aszcz ochronny +1
-dwa zwoje: NiewidzialnoúÊ
-4000 sz. z≥ota
+P≈Çaszcz niewykrywalno≈õci
+P≈Çaszcz ochronny +1
+dwa zwoje: Niewidzialno≈õƒá
+4000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
 Szata maga "Praktyczna Ochrona"
 
-Specjalne: +20% odpornoúci na ogieÒ, zimno i elektrycznoúÊ
+Specjalne: +20% odporno≈õci na ogie≈Ñ, zimno i elektryczno≈õƒá
 Klasa pancerza: +2
 Rzuty obronne: +1
 
-Moøe uøywaÊ:
+Mo≈ºe u≈ºywaƒá:
  Mag (jedno-, dwu- i wieloklasowiec)
 
 Wymagania:
 Szata maga ochrony przed ogniem
-Szata maga ochrony przed ch≥odem
-Szata maga ochrony przed elektrycznoúciπ
-Szata ≥otrzyka
-Szata wÍdrowcy
-Szata poszukiwacza przygÛd
-Mikstura niewraøliwoúci
+Szata maga ochrony przed ch≈Çodem
+Szata maga ochrony przed elektryczno≈õciƒÖ
+Szata ≈Çotrzyka
+Szata wƒôdrowcy
+Szata poszukiwacza przyg√≥d
+Mikstura niewra≈ºliwo≈õci
 Mikstura ochrony
-5000 sz. z≥ota
+5000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
-Pas mÍstwa
+Pas mƒôstwa
 
 Specjalne:
- Si≥a: +1
- Noszπcy regeneruje 1 PØ co 6 sekund.
+ Si≈Ça: +1
+ NoszƒÖcy regeneruje 1 P≈ª co 6 sekund.
 Klasa pancerza: +3
 
 Wymagania:
-Z≥oty pas
-Pas t≥umienia
-Pas przebiÊ
-Mikstura si≥y lodowego olbrzyma
-Mikstura si≥y chmurowego olbrzyma
+Z≈Çoty pas
+Pas t≈Çumienia
+Pas przebiƒá
+Mikstura si≈Çy lodowego olbrzyma
+Mikstura si≈Çy chmurowego olbrzyma
 Mikstura regeneracji 
-5000 sz. z≥ota
+5000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
 Miecz mordercy
 
-Obraøenia: 1K6 +3
+Obra≈ºenia: 1K6 +3
 TraK0: +3
 
 Specjalne:
- +1 do wspÛ≥czynnika ciosu w plecy
- 10% szansy na sparaliøowanie ofiary na 2 rundy (bez rzutu obronnego)
+ +1 do wsp√≥≈Çczynnika ciosu w plecy
+ 10% szansy na sparali≈ºowanie ofiary na 2 rundy (bez rzutu obronnego)
 
 Wymagania:
-KrÛtki miecz ciosÛw w plecy
-Misktura z≥odziejskiego mistrzostwa
-KamieÒ ≥otrzykÛw
+Kr√≥tki miecz cios√≥w w plecy
+Misktura z≈Çodziejskiego mistrzostwa
+Kamie≈Ñ ≈Çotrzyk√≥w
 dwa zwoje Unieruchomienia Osoby
-4000 sz. z≥ota
+4000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
-£uk únieønej nawa≥nicy
+≈Åuk ≈õnie≈ºnej nawa≈Çnicy
 
-Obraøenia: 1K6 + po 1K2 od zimna i elektrycznoúci 
+Obra≈ºenia: 1K6 + po 1K2 od zimna i elektryczno≈õci 
 TraK0: +3
 
-Specjalne: Ten potÍøny ≥uk nie wymaga øadnej amunicji
+Specjalne: Ten potƒô≈ºny ≈Çuk nie wymaga ≈ºadnej amunicji
 
 Wymagania:
-D≥ugi ≥uk celnoúci
-RÛødøka magicznych pociskÛw
-RÛødøka mrozu
-RÛødøka b≥yskawic
-5000 sz. z≥ota
+D≈Çugi ≈Çuk celno≈õci
+R√≥≈ºd≈ºka magicznych pocisk√≥w
+R√≥≈ºd≈ºka mrozu
+R√≥≈ºd≈ºka b≈Çyskawic
+5000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
-Buty z≥odzieja "Szybkie Nogi"
+Buty z≈Çodzieja "Szybkie Nogi"
 
 Specjalne:
- ZwiÍksza szybkoúÊ ruchu
+ Zwiƒôksza szybko≈õƒá ruchu
  Ciche chodzenie: +20%
- Krycie siÍ w cieniu: +15%
- Otwieranie zamkÛw: +10%
- Wykrywanie pu≥apek: +10%  
- Kradzieø kieszonkowa: +10%
+ Krycie siƒô w cieniu: +15%
+ Otwieranie zamk√≥w: +10%
+ Wykrywanie pu≈Çapek: +10%  
+ Kradzie≈º kieszonkowa: +10%
 
-Moøe uøywaÊ:
- Z≥odziej (jedno-, dwu- i wieloklasowiec)
+Mo≈ºe u≈ºywaƒá:
+ Z≈Çodziej (jedno-, dwu- i wieloklasowiec)
 
 Wymagania:
 Buty ukrycia
-Buty szybkoúci
-Olej szybkoúci (bia≥y)
+Buty szybko≈õci
+Olej szybko≈õci (bia≈Çy)
 Mikstura percepcji
-5000 sz. z≥ota
+5000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
-PierúcieÒ ochrony +2
+Pier≈õcie≈Ñ ochrony +2
 
 Wymagania:
-dwa Pierúcienie ochrony +1
+dwa Pier≈õcienie ochrony +1
 diament
-dwie per≥y
-4000 sz. z≥ota
+dwie per≈Çy
+4000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
 Ulepszony amulet tarczy
 
@@ -205,67 +205,67 @@ Specjalne:
 Wymagania:
 Amulet tarczy
 Amulet ochrony +1
-Mikstura niewraøliwoúci
-5000 sz. z≥ota
+Mikstura niewra≈ºliwo≈õci
+5000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
-Wspania≥y he≥m
+Wspania≈Çy he≈Çm
 
 Specjalne:
- +20% odpornoúci na ogieÒ, zimno i elektrycznoúÊ
+ +20% odporno≈õci na ogie≈Ñ, zimno i elektryczno≈õƒá
  Charyzma: +1
 Klasa pancerza: +1
 Rzuty obronne: +1
 
 Wymagania:
-He≥m chwa≥y
-He≥m ochronny "Dar Pokoju"
-Mikstura niewraøliwoúci
-ZwÛj ochrony przed ogniem
-ZwÛj ochrony przed zimnem
-ZwÛj ochrony przed elektrycznoúciπ
-5000 sz. z≥ota
+He≈Çm chwa≈Çy
+He≈Çm ochronny "Dar Pokoju"
+Mikstura niewra≈ºliwo≈õci
+Zw√≥j ochrony przed ogniem
+Zw√≥j ochrony przed zimnem
+Zw√≥j ochrony przed elektryczno≈õciƒÖ
+5000 sz. z≈Çota
 ------------------------------------------------------------------------------------------------
-Ulepszony P≥aszcz Baldurana
+Ulepszony P≈Çaszcz Baldurana
 
-Specjalne: +25% odpornoúci na magiÍ
+Specjalne: +25% odporno≈õci na magiƒô
 Klasa pancerza: +2
 Rzuty obronne: +2
 
 Wymagania:
-P≥aszcz Baldurana
-P≥aszcz ochronny +2
+P≈Çaszcz Baldurana
+P≈Çaszcz ochronny +2
 Dwa zwoje: Zbroja
-Mikstura ochrony przed magiπ
-5000 z≥ota
+Mikstura ochrony przed magiƒÖ
+5000 z≈Çota
 ------------------------------------------------------------------------------------------------
 
 
 4. Znane problemy:
 
-ThalantyrItemUpgradeMod powinien byÊ zainstalowany po Opowieúciach z PÛ≥nocy Wybrzeøa Mieczy.
+ThalantyrItemUpgradeMod powinien byƒá zainstalowany po Opowie≈õciach z P√≥≈Çnocy Wybrze≈ºa Mieczy.
 
-Wszelkie uwagi, problemy & øyczenia proszÍ kierowaÊ do mnie na e-mail - serdrick@yandex.ru
+Wszelkie uwagi, problemy & ≈ºyczenia proszƒô kierowaƒá do mnie na e-mail - serdrick@yandex.ru
 
 
-5. PODZI KOWANIA
+5. PODZIƒòKOWANIA
 
-Westley Weimer - za jego doskona≥y program WeiDU.
-Igi - za IESDP, wspania≥e miejsce dokumentacji silnika Infinity (IE)
-Avenger - za jego pierwszorzÍdnego DLTCEPa, edytora/kontrolera/przeglπdarki dla gier IE.
+Westley Weimer - za jego doskona≈Çy program WeiDU.
+Igi - za IESDP, wspania≈Çe miejsce dokumentacji silnika Infinity (IE)
+Avenger - za jego pierwszorzƒôdnego DLTCEPa, edytora/kontrolera/przeglƒÖdarki dla gier IE.
 Aaron O'Neil - za ShadowKeepera.
 
 
 6.  UWARUNKOWANIA PRAWNE
 
-BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: © 2000, 2001 Bioware Corp. All Rights Reserved.
+BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: ¬© 2000, 2001 Bioware Corp. All Rights Reserved.
 
-ICEWIND DALE, ICEWIND DALE: HEART OF WINTER, TRIALS OF THE LUREMASTER: © 2000, 2000, 2001 Interplay Productions. All Rights Reserved.
+ICEWIND DALE, ICEWIND DALE: HEART OF WINTER, TRIALS OF THE LUREMASTER: ¬© 2000, 2000, 2001 Interplay Productions. All Rights Reserved.
 
-PLANESCAPE: TORMENT & DESIGN: © 1999 Interplay Productions. All Rights Reserved.
+PLANESCAPE: TORMENT & DESIGN: ¬© 1999 Interplay Productions. All Rights Reserved.
 
-Bioware Infinity Engine: © 1998 Bioware Corp. All Rights Reserved.
+Bioware Infinity Engine: ¬© 1998 Bioware Corp. All Rights Reserved.
 
-BALDUR'S GATE, TALES OF THE SWORD COAST: © 1998, 1999 BioWare Corp. All Rights Reserved.
+BALDUR'S GATE, TALES OF THE SWORD COAST: ¬© 1998, 1999 BioWare Corp. All Rights Reserved.
 
 Baldur's Gate, Icewind Dale, Torment, Planescape, the Planescape logo, Forgotten Realms, the Forgotten Realms logo, Advanced Dungeons & Dragons, the AD&D logo, and the TSR logo are trademarks of TSR, Inc., a subsidiary of Wizards of the Coast, Inc, and are used by Interplay under license. All Rights Reserved. Interplay, the Interplay logo, Black Isle Studios, the Black Isle Studios logo, and "By Gamers, For Gamers." are trademarks of Interplay Productions. All Rights Reserved.
 
