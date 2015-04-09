@@ -4,7 +4,7 @@
 BACKUP ~thalan/backup~  
 AUTHOR "crevs.daak@gmail.com" /* ~serdrick@yandex.ru~ I think it would be
 				wise to put my email if I'm keeper of the mod */
-VERSION ~v4.2~
+VERSION ~v4.2.1~
 README "thalan/readme_%LANGUAGE%.txt" "thalan/readme.txt"
 
 ALWAYS
