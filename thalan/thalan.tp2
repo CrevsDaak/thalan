@@ -98,10 +98,15 @@ ACTION_IF !GAME_IS totsc BEGIN
     PATCH_IF GAME_IS bgee BEGIN SAY 0x8 #31236 SAY 0xC #31236 SAY 0x50 #31237 SAY 0x54 #31237 END
 
   COPY ~thalan/Sto/thbag01.sto~ ~override/thbag01.sto~
+    PATCH_IF GAME_IS bgee BEGIN SAY 0xC #25503 END
   COPY ~thalan/Sto/thbag02.sto~ ~override/thbag02.sto~
+    PATCH_IF GAME_IS bgee BEGIN SAY 0xC #25505 END
   COPY ~thalan/Sto/thbag03.sto~ ~override/thbag03.sto~
+    PATCH_IF GAME_IS bgee BEGIN SAY 0xC #25508 END
   COPY ~thalan/Sto/thbag04.sto~ ~override/thbag04.sto~
+    PATCH_IF GAME_IS bgee BEGIN SAY 0xC #31234 END
   COPY ~thalan/Sto/thbag05.sto~ ~override/thbag05.sto~
+    PATCH_IF GAME_IS bgee BEGIN SAY 0xC #31236 END
 END
 
 COPY_EXISTING ~%tutu_scripth%IGHHEDG.sto~ override
