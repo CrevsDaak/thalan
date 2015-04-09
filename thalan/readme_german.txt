@@ -1,5 +1,5 @@
                             Thalantyr Item Upgrade Mod
-                                     Version 4.2
+                                    Version 4.2.1
                            Serdrick (serdrick@yandex.ru)
             		Bugs reports to crevs.daak@gmail.com
 
@@ -8,19 +8,19 @@
 
 Dieser Mod ist nun kompatibel mit BG:TotSC, BGT-WeiDU und EasyTutu. Wenn Ihr den Mod Northern Tales of the Sword Coast BGT-Weidu
 verwendet, sollte Thalantyr Item Upgrade nach diesem installiert werden. 
-In diesem Mod kann Thalantyr, der von der Hohen Hecke bekannte Magier, neue Gegenstände fertigen.
-Ebenfalls verkauft er praktisch alle Behälter aus BG2.
+In diesem Mod kann Thalantyr, der von der Hohen Hecke bekannte Magier, neue GegenstÃ¤nde fertigen.
+Ebenfalls verkauft er praktisch alle BehÃ¤lter aus BG2.
 Ich habe diese Version des Mods nur mit BGT100-Install, Baldurdash-WeiDU v1.5, BP-BGT Worldmap v5,
-DSotSC4BGTWeidu180, NTotSC4BGTWeidu140 (seht obigen Hinweis), TGC1e, SecretOfBoneHillv201 geprüft.
-Es wurden keine Probleme mit Kompatibilitäten festgestellt.
+DSotSC4BGTWeidu180, NTotSC4BGTWeidu140 (seht obigen Hinweis), TGC1e, SecretOfBoneHillv201 geprÃ¼ft.
+Es wurden keine Probleme mit KompatibilitÃ¤ten festgestellt.
 
 
 2. Installation 
 
-Standard für WeiDU Mods. Entpackt den Inhalt dieses Archivs in Eurem Spielordner und startet SETUP-thalan.exe.
+Standard fÃ¼r WeiDU Mods. Entpackt den Inhalt dieses Archivs in Eurem Spielordner und startet SETUP-thalan.exe.
 
 
-3. Die Liste der verbesserten Gegenstände.
+3. Die Liste der verbesserten GegenstÃ¤nde.
 ------------------------------------------------------------------------------------------------
 Sword of Rage
 
@@ -234,7 +234,7 @@ Potion of Magic Protection
 
 Thalantyr Item Upgrade sollte nachr Northern Tales of the Sword Coast installiert werden.
 
-Für Bemerkungen, Probleme & Wünsche sende eine E-mail an mich - serdrick@yandex.ru
+FÃ¼r Bemerkungen, Probleme & WÃ¼nsche sende eine E-mail an mich - serdrick@yandex.ru
 
 
 5. THANKS
@@ -247,15 +247,15 @@ Aaron O'Neil, for ShadowKeeper.
 
 6.  LEGAL
 
-BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: © 2000, 2001 Bioware Corp. All Rights Reserved.
+BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: Â© 2000, 2001 Bioware Corp. All Rights Reserved.
 
-ICEWIND DALE, ICEWIND DALE: HEART OF WINTER, TRIALS OF THE LUREMASTER: © 2000, 2000, 2001 Interplay Productions. All Rights Reserved.
+ICEWIND DALE, ICEWIND DALE: HEART OF WINTER, TRIALS OF THE LUREMASTER: Â© 2000, 2000, 2001 Interplay Productions. All Rights Reserved.
 
-PLANESCAPE: TORMENT & DESIGN: © 1999 Interplay Productions. All Rights Reserved.
+PLANESCAPE: TORMENT & DESIGN: Â© 1999 Interplay Productions. All Rights Reserved.
 
-Bioware Infinity Engine: © 1998 Bioware Corp. All Rights Reserved.
+Bioware Infinity Engine: Â© 1998 Bioware Corp. All Rights Reserved.
 
-BALDUR'S GATE, TALES OF THE SWORD COAST: © 1998, 1999 BioWare Corp. All Rights Reserved.
+BALDUR'S GATE, TALES OF THE SWORD COAST: Â© 1998, 1999 BioWare Corp. All Rights Reserved.
 
 Baldur's Gate, Icewind Dale, Torment, Planescape, the Planescape logo, Forgotten Realms, the Forgotten Realms logo, Advanced Dungeons & Dragons, the AD&D logo, and the TSR logo are trademarks of TSR, Inc., a subsidiary of Wizards of the Coast, Inc, and are used by Interplay under license. All Rights Reserved. Interplay, the Interplay logo, Black Isle Studios, the Black Isle Studios logo, and "By Gamers, For Gamers." are trademarks of Interplay Productions. All Rights Reserved.
 
