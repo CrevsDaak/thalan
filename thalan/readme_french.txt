@@ -1,74 +1,74 @@
                             Thalantyr Item Upgrade Mod
-                                     Version 4.2
+                                    Version 4.2.1
                            Serdrick (serdrick@yandex.ru)
             		Bugs reports to crevs.daak@gmail.com
 
 
 1. Introduction
-Ce mod est seulement utilisable avec BG:TotSC, BGT-WeiDU, EET, BG:EE et EasyTutu. Si vous utilisez Northern Tales of the Sword Coast BGT-Weidu, ThalantyrItemUpgrade Mod doit être installé après Northern Tales of the Sword Coast.
-Dans ce mod Thalandyr, que tout le monde connait comme le Magicien de Hautes Haies, peut fabriquer de nouveaux objets. Il a également en vente pratiquement tous les contenants de BG2.
-J'ai testé cette version seulement avec un installation de BGT100, Baldurdash-WeiDU v1.5, BP-BGT Worldmap v5, DSotSC4BGTWeidu180, NTotSC4BGTWeidu140 (voir l'avertissement plus haut), TGC1e, SecretOfBoneHillv201. Il n'y a aucun problème de compatibilité à signaler.
+Ce mod est seulement utilisable avec BG:TotSC, BGT-WeiDU, EET, BG:EE et EasyTutu. Si vous utilisez Northern Tales of the Sword Coast BGT-Weidu, ThalantyrItemUpgrade Mod doit Ãªtre installÃ© aprÃ¨s Northern Tales of the Sword Coast.
+Dans ce mod Thalandyr, que tout le monde connait comme le Magicien de Hautes Haies, peut fabriquer de nouveaux objets. Il a Ã©galement en vente pratiquement tous les contenants de BG2.
+J'ai testÃ© cette version seulement avec un installation de BGT100, Baldurdash-WeiDU v1.5, BP-BGT Worldmap v5, DSotSC4BGTWeidu180, NTotSC4BGTWeidu140 (voir l'avertissement plus haut), TGC1e, SecretOfBoneHillv201. Il n'y a aucun problÃ¨me de compatibilitÃ© Ã  signaler.
 
 
 2. Installation 
 
-Mod WeiDU standard. Décompressez le contenu de l'archive dans le répertoire principal du jeu, et lancez setup-thalan.exe.
+Mod WeiDU standard. DÃ©compressez le contenu de l'archive dans le rÃ©pertoire principal du jeu, et lancez setup-thalan.exe.
 
-3. La liste des objets améliorés
+3. La liste des objets amÃ©liorÃ©s
 ------------------------------------------------------------------------------------------------
-Epée de Rage
+EpÃ©e de Rage
 
-Exaspération 1 fois par jour
- 10 % de chance à chaque coup d'effrayer la cible pour 1 round
+ExaspÃ©ration 1 fois par jour
+ 10 % de chance Ã  chaque coup d'effrayer la cible pour 1 round
     
 TAC0 : +3
-Dégâts : 1D10 +3
+DÃ©gÃ¢ts : 1D10 +3
 
-Nécessite
-Epée à 2 mains maudite berserker +3
-deux Parchemins de Délivrance de la malédiction
+NÃ©cessite
+EpÃ©e Ã  2 mains maudite berserker +3
+deux Parchemins de DÃ©livrance de la malÃ©diction
 deux Parchemins d'Horreur
-3000 pièces d'or
+3000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
 Dague de venin +3
 
-Octroie une attaque supplémentaire par round.
+Octroie une attaque supplÃ©mentaire par round.
 Chaque coup ralentit la cible pour 15 secondes (Jet de sauvegarde contre la mort pour annuler)
-La victime subit 6 points de dégâts de poison par seconde pendant 15 secondes. (Jet de sauvegarde contre la mort pour annuler) 
+La victime subit 6 points de dÃ©gÃ¢ts de poison par seconde pendant 15 secondes. (Jet de sauvegarde contre la mort pour annuler) 
 
 TAC0 : +3
-Dégâts : 1D4 +3
+DÃ©gÃ¢ts : 1D4 +3
 
-Nécessite
+NÃ©cessite
 Dague de Venin
 Dague +2
 Huile de vitesse (blanche)
 Etrange antidote
-4000 pièces d'or
+4000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
-Gantelets de Grande maîtrise
+Gantelets de Grande maÃ®trise
 
 TAC0 : bonus de+2 
-Dégâts : bonus de +2
+DÃ©gÃ¢ts : bonus de +2
 Classe d'Armure : bonus de +1
 
-Nécessite
-Gantelets de compétence
-Gantelets de spécialisation
-Bracelets de défense CA 7
-Potion de défense
-5000 pièces d'or
+NÃ©cessite
+Gantelets de compÃ©tence
+Gantelets de spÃ©cialisation
+Bracelets de dÃ©fense CA 7
+Potion de dÃ©fense
+5000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
 Dague de jet +1
 
-La dague retourne dans la main du lanceur instantanément après qu’une attaque soit faite.
+La dague retourne dans la main du lanceur instantanÃ©ment aprÃ¨s quâ€™une attaque soit faite.
 TAC0 : +1
-Dégâts : 1D4 + 1
+DÃ©gÃ¢ts : 1D4 + 1
 
-Nécessite
+NÃ©cessite
 Dague +1
-Huile de rapidité (blanche)
-500 pièces d'or
+Huile de rapiditÃ© (blanche)
+500 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
 Selon votre choix :
 Anneau d'Action libre +1, ou +2
@@ -77,184 +77,184 @@ Action libre
 Classe d'Armure : bonus de +1, ou +2
 Jets de sauvegarde : bonus de +1, ou +2
 
-Nécessite
+NÃ©cessite
 Anneau d'Action libre
 Anneau de Protection +1, or +2
-Potion de Défense
-Potion de Liberté
-4000 pièces d'or
+Potion de DÃ©fense
+Potion de LibertÃ©
+4000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
-Cape de non-détection améliorée
+Cape de non-dÃ©tection amÃ©liorÃ©e
 
 Classe d'Armure : +1
 Jets de sauvegarde : +1
-Capacité d'équipement : rend le porteur indétectable par des moyens magiques tels que la détection de l'invisibilité et de la scrutation
-Spécial : Invisibilité 2 fois par jour
+CapacitÃ© d'Ã©quipement : rend le porteur indÃ©tectable par des moyens magiques tels que la dÃ©tection de l'invisibilitÃ© et de la scrutation
+SpÃ©cial : InvisibilitÃ© 2 fois par jour
 
-Nécessite
-Cape de non-détection
+NÃ©cessite
+Cape de non-dÃ©tection
 Cape de Protection +1
-deux Parchemins d'invisibilité
-4000 pièces d'or
+deux Parchemins d'invisibilitÃ©
+4000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
 Robe de Mage "Protection Pratique"
 
-Résistance à l'électricité : +20 %
-Résistance au froid : +20 %
-Résistance au feu : +20 %
+RÃ©sistance Ã  l'Ã©lectricitÃ© : +20 %
+RÃ©sistance au froid : +20 %
+RÃ©sistance au feu : +20 %
 Classe d'Armure : +2
 Jets de sauvegarde : +1
 
 Utilisable par :
-Mage (Simple, dual et multiclassé)~
+Mage (Simple, dual et multiclassÃ©)~
 
-Nécessite
-Robe de résistance au feu
-Robe de résistance au froid
-Robe de résistance à l'électricité
+NÃ©cessite
+Robe de rÃ©sistance au feu
+Robe de rÃ©sistance au froid
+Robe de rÃ©sistance Ã  l'Ã©lectricitÃ©
 Robe de filou
 Robe de voyageur
 Robe d'aventurier
-Potion d'invulnérabilité
-Potion de défense
-5000 pièces d'or
+Potion d'invulnÃ©rabilitÃ©
+Potion de dÃ©fense
+5000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
 Ceinturon de courage
 
 Force : bonus de +1
-Le porteur régénère d'un point de vie toutes les 6 secondes.
+Le porteur rÃ©gÃ©nÃ¨re d'un point de vie toutes les 6 secondes.
 Classe d'Armure : bonus de +3
 
-Nécessite
-Ceinturon doré
+NÃ©cessite
+Ceinturon dorÃ©
 Ceinturon de franchise
 Ceinturon perceur
-Potion de force des géants du froid
-Potion de force des géants des nuages
-Potion de régénération
-5000 pièces d'or
+Potion de force des gÃ©ants du froid
+Potion de force des gÃ©ants des nuages
+Potion de rÃ©gÃ©nÃ©ration
+5000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
-Epée du meurtrier
+EpÃ©e du meurtrier
 
 +1 au multiplicateur d'attaque sournoise
-10 % de chance à chaque attaque de paralyser la victime pour 2 secondes (pas de sauvegarde)
+10 % de chance Ã  chaque attaque de paralyser la victime pour 2 secondes (pas de sauvegarde)
 TAC0 : +3
-Dégâts : 1D6 +3
+DÃ©gÃ¢ts : 1D6 +3
 
-Nécessite
-Epée courte d'attaque sournoise
-Potion du Maître-Voleur
+NÃ©cessite
+EpÃ©e courte d'attaque sournoise
+Potion du MaÃ®tre-Voleur
 Esseulite
 deux Parchemins d'Immobilisation des personnes
-4000 pièces d'or
+4000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
-Arc de la tempête de neige
+Arc de la tempÃªte de neige
 
-Ce puissant arc ne nécessite pas de flèches.
+Ce puissant arc ne nÃ©cessite pas de flÃ¨ches.
 TAC0 : +3
-Dégâts : 1D6, +1D2 de froid, +1D2 d'électricité
+DÃ©gÃ¢ts : 1D6, +1D2 de froid, +1D2 d'Ã©lectricitÃ©
 
-Nécessite
+NÃ©cessite
 Arc long d'adresse au tir
 Baguette de projectile magique
 Baguette de givre
 Baguette de foudre
-5000 pièces d'or
+5000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
 Bottes du Voleur "Pattes lestes"
 
-Augmente la vitesse de déplacement
-Déplacement silencieux : Bonus de +20%
+Augmente la vitesse de dÃ©placement
+DÃ©placement silencieux : Bonus de +20%
 Se cacher dans l'ombre : Bonus de 15%
 Crochetage : Bonus de +10%
-Trouver/désamorcer pièges : Bonus de +10%  
-Vol à la tire : Bonus de +10%
+Trouver/dÃ©samorcer piÃ¨ges : Bonus de +10%  
+Vol Ã  la tire : Bonus de +10%
 
 Utilisable par :
-Voleur (simple, dual et multiclassé)
+Voleur (simple, dual et multiclassÃ©)
 
-Nécessite
-Bottes de Furtivité
+NÃ©cessite
+Bottes de FurtivitÃ©
 Bottes de Vitesse
-Huile de rapidité (blanche)
+Huile de rapiditÃ© (blanche)
 Potion de perception
-5000 pièces d'or
+5000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
 Anneau de protection +2
 
-Nécessite
+NÃ©cessite
 deux Anneaux de Protection +1
 Diamant
 deux Perles
-4000 pièces d'or
+4000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
-Amulette Bouclier améliorée
+Amulette Bouclier amÃ©liorÃ©e
 
 Classe d'armure : 4
 Jets de sauvegarde : bonus de +1
 
-Nécessite
+NÃ©cessite
 Amulette Bouclier
 Amulette de Protection +1
-Potion d'Invulnérabilité
-5000 pièces d'or
+Potion d'InvulnÃ©rabilitÃ©
+5000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
 Casque Magnifique
 
-Résistance à l'électricité : +20 %
-Résistance au froid : +20 %
-Résistance au feu : +20 %
+RÃ©sistance Ã  l'Ã©lectricitÃ© : +20 %
+RÃ©sistance au froid : +20 %
+RÃ©sistance au feu : +20 %
 Classe d'Armure : bonus de +1
 Charisme : bonus de +1
 Jets de sauvegarde : bonus de +1
 
-Nécessite
+NÃ©cessite
 Heaume de Gloire
-Casque de défense : "don de la paix"
-Potion d'invulnérabilité
+Casque de dÃ©fense : "don de la paix"
+Potion d'invulnÃ©rabilitÃ©
 Parchemin de protection contre le feu
 Parchemin de protection contre le froid
-Parchemin de protection contre l’électricité
-5000 pièces d'or
+Parchemin de protection contre lâ€™Ã©lectricitÃ©
+5000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
-Cape de Baldurien améliorée
+Cape de Baldurien amÃ©liorÃ©e
 
-Résistance à la magie : +25% 
+RÃ©sistance Ã  la magie : +25% 
 Classe d'Armure : bonus de +2
 Jets de sauvegarde : bonus de +2
 
-Nécessite
+NÃ©cessite
 Cape de Baldurien
 Cape de Protection +2
 deux Parchemin d'Armure
-Potion de résistance à la magie
-5000 pièces d'or
+Potion de rÃ©sistance Ã  la magie
+5000 piÃ¨ces d'or
 ------------------------------------------------------------------------------------------------
 
-4. Problèmes connus :
-ThalantyrItemUpgrade Mod doit être installé après Northern Tales of the Sword Coast.
+4. ProblÃ¨mes connus :
+ThalantyrItemUpgrade Mod doit Ãªtre installÃ© aprÃ¨s Northern Tales of the Sword Coast.
 
-Remarques, problèmes & demandes : envoyez-moi un e-mail - serdrick@yandex.ru
+Remarques, problÃ¨mes & demandes : envoyez-moi un e-mail - serdrick@yandex.ru
 
 5. Remerciements :
 
 Westley Weimer - Pour son excellent programme WeiDU.
 Igi - Pour IESDP, un superbe site pour les fichiers au format IE.
-Avenger - pour son top-noté éditeur/verifieur/chercheur de fichiers DLTCEP pour les jeux IE.
+Avenger - pour son top-notÃ© Ã©diteur/verifieur/chercheur de fichiers DLTCEP pour les jeux IE.
 Aaron O'Neil, pour ShadowKeeper.
 
 
-6.  Droits légaux :
+6.  Droits lÃ©gaux :
 
-BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: © 2000, 2001 Bioware Corp. All Rights Reserved.
+BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: Â© 2000, 2001 Bioware Corp. All Rights Reserved.
 
-ICEWIND DALE, ICEWIND DALE: HEART OF WINTER, TRIALS OF THE LUREMASTER: © 2000, 2000, 2001 Interplay Productions. All Rights Reserved.
+ICEWIND DALE, ICEWIND DALE: HEART OF WINTER, TRIALS OF THE LUREMASTER: Â© 2000, 2000, 2001 Interplay Productions. All Rights Reserved.
 
-PLANESCAPE: TORMENT & DESIGN: © 1999 Interplay Productions. All Rights Reserved.
+PLANESCAPE: TORMENT & DESIGN: Â© 1999 Interplay Productions. All Rights Reserved.
 
-Bioware Infinity Engine: © 1998 Bioware Corp. All Rights Reserved.
+Bioware Infinity Engine: Â© 1998 Bioware Corp. All Rights Reserved.
 
-BALDUR'S GATE, TALES OF THE SWORD COAST: © 1998, 1999 BioWare Corp. All Rights Reserved.
+BALDUR'S GATE, TALES OF THE SWORD COAST: Â© 1998, 1999 BioWare Corp. All Rights Reserved.
 
 Baldur's Gate, Icewind Dale, Torment, Planescape, the Planescape logo, Forgotten Realms, the Forgotten Realms logo, Advanced Dungeons & Dragons, the AD&D logo, and the TSR logo are trademarks of TSR, Inc., a subsidiary of Wizards of the Coast, Inc, and are used by Interplay under license. All Rights Reserved. Interplay, the Interplay logo, Black Isle Studios, the Black Isle Studios logo, and "By Gamers, For Gamers." are trademarks of Interplay Productions. All Rights Reserved.
 
