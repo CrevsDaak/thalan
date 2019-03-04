@@ -1,5 +1,5 @@
                             Thalantyr Item Upgrade Mod
-                                    Version 4.2.1
+                                    Version 4.2.3
                            Serdrick (serdrick@yandex.ru)
                         Bugs reports to crevs.daak@gmail.com
 
