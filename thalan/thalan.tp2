@@ -82,7 +82,7 @@ LANGUAGE ~Polski (tlumaczenie: morgan)~
          ~thalan/tra/polish/setup.tra~
 
 BEGIN @0
-REQUIRE_PREDICATE GAME_IS "bgee eet tutu tutu_totsc totsc bgt sod" @90013
+REQUIRE_PREDICATE (GAME_IS "bgee eet tutu tutu_totsc totsc bgt" || (GAME_IS bg2ee && FILE_EXISTS_IN_GAME oh3020.are) @90013
 
 //Storage bags - not implemented for BG:TotSC
 ACTION_IF !GAME_IS totsc BEGIN
@@ -126,105 +126,105 @@ ACTION_IF !GAME_IS totsc BEGIN
   //Items
   COPY ~thalan/Itm/thsw2h01.itm~ ~override/thsw2h01.itm~
     SAY NAME2 @1
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @2
     END ELSE BEGIN
       SAY DESC @133
     END
   COPY ~thalan/Itm/thdagg01.itm~ ~override/thdagg01.itm~
     SAY NAME2 @3
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @4
     END ELSE BEGIN
       SAY DESC @134
     END
   COPY ~thalan/Itm/thdagg02.itm~ ~override/thdagg02.itm~
     SAY NAME2 @5
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @6
     END ELSE BEGIN
       SAY DESC @135
     END
   COPY ~thalan/Itm/thring01.itm~ ~override/thring01.itm~
     SAY NAME2 @7
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @8
     END ELSE BEGIN
       SAY DESC @136
     END
   COPY ~thalan/Itm/thring02.itm~ ~override/thring02.itm~
     SAY NAME2 @9
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @10
     END ELSE BEGIN
       SAY DESC @137
     END
   COPY ~thalan/Itm/thbrac01.itm~ ~override/thbrac01.itm~
     SAY NAME2 @11
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @12
     END ELSE BEGIN
       SAY DESC @138
     END
   COPY ~thalan/Itm/thclck01.itm~ ~override/thclck01.itm~
     SAY NAME2 @13
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @14
     END ELSE BEGIN
       SAY DESC @139
     END
   COPY ~thalan/Itm/thclck02.itm~ ~override/thclck02.itm~
     SAY NAME2 @15
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @16
     END ELSE BEGIN
       SAY DESC @140
     END
   COPY ~thalan/Itm/thbelt01.itm~ ~override/thbelt01.itm~
     SAY NAME2 @17
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @18
     END ELSE BEGIN
       SAY DESC @141
     END
   COPY ~thalan/Itm/thsw1h01.itm~ ~override/thsw1h01.itm~
     SAY NAME2 @19
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @20
     END ELSE BEGIN
       SAY DESC @142
     END
   COPY ~thalan/Itm/thbow01.itm~ ~override/thbow01.itm~
     SAY NAME2 @21
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @22
     END ELSE BEGIN
       SAY DESC @143
     END
   COPY ~thalan/Itm/thboot01.itm~ ~override/thboot01.itm~
     SAY NAME2 @23
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @24
     END ELSE BEGIN
       SAY DESC @144
     END
   COPY ~thalan/Itm/thamul01.itm~ ~override/thamul01.itm~
     SAY NAME2 @25
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @26
     END ELSE BEGIN
       SAY DESC @145
     END
   COPY ~thalan/Itm/thhelm01.itm~ ~override/thhelm01.itm~
     SAY NAME2 @27
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @28
     END ELSE BEGIN
       SAY DESC @146
     END
   COPY ~thalan/Itm/thclck03.itm~ ~override/thclck03.itm~
     SAY NAME2 @29
-    PATCH_IF !GAME_IS "eet bgee sod" BEGIN
+    PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @30
     END ELSE BEGIN
       SAY DESC @147
