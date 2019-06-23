@@ -4,7 +4,7 @@
 BACKUP ~thalan/backup~  
 AUTHOR "crevs.daak@gmail.com" /* ~serdrick@yandex.ru~ I think it would be
 				wise to put my email if I'm keeper of the mod */
-VERSION ~v4.2.3~
+VERSION ~v4.2.4~
 README "thalan/readme_%LANGUAGE%.txt" "thalan/readme.txt"
 
 ALWAYS
@@ -230,6 +230,9 @@ ACTION_IF !GAME_IS totsc BEGIN
       SAY DESC @147
     END
     
+  ACTION_IF GAME_IS ~eet bgee~ BEGIN
+    APPEND_OUTER ~thalan/dlg/thalan.d~ ~~~~~EXTEND_TOP %tutu_var%THALAN 7 #1 IF ~Global("RumorTalkThalan","GLOBAL",1)~ THEN REPLY @8 GOTO s#tal02 END~~~~~
+  END
   
   //Dialogue
   COMPILE EVAL ~thalan/dlg/thalan.d~ USING "thalan/tra/%LANGUAGE%/thalan.tra"
