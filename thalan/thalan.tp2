@@ -231,7 +231,7 @@ ACTION_IF !GAME_IS totsc BEGIN
     END
     
   ACTION_IF GAME_IS ~eet bgee~ BEGIN
-    APPEND_OUTER ~thalan/dlg/thalan.d~ ~~~~~EXTEND_TOP %tutu_var%THALAN 7 #1 IF ~Global("RumorTalkThalan","GLOBAL",1)~ THEN REPLY @8 GOTO s#tal02 END~~~~~
+    APPEND_OUTER ~thalan/dlg/thalan.d~ ~~~~~EXTEND_TOP %tutu_var%THALAN 1 #1 IF ~Global("RumorTalkThalan","GLOBAL",1)~ THEN REPLY @8 GOTO s#tal02 END~~~~~
   END
   
   //Dialogue
