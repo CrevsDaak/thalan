@@ -1,5 +1,5 @@
                             Thalantyr Item Upgrade Mod
-                                    Version 4.2.3
+                                    Version 4.2.5
                            Serdrick (serdrick@yandex.ru)
                         Bugs reports to crevs.daak@gmail.com
 
@@ -322,6 +322,9 @@ Version 4.2 (2 April 2015)
 
 Version 4.2.1 (9 April 2015)
  - Fix incorrect Bags' store files' name on BG:EE.
+
+Version 4.2.5 (31 October 209)
+ - Finally fix the BG:EE dialogue bug, additional bugfixes by Kromgart.
 
 
 8. Most important differences between BG1:TotSC version and BGT/Tutu:
