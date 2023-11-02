@@ -36,7 +36,8 @@ IF ~~ THEN BEGIN s#tal03
   IF ~PartyHasItem("%tutu_var%SW1H10")~ THEN REPLY @25 GOTO thsw1h01
   IF ~PartyHasItem("%tutu_var%bow07")~ THEN REPLY @26 GOTO thbow01
   IF ~PartyHasItem("%tutu_var%ring06")~ THEN REPLY @27 GOTO ring07
-  IF ~PartyHasItem("%tutu_var%boot02")~ THEN REPLY @28 GOTO thboot01
+  IF ~OR(2) PartyHasItem("%tutu_var%boot02")
+            PartyHasItem("boot02zh")~ THEN REPLY @28 GOTO thboot01
   IF ~PartyHasItem("%tutu_var%amul15")~ THEN REPLY @29 GOTO thamul01
   IF ~OR(2) PartyHasItem("%tutu_var%helm03")
             PartyHasItem("%tutu_var%helm04")~ THEN REPLY @30 GOTO thhelm01
@@ -235,7 +236,10 @@ END
 IF ~~ THEN BEGIN thboot01
     SAY @49
     IF ~~ THEN REPLY @35 GOTO s#tal03
-    IF ~PartyHasItem("%tutu_var%boot01") PartyHasItem("%tutu_var%boot02") PartyHasItem("%tutu_var%potn14") PartyHasItem("%tutu_var%potn39")
+    IF ~PartyHasItem("%tutu_var%boot01") 
+        PartyHasItem("%tutu_var%boot02")
+        PartyHasItem("%tutu_var%potn14")
+        PartyHasItem("%tutu_var%potn39")
         PartyGoldGT(4999)~
       THEN REPLY @36
       DO ~TakePartyGold(5000)    DestroyGold(5000)
@@ -244,7 +248,21 @@ IF ~~ THEN BEGIN thboot01
           TakePartyItemNum("%tutu_var%potn14",1)   DestroyItem("%tutu_var%potn14")
           TakePartyItemNum("%tutu_var%potn39",1)   DestroyItem("%tutu_var%potn39")
           GiveItemCreate("thboot01",Player1,1,1,1)
-          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+          CreateVisualEffect("spcrtwpn",[330.230])~
+    IF ~PartyHasItem("%tutu_var%boot01") 
+        PartyHasItem("boot02zh")
+        PartyHasItem("%tutu_var%potn14")
+        PartyHasItem("%tutu_var%potn39")
+        PartyGoldGT(4999)~
+      THEN REPLY @36
+      DO ~TakePartyGold(5000)    DestroyGold(5000)
+          TakePartyItemNum("%tutu_var%boot01",1)   DestroyItem("%tutu_var%boot01")
+          TakePartyItemNum("boot02zh",1)           DestroyItem("boot02zh")
+          TakePartyItemNum("%tutu_var%potn14",1)   DestroyItem("%tutu_var%potn14")
+          TakePartyItemNum("%tutu_var%potn39",1)   DestroyItem("%tutu_var%potn39")
+          GiveItemCreate("thboot01",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~
+  EXIT
 END
 
 IF ~~ THEN BEGIN thamul01
