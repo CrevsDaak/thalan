@@ -35,7 +35,7 @@ IF ~~ THEN BEGIN s#tal03
             PartyHasItem("%tutu_var%belt04")~ THEN REPLY @24 GOTO thbelt01
   IF ~PartyHasItem("%tutu_var%SW1H10")~ THEN REPLY @25 GOTO thsw1h01
   IF ~PartyHasItem("%tutu_var%bow07")~ THEN REPLY @26 GOTO thbow01
-  IF ~PartyHasItem("%tutu_var%ring06")~ THEN REPLY @27 GOTO ring07
+  IF ~OR(3) PartyHasItem("%tutu_var%ring06") PartyHasItem("c!pp11") PartyHasItem("cdpp11")~ THEN REPLY @27 GOTO ring07
   IF ~OR(2) PartyHasItem("%tutu_var%boot02")
             PartyHasItem("boot02zh")~ THEN REPLY @28 GOTO thboot01
   IF ~PartyHasItem("%tutu_var%amul15")~ THEN REPLY @29 GOTO thamul01
@@ -114,6 +114,50 @@ PartyHasItem("%tutu_var%potn45")
       DO ~TakePartyGold(4000)      DestroyGold(4000)
           TakePartyItemNum("%tutu_var%ring09",1)   DestroyItem("%tutu_var%ring09")
           TakePartyItemNum("%tutu_var%ring07",1)   DestroyItem("%tutu_var%ring07")
+          TakePartyItemNum("%tutu_var%potn24",1)   DestroyItem("%tutu_var%potn24")
+          TakePartyItemNum("%tutu_var%potn45",1)   DestroyItem("%tutu_var%potn45")
+          GiveItemCreate("thring02",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~PartyHasItem("%tutu_var%ring09") PartyHasItem("c!pp11") !PartyHasItem("%tutu_var%ring06") PartyHasItem("%tutu_var%potn24")
+PartyHasItem("%tutu_var%potn45")
+        PartyGoldGT(3999)~
+      THEN REPLY @40
+      DO ~TakePartyGold(4000)      DestroyGold(4000)
+          TakePartyItemNum("%tutu_var%ring09",1)   DestroyItem("%tutu_var%ring09")
+          TakePartyItemNum("c!pp11",1)   DestroyItem("c!pp11")
+          TakePartyItemNum("%tutu_var%potn24",1)   DestroyItem("%tutu_var%potn24")
+          TakePartyItemNum("%tutu_var%potn45",1)   DestroyItem("%tutu_var%potn45")
+          GiveItemCreate("thring01",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~PartyHasItem("%tutu_var%ring09") PartyHasItem("cdpp12") !PartyHasItem("%tutu_var%ring07") !PartyHasItem("c!pp12") PartyHasItem("%tutu_var%potn24")
+PartyHasItem("%tutu_var%potn45")
+        PartyGoldGT(3999)~
+      THEN REPLY @41
+      DO ~TakePartyGold(4000)      DestroyGold(4000)
+          TakePartyItemNum("%tutu_var%ring09",1)   DestroyItem("%tutu_var%ring09")
+          TakePartyItemNum("cdpp12",1)   DestroyItem("cdpp12")
+          TakePartyItemNum("%tutu_var%potn24",1)   DestroyItem("%tutu_var%potn24")
+          TakePartyItemNum("%tutu_var%potn45",1)   DestroyItem("%tutu_var%potn45")
+          GiveItemCreate("thring02",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~PartyHasItem("%tutu_var%ring09") PartyHasItem("cdpp11") !PartyHasItem("%tutu_var%ring06") !PartyHasItem("c!pp11") PartyHasItem("%tutu_var%potn24")
+PartyHasItem("%tutu_var%potn45")
+        PartyGoldGT(3999)~
+      THEN REPLY @40
+      DO ~TakePartyGold(4000)      DestroyGold(4000)
+          TakePartyItemNum("%tutu_var%ring09",1)   DestroyItem("%tutu_var%ring09")
+          TakePartyItemNum("cdpp11",1)   DestroyItem("cdpp11")
+          TakePartyItemNum("%tutu_var%potn24",1)   DestroyItem("%tutu_var%potn24")
+          TakePartyItemNum("%tutu_var%potn45",1)   DestroyItem("%tutu_var%potn45")
+          GiveItemCreate("thring01",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~PartyHasItem("%tutu_var%ring09") PartyHasItem("c!pp12") !PartyHasItem("%tutu_var%ring07") PartyHasItem("%tutu_var%potn24")
+PartyHasItem("%tutu_var%potn45")
+        PartyGoldGT(3999)~
+      THEN REPLY @41
+      DO ~TakePartyGold(4000)      DestroyGold(4000)
+          TakePartyItemNum("%tutu_var%ring09",1)   DestroyItem("%tutu_var%ring09")
+          TakePartyItemNum("c!pp12",1)   DestroyItem("c!pp12")
           TakePartyItemNum("%tutu_var%potn24",1)   DestroyItem("%tutu_var%potn24")
           TakePartyItemNum("%tutu_var%potn45",1)   DestroyItem("%tutu_var%potn45")
           GiveItemCreate("thring02",Player1,1,1,1)
@@ -219,6 +263,7 @@ IF ~~ THEN BEGIN thbow01
           CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
 END
 
+// I fucking love redundancy!!!
 IF ~~ THEN BEGIN ring07
     SAY @48
     IF ~~ THEN REPLY @35 GOTO s#tal03
@@ -231,12 +276,70 @@ IF ~~ THEN BEGIN ring07
           TakePartyItemNum("%tutu_var%misc42",1)   DestroyItem("%tutu_var%misc42")
           GiveItemCreate("%tutu_var%ring07",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~NumItemsPartyLT("%tutu_var%ring06",2) NumItemsPartyLT("c!pp11",2) NumItemsPartyGT("cdpp11",1) NumItemsPartyGT("%tutu_var%misc36",1) PartyHasItem("%tutu_var%misc42")
+        PartyGoldGT(3999)~
+      THEN REPLY @36
+      DO ~TakePartyGold(4000)      DestroyGold(4000)
+          TakePartyItemNum("cdpp11",2)   DestroyItem("cdpp11")
+          TakePartyItemNum("%tutu_var%misc36",2)   DestroyItem("%tutu_var%misc36")
+          TakePartyItemNum("%tutu_var%misc42",1)   DestroyItem("%tutu_var%misc42")
+          GiveItemCreate("%tutu_var%ring07",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~NumItemsPartyLT("%tutu_var%ring06",2) NumItemsPartyLT("cdpp11",2) NumItemsPartyGT("c!pp11",1) NumItemsPartyGT("%tutu_var%misc36",1) PartyHasItem("%tutu_var%misc42")
+        PartyGoldGT(3999)~
+      THEN REPLY @36
+      DO ~TakePartyGold(4000)      DestroyGold(4000)
+          TakePartyItemNum("c!pp11",2)   DestroyItem("c!pp11")
+          TakePartyItemNum("%tutu_var%misc36",2)   DestroyItem("%tutu_var%misc36")
+          TakePartyItemNum("%tutu_var%misc42",1)   DestroyItem("%tutu_var%misc42")
+          GiveItemCreate("%tutu_var%ring07",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~NumItemsPartyLT("%tutu_var%ring06",2) NumItemsPartyLT("c!pp11",2) NumItemsPartyLT("cdpp11",2) PartyHasItem("cdpp11") PartyHasItem("c!pp11") NumItemsPartyGT("%tutu_var%misc36",1) PartyHasItem("%tutu_var%misc42")
+        PartyGoldGT(3999)~
+      THEN REPLY @36
+      DO ~TakePartyGold(4000)      DestroyGold(4000)
+          TakePartyItemNum("cdpp11",1)   DestroyItem("cdpp11")
+          TakePartyItemNum("c!pp11",1)   DestroyItem("c!pp11")
+          TakePartyItemNum("%tutu_var%misc36",2)   DestroyItem("%tutu_var%misc36")
+          TakePartyItemNum("%tutu_var%misc42",1)   DestroyItem("%tutu_var%misc42")
+          GiveItemCreate("%tutu_var%ring07",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~NumItemsPartyLT("%tutu_var%ring06",2) NumItemsPartyLT("c!pp11",2) NumItemsPartyLT("cdpp11",2) PartyHasItem("%tutu_var%ring06") PartyHasItem("c!pp11") NumItemsPartyGT("%tutu_var%misc36",1) PartyHasItem("%tutu_var%misc42")
+        PartyGoldGT(3999)~
+      THEN REPLY @36
+      DO ~TakePartyGold(4000)      DestroyGold(4000)
+          TakePartyItemNum("%tutu_var%ring06",1)   DestroyItem("%tutu_var%ring06")
+          TakePartyItemNum("c!pp11",1)   DestroyItem("c!pp11")
+          TakePartyItemNum("%tutu_var%misc36",2)   DestroyItem("%tutu_var%misc36")
+          TakePartyItemNum("%tutu_var%misc42",1)   DestroyItem("%tutu_var%misc42")
+          GiveItemCreate("%tutu_var%ring07",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~NumItemsPartyLT("%tutu_var%ring06",2) NumItemsPartyLT("c!pp11",2) NumItemsPartyLT("cdpp11",2) PartyHasItem("cdpp11") PartyHasItem("%tutu_var%ring06") NumItemsPartyGT("%tutu_var%misc36",1) PartyHasItem("%tutu_var%misc42")
+        PartyGoldGT(3999)~
+      THEN REPLY @36
+      DO ~TakePartyGold(4000)      DestroyGold(4000)
+          TakePartyItemNum("cdpp11",1)   DestroyItem("cdpp11")
+          TakePartyItemNum("%tutu_var%ring06",1)   DestroyItem("%tutu_var%ring06")
+          TakePartyItemNum("%tutu_var%misc36",2)   DestroyItem("%tutu_var%misc36")
+          TakePartyItemNum("%tutu_var%misc42",1)   DestroyItem("%tutu_var%misc42")
+          GiveItemCreate("%tutu_var%ring07",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~NumItemsPartyLT("%tutu_var%ring06",2) NumItemsPartyGT("c!pp11",1) NumItemsPartyGT("cdpp11",1) NumItemsPartyGT("%tutu_var%misc36",1) PartyHasItem("%tutu_var%misc42")
+        PartyGoldGT(3999)~
+      THEN REPLY @36
+      DO ~TakePartyGold(4000)      DestroyGold(4000)
+          TakePartyItemNum("cdpp11",1)   DestroyItem("cdpp11")
+          TakePartyItemNum("c!pp11",1)   DestroyItem("c!pp11")
+          TakePartyItemNum("%tutu_var%misc36",2)   DestroyItem("%tutu_var%misc36")
+          TakePartyItemNum("%tutu_var%misc42",1)   DestroyItem("%tutu_var%misc42")
+          GiveItemCreate("%tutu_var%ring07",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
 END
 
 IF ~~ THEN BEGIN thboot01
     SAY @49
     IF ~~ THEN REPLY @35 GOTO s#tal03
-    IF ~PartyHasItem("%tutu_var%boot01") 
+    IF ~ PartyHasItem("%tutu_var%boot01") 
         PartyHasItem("%tutu_var%boot02")
         PartyHasItem("%tutu_var%potn14")
         PartyHasItem("%tutu_var%potn39")
@@ -248,8 +351,8 @@ IF ~~ THEN BEGIN thboot01
           TakePartyItemNum("%tutu_var%potn14",1)   DestroyItem("%tutu_var%potn14")
           TakePartyItemNum("%tutu_var%potn39",1)   DestroyItem("%tutu_var%potn39")
           GiveItemCreate("thboot01",Player1,1,1,1)
-          CreateVisualEffect("spcrtwpn",[330.230])~
-    IF ~PartyHasItem("%tutu_var%boot01") 
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~ PartyHasItem("%tutu_var%boot01") 
         PartyHasItem("boot02zh")
         PartyHasItem("%tutu_var%potn14")
         PartyHasItem("%tutu_var%potn39")
@@ -261,8 +364,7 @@ IF ~~ THEN BEGIN thboot01
           TakePartyItemNum("%tutu_var%potn14",1)   DestroyItem("%tutu_var%potn14")
           TakePartyItemNum("%tutu_var%potn39",1)   DestroyItem("%tutu_var%potn39")
           GiveItemCreate("thboot01",Player1,1,1,1)
-          CreateVisualEffect("spcrtwpn",[330.230])~
-  EXIT
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
 END
 
 IF ~~ THEN BEGIN thamul01
@@ -273,6 +375,25 @@ IF ~~ THEN BEGIN thamul01
       THEN REPLY @36
       DO ~TakePartyGold(5000)      DestroyGold(5000)
           TakePartyItemNum("%tutu_var%amul14",1)   DestroyItem("%tutu_var%amul14")
+          TakePartyItemNum("%tutu_var%amul15",1)   DestroyItem("%tutu_var%amul15")
+          TakePartyItemNum("%tutu_var%potn11",1)   DestroyItem("%tutu_var%potn11")
+          GiveItemCreate("thamul01",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~ PartyHasItem("c!pp7") PartyHasItem("%tutu_var%amul15") PartyHasItem("%tutu_var%potn11")
+        PartyGoldGT(4999)~
+      THEN REPLY @36
+      DO ~TakePartyGold(5000)      DestroyGold(5000)
+          TakePartyItemNum("c!pp7",1)   DestroyItem("c!pp7")
+          TakePartyItemNum("%tutu_var%amul15",1)   DestroyItem("%tutu_var%amul15")
+          TakePartyItemNum("%tutu_var%potn11",1)   DestroyItem("%tutu_var%potn11")
+          GiveItemCreate("thamul01",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~ PartyHasItem("cdpp7") !PartyHasItem("c!pp7")
+        PartyHasItem("%tutu_var%amul15") PartyHasItem("%tutu_var%potn11")
+        PartyGoldGT(4999)~
+      THEN REPLY @36
+      DO ~TakePartyGold(5000)      DestroyGold(5000)
+          TakePartyItemNum("cdpp7",1)   DestroyItem("cdpp7")
           TakePartyItemNum("%tutu_var%amul15",1)   DestroyItem("%tutu_var%amul15")
           TakePartyItemNum("%tutu_var%potn11",1)   DestroyItem("%tutu_var%potn11")
           GiveItemCreate("thamul01",Player1,1,1,1)
@@ -306,6 +427,28 @@ PartyHasItem("%tutu_var%potn34")
       THEN REPLY @36
       DO ~TakePartyGold(5000)      DestroyGold(5000)
           TakePartyItemNum("%tutu_var%clck02",1)   DestroyItem("%tutu_var%clck02")
+          TakePartyItemNum("%tutu_var%clck05",1)   DestroyItem("%tutu_var%clck05")
+          TakePartyItemNum("%tutu_var%potn34",1)   DestroyItem("%tutu_var%potn34")
+          TakePartyItemNum("%tutu_var%scrl67",2)   DestroyItem("%tutu_var%scrl67")
+          GiveItemCreate("thclck03",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~ PartyHasItem("cdpp9") !PartyHasItem("%tutu_var%clck02") !PartyHasItem("c!pp9") PartyHasItem("%tutu_var%clck05") NumItemsPartyGT("%tutu_var%scrl67",1)
+PartyHasItem("%tutu_var%potn34")
+        PartyGoldGT(4999)~
+      THEN REPLY @36
+      DO ~TakePartyGold(5000)      DestroyGold(5000)
+          TakePartyItemNum("cdpp9",1)   DestroyItem("cdpp9")
+          TakePartyItemNum("%tutu_var%clck05",1)   DestroyItem("%tutu_var%clck05")
+          TakePartyItemNum("%tutu_var%potn34",1)   DestroyItem("%tutu_var%potn34")
+          TakePartyItemNum("%tutu_var%scrl67",2)   DestroyItem("%tutu_var%scrl67")
+          GiveItemCreate("thclck03",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[330.230])~ EXIT
+    IF ~ PartyHasItem("c!pp9") !PartyHasItem("%tutu_var%clck02") PartyHasItem("%tutu_var%clck05") NumItemsPartyGT("%tutu_var%scrl67",1)
+PartyHasItem("%tutu_var%potn34")
+        PartyGoldGT(4999)~
+      THEN REPLY @36
+      DO ~TakePartyGold(5000)      DestroyGold(5000)
+          TakePartyItemNum("c!pp9",1)   DestroyItem("c!pp9")
           TakePartyItemNum("%tutu_var%clck05",1)   DestroyItem("%tutu_var%clck05")
           TakePartyItemNum("%tutu_var%potn34",1)   DestroyItem("%tutu_var%potn34")
           TakePartyItemNum("%tutu_var%scrl67",2)   DestroyItem("%tutu_var%scrl67")
