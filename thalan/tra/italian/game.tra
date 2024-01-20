@@ -1,19 +1,19 @@
 @1    = ~Spada della Collera~
 @2    = ~Spada della Collera
   
-Questa spada Ë stata creata grazie ad una nota spada: la Spada a due mani della maledizione berserker +3 da cui È stato possibile rimuovere la maledizione, e donargli nuove propriet‡.
+Questa spada ƒç stata creata grazie ad una nota spada: la Spada a due mani della maledizione berserker +3 da cui √© stato possibile rimuovere la maledizione, e donargli nuove propriet≈ï.
 
 STATISTICHE:
 
-Abilit‡ Speciali:
+Abilit≈ï Speciali:
     Furia una volta al giorno
-    10 % di possibilit‡ che ogni colpo spaventi la vittima per 1 round
+    10 % di possibilit≈ï che ogni colpo spaventi la vittima per 1 round
     
 THACO: bonus +3
 Danno:  1D10 +3
 Tipo di Danno: da taglio
 Peso: 10
-Fattore Velocit‡: 7
+Fattore Velocit≈ï: 7
 Tipo di Competenza: Spada a due mani
 Tipo: a due mani
 Richiede: 14 alla Forza 
@@ -23,12 +23,12 @@ Non Utilizzabile da:
  Mago
  Ladro~
 @3    = ~Pugnale del Veleno +3~
-@4    = ~Il Pugnale del Veleno Ë una potente arma da taglio molto apprezzata da tutti gli assassini dei Reami. Questo particolare pugnale Ë stato creato appositamente per i Ladri dell'Ombra di Amn. Ogni volta che colpisce un avversario, inietta un veleno nel flusso sanguigno della vittima. Il veleno ha un effetto rapido e infallibile.
-Questo pugnale È stato magicamente incantato ed ora Ë divenuta un'arma pi˘ potente.
+@4    = ~Il Pugnale del Veleno ƒç una potente arma da taglio molto apprezzata da tutti gli assassini dei Reami. Questo particolare pugnale ƒç stato creato appositamente per i Ladri dell'Ombra di Amn. Ogni volta che colpisce un avversario, inietta un veleno nel flusso sanguigno della vittima. Il veleno ha un effetto rapido e infallibile.
+Questo pugnale √© stato magicamente incantato ed ora ƒç divenuta un'arma pi≈Ø potente.
 
 STATISTICHE:
 
-Abilit‡ di Combattimento:
+Abilit≈ï di Combattimento:
   +1 attacco aggiuntivo per round
   Ogni colpo rallenta la vittima per 15 secondi (tiro salvezza contro morte)
   
@@ -37,14 +37,14 @@ Danno:  1D4 + 3
 Tipo di Danno: da punta
 Danno da Veleno: 6 punti per round fino ad un totale di 15 di danno (tiro salvezza contro veleno)
 Peso: 2
-Fattore Velocit‡: 0
+Fattore Velocit≈ï: 0
 Tipo di Competenza: Pugnale
 Tipo:  ad una mano
 Richiede: 3 alla Forza
 Non Utilizzabile da:
  Chierico~
 @5    = ~Pugnale da Lancio +1~
-@6    = ~Questo Pugnale da Lancio È stato creato a seguito di una magica modifica fatta su un Pugnale +1. Il Pugnale ritorna nelle mani di colui che lo ha lanciato subito dopo che Ë stato effettuato un attacco.
+@6    = ~Questo Pugnale da Lancio √© stato creato a seguito di una magica modifica fatta su un Pugnale +1. Il Pugnale ritorna nelle mani di colui che lo ha lanciato subito dopo che ƒç stato effettuato un attacco.
 
 STATISTICHE:
   
@@ -52,33 +52,33 @@ THAC0: bonus +1 bonus
 Danno:  1D4 + 1
 Tipo di Danno: proiettile (da punta)
 Peso: 1
-Fattore Velocit‡: 1
+Fattore Velocit≈ï: 1
 Tipo di Competenza: Pugnale
 Tipo:  ad una mano
 Richiede: 3 alla Forza
 Non Utilizzabile da:
  Chierico~
-@7    = ~Anello della Libert‡ di Movimento +1~
-@8    = ~Anello della Libert‡ di Movimento +1
-Questo anello Ë stato modificato magicamente. Riunisce le abilit‡ dell'Anello di Protezione +1: 'Anello dei Principi' e l'Anello della Libert‡ di Movimento.
+@7    = ~Anello della Libert≈ï di Movimento +1~
+@8    = ~Anello della Libert≈ï di Movimento +1
+Questo anello ƒç stato modificato magicamente. Riunisce le abilit≈ï dell'Anello di Protezione +1: 'Anello dei Principi' e l'Anello della Libert≈ï di Movimento.
 
 STATISTICHE:
 
-Chi lo indossa È immune a qualsiasi effetto, di natura magica o no, che influenza il movimento. Inclusi gli incantesimi di velocit‡ e di rallentamento.
+Chi lo indossa √© immune a qualsiasi effetto, di natura magica o no, che influenza il movimento. Inclusi gli incantesimi di velocit≈ï e di rallentamento.
 
-Abilit‡ Incorporate:
+Abilit≈ï Incorporate:
  Classe Armatura: bonus +1
  Tiri Salvezza: bonus +1
 
 Non Utilizzabile da:~
-@9    = ~Anello della Libert‡ di Movimento +2~
-@10   = ~Anello della Libert‡ di Movimento +2 
+@9    = ~Anello della Libert≈ï di Movimento +2~
+@10   = ~Anello della Libert≈ï di Movimento +2 
 
-Questo anello Ë stato modificato magicamente. Riunisce le abilit‡ dell'Anello di Protezione +2: 'L'Anello della Guardia' e dell'Anello della Libert‡ di Movimento.
+Questo anello ƒç stato modificato magicamente. Riunisce le abilit≈ï dell'Anello di Protezione +2: 'L'Anello della Guardia' e dell'Anello della Libert≈ï di Movimento.
 
 STATISTICHE:
 
-Chi lo indossa È immune a qualsiasi effetto, di natura magica o no, che influenza il movimento. Inclusi gli incantesimi di velocit‡ e di rallentamento. 
+Chi lo indossa √© immune a qualsiasi effetto, di natura magica o no, che influenza il movimento. Inclusi gli incantesimi di velocit≈ï e di rallentamento. 
 
 Classe Armatura: bonus +2
 Tiri Salvezza: bonus +2
@@ -87,7 +87,7 @@ Non Utilizzabile da:~
 @11   = ~Guanti della Grande Maestria~
 @12   = ~Guanti della Grande Maestria
 
-Un paio di questi magici guanti di qualit‡ riuniscono le propriet‡ di diversi altri esemplari, perciÚ forniscono propriet‡ di attacco e di difesa, degni di ogni grande guerriero.
+Un paio di questi magici guanti di qualit≈ï riuniscono le propriet≈ï di diversi altri esemplari, perci≈à forniscono propriet≈ï di attacco e di difesa, degni di ogni grande guerriero.
 
 STATISTICHE:
 
@@ -100,16 +100,16 @@ Non Utilizzabile da:
  Ammazzastregoni~
 @13   = ~Mantello anti-individuazione migliorato~
 @14   = ~Mantello anti-individuazione 'Sussurri del Silenzio' migliorato 
-Pare che sia stato creato per la famiglia dei pi˘ grandi ladri della malavita e che si fosse rivelato molto utile. Non si hanno notizie sui precedenti proprietari.  
+Pare che sia stato creato per la famiglia dei pi≈Ø grandi ladri della malavita e che si fosse rivelato molto utile. Non si hanno notizie sui precedenti proprietari.  
 Riunisce le caratteristiche magiche del Mantello anti-individuazione con quelle del Mantello di Protezione +1.
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
- Non individuabile da strumenti magici quali Individuazione dell'invisibilit‡ e Individuazione delle spie.
+Abilit≈ï Incorporata:
+ Non individuabile da strumenti magici quali Individuazione dell'invisibilit≈ï e Individuazione delle spie.
  
-Abilit‡ Speciali:
- Invisibilit‡ 2 volte al giorno
+Abilit≈ï Speciali:
+ Invisibilit≈ï 2 volte al giorno
 
 Classe Armatura: bonus +1
 Tiri Salvezza: bonus +1 
@@ -119,11 +119,11 @@ Non Utilizzabile da:
 @15   = ~Abito del Mago 'Protezione Pratica'~
 @16   = ~Abito del mago 'Protezione Pratica'
    
-In questo abito da Mago sono concentrate utili propriet‡ di diversi semplici oggetti, donando a chi lo indossa una discreta protezione. 
+In questo abito da Mago sono concentrate utili propriet≈ï di diversi semplici oggetti, donando a chi lo indossa una discreta protezione. 
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
  +20% di bonus al fuoco, al freddo e alla resistenza elettrica
 
 Classe Armatura: bonus +2
@@ -134,11 +134,11 @@ Mago (singolo, duale e multiclasse)~
 @17   = ~Cintura del Valore~
 @18   = ~Cintura del Valore
   
-In questa eccellente cintura sono raggruppate utili propriet‡ di tre cinture: la Cinghia Dorata, la Cinghia di Schiettezza, e la Cinghia di Sfondamento. Oltre ad incrementare la forza di colui che la indossa lo aiuta anche a curare le sue ferite.
+In questa eccellente cintura sono raggruppate utili propriet≈ï di tre cinture: la Cinghia Dorata, la Cinghia di Schiettezza, e la Cinghia di Sfondamento. Oltre ad incrementare la forza di colui che la indossa lo aiuta anche a curare le sue ferite.
 
 STATISTICHE: 
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
  Forza: bonus +1 
  Colui che la indossa rigenera 1 punto ferita ogni 6 secondi.
 
@@ -149,19 +149,19 @@ Non Utilizzabile da:
 @19   = ~Spada dell'Assassino~
 @20   = ~Spada dell'Assassino
   
-Questa spada Ë il risultato delle migliorie eseguite sulla Spada corta per pugnalare alle spalle: ' La Spada delle Ombre '. La spada aggiunge danni addizionali alla pugnalata alle spalle, ed inoltre ha la possibilit‡ di paralizzare la vittima.
+Questa spada ƒç il risultato delle migliorie eseguite sulla Spada corta per pugnalare alle spalle: ' La Spada delle Ombre '. La spada aggiunge danni addizionali alla pugnalata alle spalle, ed inoltre ha la possibilit≈ï di paralizzare la vittima.
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
  +1 al moltiplicatore della pugnalata alle spalle
- 10 % di possibilit‡ che ogni colpo paralizzi la vittima per 2 round (senza tiro salvezza)
+ 10 % di possibilit≈ï che ogni colpo paralizzi la vittima per 2 round (senza tiro salvezza)
  
 THACO: bonus +3
 Danno: 1D6 +3
 Tipo di Danno: da punta
 Peso: 3 
-Fattore Velocit‡: 0
+Fattore Velocit≈ï: 0
 Tipo di Competenza: Spada corta
 Tipo: ad una mano
 Richiede: 5 alla Forza
@@ -172,20 +172,20 @@ Non Utilizzabile da:
 @21   = ~Arco della Tempesta di Neve~
 @22   = ~Arco della Tempesta di Neve 
   
-Questo È l'Arco Lungo di Precisione che Ë stato magicamente modificato. Quando la corda dell'arco Ë in tensione, scocca delle vigorose, ma invisibili frecce. Ad ogni colpo andato a buon fine la freccia aggiunge un ulteriore danno elettrico e da freddo.
+Questo √© l'Arco Lungo di Precisione che ƒç stato magicamente modificato. Quando la corda dell'arco ƒç in tensione, scocca delle vigorose, ma invisibili frecce. Ad ogni colpo andato a buon fine la freccia aggiunge un ulteriore danno elettrico e da freddo.
 
-Nota: evitare di equipaggiare il vostro personaggio con frecce normali, altrimenti l'arco lancer‡ quelle invece delle frecce fantasma.
+Nota: evitare di equipaggiare il vostro personaggio con frecce normali, altrimenti l'arco lancer≈ï quelle invece delle frecce fantasma.
 
 STATISTICHE:
 
-Abilit‡ di Combattimento:
+Abilit≈ï di Combattimento:
 Questo potente arco non richiede munizioni
  
 THACO: +3 bonus
 Danno: 1D6 + come danno aggiuntivo 1D2 di danno da freddo e 1D2 di danno elettrico 
 Tipo di Danno: da proiettile (da punta)
 Peso: 3 
-Fattore Velocit‡: 4
+Fattore Velocit≈ï: 4
 Tipo di Competenza: Arco Lungo
 Tipo:  a due mani
 Richiede: 6 alla Forza
@@ -197,11 +197,11 @@ Non Utilizzabile da:
 @23   = ~Stivali del Ladro 'Gambe Veloci'~
 @24   = ~Stivali del Ladro 'Gambe Veloci'
   
-Questi stivali non solo aiutano il ladro nel suo difficile mestiere, ma gli permettono anche di muoversi velocemente. Sfortunatamente, a causa delle loro specifiche propriet‡, solo i Ladri li possono utilizzare.
+Questi stivali non solo aiutano il ladro nel suo difficile mestiere, ma gli permettono anche di muoversi velocemente. Sfortunatamente, a causa delle loro specifiche propriet≈ï, solo i Ladri li possono utilizzare.
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
 
 Aumenta il movimento
 Muoversi Silenziosamente: +20% di bonus
@@ -216,7 +216,7 @@ Utilizzabile da:
 @25   = ~Amuleto Scudo migliorato~
 @26   = ~Amuleto Scudo migliorato 
   
-E' l'Amuleto Scudo magicamente modificato. Protegge meglio colui che lo indossa, permettendogli di farne un uso pi˘ conveniente.
+E' l'Amuleto Scudo magicamente modificato. Protegge meglio colui che lo indossa, permettendogli di farne un uso pi≈Ø conveniente.
 
 STATISTICHE: 
 
@@ -229,11 +229,11 @@ Non Utilizzabile da:
 @27   = ~Magnificenza di Helm~
 @28   = ~Magnificenza di Helm
    
-In questo Elmo sono state concentrate le utili propriet‡ dell'Elmo della Gloria e dell'Elmo della Difesa: 'Dono di Pace'. Donando inoltre a colui che lo indossa una discreta protezione.
+In questo Elmo sono state concentrate le utili propriet≈ï dell'Elmo della Gloria e dell'Elmo della Difesa: 'Dono di Pace'. Donando inoltre a colui che lo indossa una discreta protezione.
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
  +20% di bonus al fuoco, al freddo e alla resistenza elettrica
 Carisma: bonus +1 
 Classe Armatura: bonus +1 
@@ -264,19 +264,19 @@ Non Utilizzabile da:
 @101    = ~Spada della Collera~
 @102    = ~Spada della Collera
   
-Questa spada Ë stata creata grazie ad una nota spada: la Spada a due mani della maledizione berserker +3 da cui È stato possibile rimuovere la maledizione, e donargli nuove propriet‡.
+Questa spada ƒç stata creata grazie ad una nota spada: la Spada a due mani della maledizione berserker +3 da cui √© stato possibile rimuovere la maledizione, e donargli nuove propriet≈ï.
 
 STATISTICHE:
 
-Abilit‡ Speciali:
+Abilit≈ï Speciali:
     Furia una volta al giorno
-    10 % di possibilit‡ che ogni colpo spaventi la vittima per 1 round
+    10 % di possibilit≈ï che ogni colpo spaventi la vittima per 1 round
     
 THACO: bonus +3
 Danno:  1D10 +3
 Tipo di Danno: da taglio
 Peso: 10
-Fattore Velocit‡: 7
+Fattore Velocit≈ï: 7
 Tipo di Competenza: Spada grande
 Tipo: a due mani
 Non Utilizzabile da:
@@ -285,12 +285,12 @@ Non Utilizzabile da:
  Mago
  Ladro~
 @103    = ~Pugnale del Veleno +3~
-@104    = ~Il Pugnale del Veleno Ë una potente arma da taglio molto apprezzata da tutti gli assassini dei Reami. Questo particolare pugnale Ë stato creato appositamente per i Ladri dell'Ombra di Amn. Ogni volta che colpisce un avversario, inietta un veleno nel flusso sanguigno della vittima. Il veleno ha un effetto rapido e infallibile.
-Questo pugnale È stato magicamente incantato ed ora Ë divenuta un'arma pi˘ potente.
+@104    = ~Il Pugnale del Veleno ƒç una potente arma da taglio molto apprezzata da tutti gli assassini dei Reami. Questo particolare pugnale ƒç stato creato appositamente per i Ladri dell'Ombra di Amn. Ogni volta che colpisce un avversario, inietta un veleno nel flusso sanguigno della vittima. Il veleno ha un effetto rapido e infallibile.
+Questo pugnale √© stato magicamente incantato ed ora ƒç divenuta un'arma pi≈Ø potente.
 
 STATISTICHE:
 
-Abilit‡ di Combattimento:
+Abilit≈ï di Combattimento:
   +1 attacco aggiuntivo per round
   Ogni colpo rallenta la vittima per 15 secondi (tiro salvezza contro morte)
   
@@ -299,13 +299,13 @@ Danno:  1D4 + 3
 Tipo di Danno: da punta
 Danno da Veleno: 6 punti per round fino ad un totale di 15 di danno (tiro salvezza contro veleno)
 Peso: 2
-Fattore Velocit‡: 0
+Fattore Velocit≈ï: 0
 Tipo di Competenza: Spada piccola
 Tipo:  ad una mano
 Non Utilizzabile da:
  Chierico~
 @105    = ~Pugnale da Lancio +1~
-@106    = ~Questo Pugnale da Lancio È stato creato a seguito di una magica modifica fatta su un Pugnale +1. Il Pugnale ritorna nelle mani di colui che lo ha lanciato subito dopo che Ë stato effettuato un attacco.
+@106    = ~Questo Pugnale da Lancio √© stato creato a seguito di una magica modifica fatta su un Pugnale +1. Il Pugnale ritorna nelle mani di colui che lo ha lanciato subito dopo che ƒç stato effettuato un attacco.
 
 STATISTICHE:
   
@@ -313,32 +313,32 @@ THAC0: bonus +1 bonus
 Danno:  1D4 + 1
 Tipo di Danno: proiettile (da punta)
 Peso: 1
-Fattore Velocit‡: 1
+Fattore Velocit≈ï: 1
 Tipo di Competenza: Spada piccola
 Tipo:  ad una mano
 Non Utilizzabile da:
  Chierico~
-@107    = ~Anello della Libert‡ di Movimento +1~
-@108    = ~Anello della Libert‡ di Movimento +1
-Questo anello Ë stato modificato magicamente. Riunisce le abilit‡ dell'Anello di Protezione +1: 'Anello dei Principi' e l'Anello della Libert‡ di Movimento.
+@107    = ~Anello della Libert≈ï di Movimento +1~
+@108    = ~Anello della Libert≈ï di Movimento +1
+Questo anello ƒç stato modificato magicamente. Riunisce le abilit≈ï dell'Anello di Protezione +1: 'Anello dei Principi' e l'Anello della Libert≈ï di Movimento.
 
 STATISTICHE:
 
-Chi lo indossa È immune a qualsiasi effetto, di natura magica o no, che influenza il movimento. Inclusi gli incantesimi di velocit‡ e di rallentamento.
+Chi lo indossa √© immune a qualsiasi effetto, di natura magica o no, che influenza il movimento. Inclusi gli incantesimi di velocit≈ï e di rallentamento.
 
-Abilit‡ Incorporate:
+Abilit≈ï Incorporate:
  Classe Armatura: bonus +1
  Tiri Salvezza: bonus +1
 
 Non Utilizzabile da:~
-@109    = ~Anello della Libert‡ di Movimento +2~
-@110   = ~Anello della Libert‡ di Movimento +2 
+@109    = ~Anello della Libert≈ï di Movimento +2~
+@110   = ~Anello della Libert≈ï di Movimento +2 
 
-Questo anello Ë stato modificato magicamente. Riunisce le abilit‡ dell'Anello di Protezione +2: 'L'Anello della Guardia' e dell'Anello della Libert‡ di Movimento.
+Questo anello ƒç stato modificato magicamente. Riunisce le abilit≈ï dell'Anello di Protezione +2: 'L'Anello della Guardia' e dell'Anello della Libert≈ï di Movimento.
 
 STATISTICHE:
 
-Chi lo indossa È immune a qualsiasi effetto, di natura magica o no, che influenza il movimento. Inclusi gli incantesimi di velocit‡ e di rallentamento. 
+Chi lo indossa √© immune a qualsiasi effetto, di natura magica o no, che influenza il movimento. Inclusi gli incantesimi di velocit≈ï e di rallentamento. 
 
 Classe Armatura: bonus +2
 Tiri Salvezza: bonus +2
@@ -347,7 +347,7 @@ Non Utilizzabile da:~
 @111   = ~Guanti della Grande Maestria~
 @112   = ~Guanti della Grande Maestria
 
-Un paio di questi magici guanti di qualit‡ riuniscono le propriet‡ di diversi altri esemplari, perciÚ forniscono propriet‡ di attacco e di difesa, degni di ogni grande guerriero.
+Un paio di questi magici guanti di qualit≈ï riuniscono le propriet≈ï di diversi altri esemplari, perci≈à forniscono propriet≈ï di attacco e di difesa, degni di ogni grande guerriero.
 
 STATISTICHE:
 
@@ -358,16 +358,16 @@ Peso: 2
 Non Utilizzabile da:~
 @113   = ~Mantello anti-individuazione migliorato~
 @114   = ~Mantello anti-individuazione 'Sussurri del Silenzio' migliorato 
-Pare che sia stato creato per la famiglia dei pi˘ grandi ladri della malavita e che si fosse rivelato molto utile. Non si hanno notizie sui precedenti proprietari.  
+Pare che sia stato creato per la famiglia dei pi≈Ø grandi ladri della malavita e che si fosse rivelato molto utile. Non si hanno notizie sui precedenti proprietari.  
 Riunisce le caratteristiche magiche del Mantello anti-individuazione con quelle del Mantello di Protezione +1.
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
- Non individuabile da strumenti magici quali Individuazione dell'invisibilit‡ e Individuazione delle spie.
+Abilit≈ï Incorporata:
+ Non individuabile da strumenti magici quali Individuazione dell'invisibilit≈ï e Individuazione delle spie.
  
-Abilit‡ Speciali:
- Invisibilit‡ 2 volte al giorno
+Abilit≈ï Speciali:
+ Invisibilit≈ï 2 volte al giorno
 
 Classe Armatura: bonus +1
 Tiri Salvezza: bonus +1 
@@ -376,11 +376,11 @@ Non Utilizzabile da:~
 @115   = ~Abito del Mago 'Protezione Pratica'~
 @116   = ~Abito del mago 'Protezione Pratica'
    
-In questo abito da Mago sono concentrate utili propriet‡ di diversi semplici oggetti, donando a chi lo indossa una discreta protezione. 
+In questo abito da Mago sono concentrate utili propriet≈ï di diversi semplici oggetti, donando a chi lo indossa una discreta protezione. 
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
  +20% di bonus al fuoco, al freddo e alla resistenza elettrica
 
 Classe Armatura: bonus +2
@@ -391,11 +391,11 @@ Mago (singolo, duale e multiclasse)~
 @117   = ~Cintura del Valore~
 @118   = ~Cintura del Valore
   
-In questa eccellente cintura sono raggruppate utili propriet‡ di tre cinture: la Cinghia Dorata, la Cinghia di Schiettezza, e la Cinghia di Sfondamento. Oltre ad incrementare la forza di colui che la indossa lo aiuta anche a curare le sue ferite.
+In questa eccellente cintura sono raggruppate utili propriet≈ï di tre cinture: la Cinghia Dorata, la Cinghia di Schiettezza, e la Cinghia di Sfondamento. Oltre ad incrementare la forza di colui che la indossa lo aiuta anche a curare le sue ferite.
 
 STATISTICHE: 
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
  Forza: bonus +1 
  Colui che la indossa rigenera 1 punto ferita ogni 6 secondi.
 
@@ -405,18 +405,18 @@ Non Utilizzabile da:~
 @119   = ~Spada dell'Assassino~
 @120   = ~Spada dell'Assassino
   
-Questa spada Ë il risultato delle migliorie eseguite sulla Spada corta per pugnalare alle spalle: ' La Spada delle Ombre '. La spada aggiunge danni addizionali alla pugnalata alle spalle, ed inoltre ha la possibilit‡ di paralizzare la vittima.
+Questa spada ƒç il risultato delle migliorie eseguite sulla Spada corta per pugnalare alle spalle: ' La Spada delle Ombre '. La spada aggiunge danni addizionali alla pugnalata alle spalle, ed inoltre ha la possibilit≈ï di paralizzare la vittima.
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
- 15 % di possibilit‡ che ogni colpo paralizzi la vittima per 2 round (senza tiro salvezza)
+Abilit≈ï Incorporata:
+ 15 % di possibilit≈ï che ogni colpo paralizzi la vittima per 2 round (senza tiro salvezza)
  
 THACO: bonus +3
 Danno: 1D6 +3
 Tipo di Danno: da punta
 Peso: 3 
-Fattore Velocit‡: 0
+Fattore Velocit≈ï: 0
 Tipo di Competenza: Spada piccola
 Tipo: ad una mano
 Non Utilizzabile da:
@@ -426,20 +426,20 @@ Non Utilizzabile da:
 @121   = ~Arco della Tempesta di Neve~
 @122   = ~Arco della Tempesta di Neve 
   
-Questo È l'Arco Lungo di Precisione che Ë stato magicamente modificato. Quando la corda dell'arco Ë in tensione, scocca delle vigorose, ma invisibili frecce. Ad ogni colpo andato a buon fine la freccia aggiunge un ulteriore danno elettrico e da freddo.
+Questo √© l'Arco Lungo di Precisione che ƒç stato magicamente modificato. Quando la corda dell'arco ƒç in tensione, scocca delle vigorose, ma invisibili frecce. Ad ogni colpo andato a buon fine la freccia aggiunge un ulteriore danno elettrico e da freddo.
 
-Nota: evitare di equipaggiare il vostro personaggio con frecce normali, altrimenti l'arco lancer‡ quelle invece delle frecce fantasma.
+Nota: evitare di equipaggiare il vostro personaggio con frecce normali, altrimenti l'arco lancer≈ï quelle invece delle frecce fantasma.
 
 STATISTICHE:
 
-Abilit‡ di Combattimento:
+Abilit≈ï di Combattimento:
 Questo potente arco non richiede munizioni
  
 THACO: +3 bonus
 Danno: 1D6 + come danno aggiuntivo 1D2 di danno da freddo e 1D2 di danno elettrico 
 Tipo di Danno: da proiettile (da punta)
 Peso: 3 
-Fattore Velocit‡: 4
+Fattore Velocit≈ï: 4
 Tipo di Competenza: Archi
 Tipo:  a due mani
 Non Utilizzabile da:
@@ -450,11 +450,11 @@ Non Utilizzabile da:
 @123   = ~Stivali del Ladro 'Gambe Veloci'~
 @124   = ~Stivali del Ladro 'Gambe Veloci'
   
-Questi stivali non solo aiutano il ladro nel suo difficile mestiere, ma gli permettono anche di muoversi velocemente. Sfortunatamente, a causa delle loro specifiche propriet‡, solo i Ladri li possono utilizzare.
+Questi stivali non solo aiutano il ladro nel suo difficile mestiere, ma gli permettono anche di muoversi velocemente. Sfortunatamente, a causa delle loro specifiche propriet≈ï, solo i Ladri li possono utilizzare.
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
 
 Aumenta il movimento
 Nascondersi nelle Ombre: +35% di bonus
@@ -468,7 +468,7 @@ Utilizzabile da:
 @125   = ~Amuleto Scudo migliorato~
 @126   = ~Amuleto Scudo migliorato 
   
-E' l'Amuleto Scudo magicamente modificato. Protegge meglio colui che lo indossa, permettendogli di farne un uso pi˘ conveniente.
+E' l'Amuleto Scudo magicamente modificato. Protegge meglio colui che lo indossa, permettendogli di farne un uso pi≈Ø conveniente.
 
 STATISTICHE: 
 
@@ -480,11 +480,11 @@ Non Utilizzabile da:~
 @127   = ~Magnificenza di Helm~
 @128   = ~Magnificenza di Helm
    
-In questo Elmo sono state concentrate le utili propriet‡ dell'Elmo della Gloria e dell'Elmo della Difesa: 'Dono di Pace'. Donando inoltre a colui che lo indossa una discreta protezione.
+In questo Elmo sono state concentrate le utili propriet≈ï dell'Elmo della Gloria e dell'Elmo della Difesa: 'Dono di Pace'. Donando inoltre a colui che lo indossa una discreta protezione.
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
  +20% di bonus al fuoco, al freddo e alla resistenza elettrica
 Carisma: bonus +1 
 Classe Armatura: bonus +1 
@@ -512,29 +512,29 @@ Non Utilizzabile da:~
 
 @133    = ~Spada della Collera
   
-Questa spada Ë stata creata grazie ad una nota spada: la Spada a due mani della maledizione berserker +3 da cui È stato possibile rimuovere la maledizione, e donargli nuove propriet‡.
+Questa spada ƒç stata creata grazie ad una nota spada: la Spada a due mani della maledizione berserker +3 da cui √© stato possibile rimuovere la maledizione, e donargli nuove propriet≈ï.
 
 STATISTICHE:
 
-Abilit‡ Speciali:
+Abilit≈ï Speciali:
     Furia una volta al giorno
-    10 % di possibilit‡ che ogni colpo spaventi la vittima per 1 round
+    10 % di possibilit≈ï che ogni colpo spaventi la vittima per 1 round
     
 THACO: bonus +3
 Danno:  1D10 +3
 Tipo di Danno: da taglio
 Peso: 10
-Fattore Velocit‡: 7
+Fattore Velocit≈ï: 7
 Tipo di Competenza: Spada a due mani
 Tipo: a due mani
 Richiede: 14 alla Forza 
 ~
-@134    = ~Il Pugnale del Veleno Ë una potente arma da taglio molto apprezzata da tutti gli assassini dei Reami. Questo particolare pugnale Ë stato creato appositamente per i Ladri dell'Ombra di Amn. Ogni volta che colpisce un avversario, inietta un veleno nel flusso sanguigno della vittima. Il veleno ha un effetto rapido e infallibile.
-Questo pugnale È stato magicamente incantato ed ora Ë divenuta un'arma pi˘ potente.
+@134    = ~Il Pugnale del Veleno ƒç una potente arma da taglio molto apprezzata da tutti gli assassini dei Reami. Questo particolare pugnale ƒç stato creato appositamente per i Ladri dell'Ombra di Amn. Ogni volta che colpisce un avversario, inietta un veleno nel flusso sanguigno della vittima. Il veleno ha un effetto rapido e infallibile.
+Questo pugnale √© stato magicamente incantato ed ora ƒç divenuta un'arma pi≈Ø potente.
 
 STATISTICHE:
 
-Abilit‡ di Combattimento:
+Abilit≈ï di Combattimento:
   +1 attacco aggiuntivo per round
   Ogni colpo rallenta la vittima per 15 secondi (tiro salvezza contro morte)
   
@@ -543,12 +543,12 @@ Danno:  1D4 + 3
 Tipo di Danno: da punta
 Danno da Veleno: 6 punti per round fino ad un totale di 15 di danno (tiro salvezza contro veleno)
 Peso: 2
-Fattore Velocit‡: 0
+Fattore Velocit≈ï: 0
 Tipo di Competenza: Pugnale
 Tipo:  ad una mano
 Richiede: 3 alla Forza
 ~
-@135    = ~Questo Pugnale da Lancio È stato creato a seguito di una magica modifica fatta su un Pugnale +1. Il Pugnale ritorna nelle mani di colui che lo ha lanciato subito dopo che Ë stato effettuato un attacco.
+@135    = ~Questo Pugnale da Lancio √© stato creato a seguito di una magica modifica fatta su un Pugnale +1. Il Pugnale ritorna nelle mani di colui che lo ha lanciato subito dopo che ƒç stato effettuato un attacco.
 
 STATISTICHE:
   
@@ -556,36 +556,36 @@ THAC0: bonus +1 bonus
 Danno:  1D4 + 1
 Tipo di Danno: proiettile (da punta)
 Peso: 1
-Fattore Velocit‡: 1
+Fattore Velocit≈ï: 1
 Tipo di Competenza: Pugnale
 Tipo:  ad una mano
 Richiede: 3 alla Forza
 ~
-@136    = ~Anello della Libert‡ di Movimento +1
-Questo anello Ë stato modificato magicamente. Riunisce le abilit‡ dell'Anello di Protezione +1: 'Anello dei Principi' e l'Anello della Libert‡ di Movimento.
+@136    = ~Anello della Libert≈ï di Movimento +1
+Questo anello ƒç stato modificato magicamente. Riunisce le abilit≈ï dell'Anello di Protezione +1: 'Anello dei Principi' e l'Anello della Libert≈ï di Movimento.
 
 STATISTICHE:
 
-Chi lo indossa È immune a qualsiasi effetto, di natura magica o no, che influenza il movimento. Inclusi gli incantesimi di velocit‡ e di rallentamento.
+Chi lo indossa √© immune a qualsiasi effetto, di natura magica o no, che influenza il movimento. Inclusi gli incantesimi di velocit≈ï e di rallentamento.
 
-Abilit‡ Incorporate:
+Abilit≈ï Incorporate:
  Classe Armatura: bonus +1
  Tiri Salvezza: bonus +1
 ~
-@137   = ~Anello della Libert‡ di Movimento +2 
+@137   = ~Anello della Libert≈ï di Movimento +2 
 
-Questo anello Ë stato modificato magicamente. Riunisce le abilit‡ dell'Anello di Protezione +2: 'L'Anello della Guardia' e dell'Anello della Libert‡ di Movimento.
+Questo anello ƒç stato modificato magicamente. Riunisce le abilit≈ï dell'Anello di Protezione +2: 'L'Anello della Guardia' e dell'Anello della Libert≈ï di Movimento.
 
 STATISTICHE:
 
-Chi lo indossa È immune a qualsiasi effetto, di natura magica o no, che influenza il movimento. Inclusi gli incantesimi di velocit‡ e di rallentamento. 
+Chi lo indossa √© immune a qualsiasi effetto, di natura magica o no, che influenza il movimento. Inclusi gli incantesimi di velocit≈ï e di rallentamento. 
 
 Classe Armatura: bonus +2
 Tiri Salvezza: bonus +2
 ~
 @138   = ~Guanti della Grande Maestria
 
-Un paio di questi magici guanti di qualit‡ riuniscono le propriet‡ di diversi altri esemplari, perciÚ forniscono propriet‡ di attacco e di difesa, degni di ogni grande guerriero.
+Un paio di questi magici guanti di qualit≈ï riuniscono le propriet≈ï di diversi altri esemplari, perci≈à forniscono propriet≈ï di attacco e di difesa, degni di ogni grande guerriero.
 
 STATISTICHE:
 
@@ -595,16 +595,16 @@ STATISTICHE:
 Peso: 2
 ~
 @139   = ~Mantello anti-individuazione 'Sussurri del Silenzio' migliorato 
-Pare che sia stato creato per la famiglia dei pi˘ grandi ladri della malavita e che si fosse rivelato molto utile. Non si hanno notizie sui precedenti proprietari.  
+Pare che sia stato creato per la famiglia dei pi≈Ø grandi ladri della malavita e che si fosse rivelato molto utile. Non si hanno notizie sui precedenti proprietari.  
 Riunisce le caratteristiche magiche del Mantello anti-individuazione con quelle del Mantello di Protezione +1.
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
- Non individuabile da strumenti magici quali Individuazione dell'invisibilit‡ e Individuazione delle spie.
+Abilit≈ï Incorporata:
+ Non individuabile da strumenti magici quali Individuazione dell'invisibilit≈ï e Individuazione delle spie.
  
-Abilit‡ Speciali:
- Invisibilit‡ 2 volte al giorno
+Abilit≈ï Speciali:
+ Invisibilit≈ï 2 volte al giorno
 
 Classe Armatura: bonus +1
 Tiri Salvezza: bonus +1 
@@ -612,11 +612,11 @@ Peso:  3
 ~
 @140   = ~Abito del mago 'Protezione Pratica'
    
-In questo abito da Mago sono concentrate utili propriet‡ di diversi semplici oggetti, donando a chi lo indossa una discreta protezione. 
+In questo abito da Mago sono concentrate utili propriet≈ï di diversi semplici oggetti, donando a chi lo indossa una discreta protezione. 
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
  +20% di bonus al fuoco, al freddo e alla resistenza elettrica
 
 Classe Armatura: bonus +2
@@ -625,11 +625,11 @@ Peso:  6
 ~
 @141   = ~Cintura del Valore
   
-In questa eccellente cintura sono raggruppate utili propriet‡ di tre cinture: la Cinghia Dorata, la Cinghia di Schiettezza, e la Cinghia di Sfondamento. Oltre ad incrementare la forza di colui che la indossa lo aiuta anche a curare le sue ferite.
+In questa eccellente cintura sono raggruppate utili propriet≈ï di tre cinture: la Cinghia Dorata, la Cinghia di Schiettezza, e la Cinghia di Sfondamento. Oltre ad incrementare la forza di colui che la indossa lo aiuta anche a curare le sue ferite.
 
 STATISTICHE: 
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
  Forza: bonus +1 
  Colui che la indossa rigenera 1 punto ferita ogni 6 secondi.
 
@@ -638,50 +638,50 @@ Peso:  4
 ~
 @142   = ~Spada dell'Assassino
   
-Questa spada Ë il risultato delle migliorie eseguite sulla Spada corta per pugnalare alle spalle: ' La Spada delle Ombre '. La spada aggiunge danni addizionali alla pugnalata alle spalle, ed inoltre ha la possibilit‡ di paralizzare la vittima.
+Questa spada ƒç il risultato delle migliorie eseguite sulla Spada corta per pugnalare alle spalle: ' La Spada delle Ombre '. La spada aggiunge danni addizionali alla pugnalata alle spalle, ed inoltre ha la possibilit≈ï di paralizzare la vittima.
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
  +1 al moltiplicatore della pugnalata alle spalle
- 10 % di possibilit‡ che ogni colpo paralizzi la vittima per 2 round (senza tiro salvezza)
+ 10 % di possibilit≈ï che ogni colpo paralizzi la vittima per 2 round (senza tiro salvezza)
  
 THACO: bonus +3
 Danno: 1D6 +3
 Tipo di Danno: da punta
 Peso: 3 
-Fattore Velocit‡: 0
+Fattore Velocit≈ï: 0
 Tipo di Competenza: Spada corta
 Tipo: ad una mano
 Richiede: 5 alla Forza
 ~
 @143   = ~Arco della Tempesta di Neve 
   
-Questo È l'Arco Lungo di Precisione che Ë stato magicamente modificato. Quando la corda dell'arco Ë in tensione, scocca delle vigorose, ma invisibili frecce. Ad ogni colpo andato a buon fine la freccia aggiunge un ulteriore danno elettrico e da freddo.
+Questo √© l'Arco Lungo di Precisione che ƒç stato magicamente modificato. Quando la corda dell'arco ƒç in tensione, scocca delle vigorose, ma invisibili frecce. Ad ogni colpo andato a buon fine la freccia aggiunge un ulteriore danno elettrico e da freddo.
 
-Nota: evitare di equipaggiare il vostro personaggio con frecce normali, altrimenti l'arco lancer‡ quelle invece delle frecce fantasma.
+Nota: evitare di equipaggiare il vostro personaggio con frecce normali, altrimenti l'arco lancer≈ï quelle invece delle frecce fantasma.
 
 STATISTICHE:
 
-Abilit‡ di Combattimento:
+Abilit≈ï di Combattimento:
 Questo potente arco non richiede munizioni
  
 THACO: +3 bonus
 Danno: 1D6 + come danno aggiuntivo 1D2 di danno da freddo e 1D2 di danno elettrico 
 Tipo di Danno: da proiettile (da punta)
 Peso: 3 
-Fattore Velocit‡: 4
+Fattore Velocit≈ï: 4
 Tipo di Competenza: Arco Lungo
 Tipo:  a due mani
 Richiede: 6 alla Forza
 ~
 @144   = ~Stivali del Ladro 'Gambe Veloci'
   
-Questi stivali non solo aiutano il ladro nel suo difficile mestiere, ma gli permettono anche di muoversi velocemente. Sfortunatamente, a causa delle loro specifiche propriet‡, solo i Ladri li possono utilizzare.
+Questi stivali non solo aiutano il ladro nel suo difficile mestiere, ma gli permettono anche di muoversi velocemente. Sfortunatamente, a causa delle loro specifiche propriet≈ï, solo i Ladri li possono utilizzare.
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
 
 Aumenta il movimento
 Muoversi Silenziosamente: +20% di bonus
@@ -694,7 +694,7 @@ Peso: 4
 ~
 @145   = ~Amuleto Scudo migliorato 
   
-E' l'Amuleto Scudo magicamente modificato. Protegge meglio colui che lo indossa, permettendogli di farne un uso pi˘ conveniente.
+E' l'Amuleto Scudo magicamente modificato. Protegge meglio colui che lo indossa, permettendogli di farne un uso pi≈Ø conveniente.
 
 STATISTICHE: 
 
@@ -705,11 +705,11 @@ Peso:  1
 ~
 @146   = ~Magnificenza di Helm
    
-In questo Elmo sono state concentrate le utili propriet‡ dell'Elmo della Gloria e dell'Elmo della Difesa: 'Dono di Pace'. Donando inoltre a colui che lo indossa una discreta protezione.
+In questo Elmo sono state concentrate le utili propriet≈ï dell'Elmo della Gloria e dell'Elmo della Difesa: 'Dono di Pace'. Donando inoltre a colui che lo indossa una discreta protezione.
 
 STATISTICHE:
 
-Abilit‡ Incorporata:
+Abilit≈ï Incorporata:
  +20% di bonus al fuoco, al freddo e alla resistenza elettrica
 Carisma: bonus +1 
 Classe Armatura: bonus +1 

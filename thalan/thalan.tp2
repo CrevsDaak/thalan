@@ -1,111 +1,106 @@
-/*************************************************************************
- * Thalantyr Item Upgrade Mod
- **************************************************************************/
-BACKUP ~thalan/backup~  
-AUTHOR "crevs.daak@gmail.com" /* ~serdrick@yandex.ru~ I think it would be
-				wise to put my email if I'm keeper of the mod */
+BACKUP ~weidu_external/backup/thalan~
+SUPPORT "crevs.daak@gmail.com" //AUTHOR ~serdrick@yandex.ru~ I think it would be wise to put my email if I'm keeper of the mod
 VERSION ~v4.3~
-README "thalan/readme_%LANGUAGE%.txt" "thalan/readme.txt"
+README "%MOD_FOLDER%/docs/readme.txt" "%MOD_FOLDER%/docs/readme_%LANGUAGE%.txt"
 
 ALWAYS
   ACTION_IF GAME_IS "tutu tutu_totsc" BEGIN
     PRINT @90010
-    INCLUDE ~thalan/lib/g3_tutu_cpmvars.tpa~
+    INCLUDE ~%MOD_FOLDER%/lib/g3_tutu_cpmvars.tpa~
   END ELSE
   ACTION_IF GAME_IS bgt BEGIN
     PRINT @90011
-    INCLUDE ~thalan/lib/g3_bgt_cpmvars.tpa~
+    INCLUDE ~%MOD_FOLDER%/lib/g3_bgt_cpmvars.tpa~
   END ELSE
   ACTION_IF GAME_IS totsc BEGIN
     PRINT @90012
-    INCLUDE ~thalan/lib/g3_bg_cpmvars.tpa~
+    INCLUDE ~%MOD_FOLDER%/lib/g3_bg_cpmvars.tpa~
   END ELSE
   ACTION_IF GAME_IS bgee BEGIN
     PRINT @90014
-    INCLUDE ~thalan/lib/g3_bgee_cpmvars.tpa~
+    INCLUDE ~%MOD_FOLDER%/lib/g3_bgee_cpmvars.tpa~
   END ELSE
   ACTION_IF GAME_IS eet BEGIN
     PRINT @90015
-    INCLUDE ~thalan/lib/eet_cpmvars.tpa~
+    INCLUDE ~%MOD_FOLDER%/lib/eet_cpmvars.tpa~
   END
-  
-  ACTION_IF "%LANGUAGE%" STR_CMP "english" BEGIN
-    ACTION_DEFINE_ARRAY conv BEGIN
-      game
-     thalan
-    END
 
-    LAF HANDLE_CHARSETS
-      INT_VAR
-        infer_charsets = 1
-      STR_VAR
-        tra_path = "thalan/tra"
-        convert_array = conv
-    END
+  INCLUDE "%MOD_FOLDER%/lib/charset_wrapper.tph"
+  LAF charset_wrapper
+    INT_VAR
+      from_utf8=1
+    STR_VAR
+      load="game thalan"
+    RET
+      out_path
   END
+
+  //Additional processing for classic Polish edition of BG TotSC that require custom encoding
   ACTION_IF "%LANGUAGE%" STR_EQ "polish" && GAME_IS totsc BEGIN
-    COPY "thalan/tra/polish/thalan.tra" "thalan/tra/polish"
-         "thalan/tra/polish/game.tra" "thalan/tra/polish"
-      PATCH_INCLUDE "thalan/lib/BG1polish_fonts.tpa"
-    BUT_ONLY
+    PRINT ~Classic Polish edition of BG TotSC detected: additional processing required...~
+    //main conversion code
+    INCLUDE ~%MOD_FOLDER%/lib/BG1TotSCPolishCustomEncoding.tpa~
   END
-
-  LOAD_TRA "thalan/tra/%LANGUAGE%/game.tra"
 END
+
+AUTO_TRA "%out_path%/%s"
 
 LANGUAGE ~English~
          ~english~
          ~thalan/tra/english/setup.tra~
-         
-LANGUAGE ~Russian~ 
+
+LANGUAGE ~Russian~
          ~russian~
-         ~thalan/tra/russian/setup-%WEIDU_OS%.tra~
-         
+         ~thalan/tra/russian/setup.tra~
+
 LANGUAGE ~Francais (Traduit par Deratiseur)~
-         ~french~ 
+         ~french~
+         ~thalan/tra/french/prompts.tra~
          ~thalan/tra/french/setup.tra~
-         
+
 LANGUAGE ~Deutsch (Uebersetzung von Leonardo Watson)~
          ~german~
          ~thalan/tra/german/setup.tra~
 
 LANGUAGE ~Espanol (traducido por Jondalar)~
-         ~castellano~
-         ~thalan/tra/castellano/setup.tra~
- 
+         ~spanish~
+         ~thalan/tra/spanish/setup.tra~
+
 LANGUAGE ~Italiano (by Ilot)~
          ~italian~
          ~thalan/tra/italian/setup.tra~
 
-LANGUAGE ~Polski (tlumaczenie: morgan)~
+LANGUAGE ~Polski (tłumaczenie: morgan)~
          ~polish~
          ~thalan/tra/polish/setup.tra~
 
+
 BEGIN @0
+DESIGNATED 0 LABEL "ThalantyrItemUpgrade-Main"
 REQUIRE_PREDICATE (GAME_IS "bgee eet tutu tutu_totsc totsc bgt" || (GAME_IS bg2ee && FILE_EXISTS_IN_GAME oh3020.are)) @90013
 
 //Storage bags - not implemented for BG:TotSC
 ACTION_IF !GAME_IS totsc BEGIN
-  COPY ~thalan/Itm/thbag01.itm~ ~override/thbag01.itm~
+  COPY ~%MOD_FOLDER%/itm/thbag01.itm~ ~override/thbag01.itm~
     PATCH_IF GAME_IS bgee BEGIN SAY 0x8 #25503 SAY 0xC #25503 SAY 0x50 #25504 SAY 0x54 #25504 END
-  COPY ~thalan/Itm/thbag02.itm~ ~override/thbag02.itm~
+  COPY ~%MOD_FOLDER%/itm/thbag02.itm~ ~override/thbag02.itm~
     PATCH_IF GAME_IS bgee BEGIN SAY 0x8 #25505 SAY 0xC #25505 SAY 0x50 #25507 SAY 0x54 #25507 END
-  COPY ~thalan/Itm/thbag03.itm~ ~override/thbag03.itm~
+  COPY ~%MOD_FOLDER%/itm/thbag03.itm~ ~override/thbag03.itm~
     PATCH_IF GAME_IS bgee BEGIN SAY 0x8 #25508 SAY 0xC #25508 SAY 0x50 #25510 SAY 0x54 #25510 END
-  COPY ~thalan/Itm/thbag04.itm~ ~override/thbag04.itm~
+  COPY ~%MOD_FOLDER%/itm/thbag04.itm~ ~override/thbag04.itm~
     PATCH_IF GAME_IS bgee BEGIN SAY 0x8 #31234 SAY 0xC #31234 SAY 0x50 #31235 SAY 0x54 #31235 END
-  COPY ~thalan/Itm/thbag05.itm~ ~override/thbag05.itm~
+  COPY ~%MOD_FOLDER%/itm/thbag05.itm~ ~override/thbag05.itm~
     PATCH_IF GAME_IS bgee BEGIN SAY 0x8 #31236 SAY 0xC #31236 SAY 0x50 #31237 SAY 0x54 #31237 END
 
-  COPY ~thalan/Sto/thbag01.sto~ ~override/thbag01.sto~
+  COPY ~%MOD_FOLDER%/Sto/thbag01.sto~ ~override/thbag01.sto~
     PATCH_IF GAME_IS bgee BEGIN SAY 0xC #25503 END
-  COPY ~thalan/Sto/thbag02.sto~ ~override/thbag02.sto~
+  COPY ~%MOD_FOLDER%/Sto/thbag02.sto~ ~override/thbag02.sto~
     PATCH_IF GAME_IS bgee BEGIN SAY 0xC #25505 END
-  COPY ~thalan/Sto/thbag03.sto~ ~override/thbag03.sto~
+  COPY ~%MOD_FOLDER%/Sto/thbag03.sto~ ~override/thbag03.sto~
     PATCH_IF GAME_IS bgee BEGIN SAY 0xC #25508 END
-  COPY ~thalan/Sto/thbag04.sto~ ~override/thbag04.sto~
+  COPY ~%MOD_FOLDER%/Sto/thbag04.sto~ ~override/thbag04.sto~
     PATCH_IF GAME_IS bgee BEGIN SAY 0xC #31234 END
-  COPY ~thalan/Sto/thbag05.sto~ ~override/thbag05.sto~
+  COPY ~%MOD_FOLDER%/Sto/thbag05.sto~ ~override/thbag05.sto~
     PATCH_IF GAME_IS bgee BEGIN SAY 0xC #31236 END
 END
 
@@ -124,134 +119,134 @@ BUT_ONLY
 ACTION_IF !GAME_IS totsc BEGIN
 
   //Items
-  COPY ~thalan/Itm/thsw2h01.itm~ ~override/thsw2h01.itm~
+  COPY ~%MOD_FOLDER%/itm/thsw2h01.itm~ ~override/thsw2h01.itm~
     SAY NAME2 @1
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @2
     END ELSE BEGIN
       SAY DESC @133
     END
-  COPY ~thalan/Itm/thdagg01.itm~ ~override/thdagg01.itm~
+  COPY ~%MOD_FOLDER%/itm/thdagg01.itm~ ~override/thdagg01.itm~
     SAY NAME2 @3
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @4
     END ELSE BEGIN
       SAY DESC @134
     END
-  COPY ~thalan/Itm/thdagg02.itm~ ~override/thdagg02.itm~
+  COPY ~%MOD_FOLDER%/itm/thdagg02.itm~ ~override/thdagg02.itm~
     SAY NAME2 @5
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @6
     END ELSE BEGIN
       SAY DESC @135
     END
-  COPY ~thalan/Itm/thring01.itm~ ~override/thring01.itm~
+  COPY ~%MOD_FOLDER%/itm/thring01.itm~ ~override/thring01.itm~
     SAY NAME2 @7
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @8
     END ELSE BEGIN
       SAY DESC @136
     END
-  COPY ~thalan/Itm/thring02.itm~ ~override/thring02.itm~
+  COPY ~%MOD_FOLDER%/itm/thring02.itm~ ~override/thring02.itm~
     SAY NAME2 @9
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @10
     END ELSE BEGIN
       SAY DESC @137
     END
-  COPY ~thalan/Itm/thbrac01.itm~ ~override/thbrac01.itm~
+  COPY ~%MOD_FOLDER%/itm/thbrac01.itm~ ~override/thbrac01.itm~
     SAY NAME2 @11
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @12
     END ELSE BEGIN
       SAY DESC @138
     END
-  COPY ~thalan/Itm/thclck01.itm~ ~override/thclck01.itm~
+  COPY ~%MOD_FOLDER%/itm/thclck01.itm~ ~override/thclck01.itm~
     SAY NAME2 @13
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @14
     END ELSE BEGIN
       SAY DESC @139
     END
-  COPY ~thalan/Itm/thclck02.itm~ ~override/thclck02.itm~
+  COPY ~%MOD_FOLDER%/itm/thclck02.itm~ ~override/thclck02.itm~
     SAY NAME2 @15
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @16
     END ELSE BEGIN
       SAY DESC @140
     END
-  COPY ~thalan/Itm/thbelt01.itm~ ~override/thbelt01.itm~
+  COPY ~%MOD_FOLDER%/itm/thbelt01.itm~ ~override/thbelt01.itm~
     SAY NAME2 @17
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @18
     END ELSE BEGIN
       SAY DESC @141
     END
-  COPY ~thalan/Itm/thsw1h01.itm~ ~override/thsw1h01.itm~
+  COPY ~%MOD_FOLDER%/itm/thsw1h01.itm~ ~override/thsw1h01.itm~
     SAY NAME2 @19
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @20
     END ELSE BEGIN
       SAY DESC @142
     END
-  COPY ~thalan/Itm/thbow01.itm~ ~override/thbow01.itm~
+  COPY ~%MOD_FOLDER%/itm/thbow01.itm~ ~override/thbow01.itm~
     SAY NAME2 @21
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @22
     END ELSE BEGIN
       SAY DESC @143
     END
-  COPY ~thalan/Itm/thboot01.itm~ ~override/thboot01.itm~
+  COPY ~%MOD_FOLDER%/itm/thboot01.itm~ ~override/thboot01.itm~
     SAY NAME2 @23
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @24
     END ELSE BEGIN
       SAY DESC @144
     END
-  COPY ~thalan/Itm/thamul01.itm~ ~override/thamul01.itm~
+  COPY ~%MOD_FOLDER%/itm/thamul01.itm~ ~override/thamul01.itm~
     SAY NAME2 @25
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @26
     END ELSE BEGIN
       SAY DESC @145
     END
-  COPY ~thalan/Itm/thhelm01.itm~ ~override/thhelm01.itm~
+  COPY ~%MOD_FOLDER%/itm/thhelm01.itm~ ~override/thhelm01.itm~
     SAY NAME2 @27
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @28
     END ELSE BEGIN
       SAY DESC @146
     END
-  COPY ~thalan/Itm/thclck03.itm~ ~override/thclck03.itm~
+  COPY ~%MOD_FOLDER%/itm/thclck03.itm~ ~override/thclck03.itm~
     SAY NAME2 @29
     PATCH_IF !GAME_IS "eet bgee" BEGIN
       SAY DESC  @30
     END ELSE BEGIN
       SAY DESC @147
     END
-    
-  ACTION_IF GAME_IS ~eet bgee~ BEGIN
-    APPEND_OUTER ~thalan/dlg/thalan.d~ ~~~~~EXTEND_TOP %tutu_var%THALAN 1 #1 IF ~Global("RumorTalkThalan","GLOBAL",1)~ THEN REPLY @8 GOTO s#tal02 END~~~~~
-  END
-  
+
   //Dialogue
-  COMPILE EVAL ~thalan/dlg/thalan.d~ USING "thalan/tra/%LANGUAGE%/thalan.tra"
+  COPY ~%MOD_FOLDER%/dlg/thalan.d~ ~weidu_external/workspace/%MOD_FOLDER%/thalan.d~
+  ACTION_IF GAME_IS ~eet bgee~ BEGIN
+    APPEND_OUTER ~weidu_external/workspace/%MOD_FOLDER%/thalan.d~ ~~~~~EXTEND_TOP %tutu_var%THALAN 1 #1 IF ~Global("RumorTalkThalan","GLOBAL",1)~ THEN REPLY @8 GOTO s#tal02 END~~~~~
+  END
+  COMPILE EVAL ~weidu_external/workspace/%MOD_FOLDER%/thalan.d~
 END
 ELSE BEGIN //BG:TotSC
 
-  // Additional IDS entries for scripts and dialog compiling
+  //Additional IDS entries for scripts and dialog compiling
   APPEND ~action.ids~ ~160 ApplySpellRES(S:ResRef*,O:Target*)~       UNLESS ~ApplySpellRES~
   APPEND ~action.ids~ ~181 ReallyForceSpellRES(S:ResRef*,O:Target*)~ UNLESS ~ReallyForceSpellRES~
   APPEND ~action.ids~ ~204 TakePartyItemNum(S:ResRef*,I:Num*)~       UNLESS ~TakePartyItemNum~
 
-  APPEND ~trigger.ids~ ~0x407A NumItemsParty(S:ResRef*,I:Num*)~        UNLESS ~NumItemsParty~
-  APPEND ~trigger.ids~ ~0x407B NumItemsPartyGT(S:ResRef*,I:Num*)~      UNLESS ~NumItemsPartyGT~
-  APPEND ~trigger.ids~ ~0x407C NumItemsPartyLT(S:ResRef*,I:Num*)~      UNLESS ~NumItemsPartyLT~
+  APPEND ~trigger.ids~ ~0x407A NumItemsParty(S:ResRef*,I:Num*)~      UNLESS ~NumItemsParty~
+  APPEND ~trigger.ids~ ~0x407B NumItemsPartyGT(S:ResRef*,I:Num*)~    UNLESS ~NumItemsPartyGT~
+  APPEND ~trigger.ids~ ~0x407C NumItemsPartyLT(S:ResRef*,I:Num*)~    UNLESS ~NumItemsPartyLT~
 
-  // Rest-check system in BG1 for "one per day" item's features
-  ACTION_IF (FILE_CONTAINS_EVALUATED (~dplayer3.BCS~ ~"Z!FATIG1"~))
+  //Rest-check system in BG1 for "one per day" item's features
+  ACTION_IF (FILE_CONTAINS_EVALUATED (~dplayer3.bcs~ ~"Z!FATIG1"~))
     THEN BEGIN
-      COPY_EXISTING ~dplayer3.BCS~ ~override~
+      COPY_EXISTING ~dplayer3.bcs~ ~override~
         DECOMPILE_AND_PATCH BEGIN
         REPLACE_TEXTUALLY ~ApplySpellRES("Z!FATIG1",Player1)~
                           ~ApplySpellRES("Z!FATIG1",Player1)
@@ -260,92 +255,92 @@ ELSE BEGIN //BG:TotSC
         END
     END
     ELSE BEGIN
-      EXTEND_TOP ~dplayer3.BCS~ ~thalan/Itm_bg1/Z!PartyRested_add.BAF~
-      COPY ~thalan/Itm_bg1/Z!FATIG1.SPL~ ~override~
+      EXTEND_TOP ~dplayer3.bcs~ ~%MOD_FOLDER%/itm_bg1/z!partyrested_add.baf~
+      COPY ~%MOD_FOLDER%/itm_bg1/z!fatig1.spl~ ~override~
     END
-    
+
   //Items
-  COPY ~thalan/Itm_bg1/thsw2h01.itm~ ~override/thsw2h01.itm~
+  COPY ~%MOD_FOLDER%/itm_bg1/thsw2h01.itm~ ~override/thsw2h01.itm~
     SAY NAME2     @101
     SAY DESC      @102
-  COPY ~thalan/Itm_bg1/STATES.BAM~ ~override~
-  COPY ~thalan/Itm_bg1/STATES2.BAM~ ~override~
-  COPY ~thalan/Itm_bg1/SPCL321.SPL~ ~override~
+  COPY ~%MOD_FOLDER%/itm_bg1/states.bam~ ~override~
+  COPY ~%MOD_FOLDER%/itm_bg1/states2.bam~ ~override~
+  COPY ~%MOD_FOLDER%/itm_bg1/spcl321.spl~ ~override~
     SAY NAME1     @131
-  COPY ~thalan/Itm_bg1/SPCL321D.SPL~ ~override~
+  COPY ~%MOD_FOLDER%/itm_bg1/spcl321d.spl~ ~override~
   APPEND ~STATDESC.2DA~ ~141     99999~ UNLESS ~141     ~
   COPY_EXISTING ~STATDESC.2DA~ ~override~
     REPLACE ~99999~ @131
   APPEND ~TOOLTIP.2DA~ ~thsw2h01        -1          99999          -1~ UNLESS ~thsw2h01~
   COPY_EXISTING ~TOOLTIP.2DA~ ~override~
     REPLACE ~99999~ @131
-  EXTEND_BOTTOM ~dplayer3.BCS~ ~thalan/Itm_bg1/dplayer3_thsw2h01AD.BAF~
-  COPY ~thalan/Itm_bg1/inv_cre.CRE~ ~override/thsw2h01.CRE~
+  EXTEND_BOTTOM ~dplayer3.bcs~ ~%MOD_FOLDER%/itm_bg1/dplayer3_thsw2h01ad.baf~
+  COPY ~%MOD_FOLDER%/itm_bg1/inv_cre.cre~ ~override/thsw2h01.cre~
     WRITE_ASCII SCRIPT_OVERRIDE ~thsw2h01~
-  COMPILE ~thalan/Itm_bg1/thsw2h01.BAF~
+  COMPILE ~%MOD_FOLDER%/itm_bg1/thsw2h01.baf~
 
-  COPY ~thalan/Itm/thdagg01.itm~ ~override/thdagg01.itm~
+  COPY ~%MOD_FOLDER%/itm/thdagg01.itm~ ~override/thdagg01.itm~
     SAY NAME2     @103
     SAY DESC      @104
-  COPY ~thalan/Itm_bg1/IDAGG24.BAM~ ~override~
- 
-  COPY ~thalan/Itm_bg1/thdagg02.itm~ ~override/thdagg02.itm~
+  COPY ~%MOD_FOLDER%/itm_bg1/idagg24.bam~ ~override~
+
+  COPY ~%MOD_FOLDER%/itm_bg1/thdagg02.itm~ ~override/thdagg02.itm~
     SAY NAME2     @105
     SAY DESC      @106
-  COPY ~thalan/Itm_bg1/IDAGG17.BAM~ ~override~
+  COPY ~%MOD_FOLDER%/itm_bg1/idagg17.bam~ ~override~
 
-  COPY ~thalan/Itm_bg1/thring01.itm~ ~override/thring01.itm~
+  COPY ~%MOD_FOLDER%/itm_bg1/thring01.itm~ ~override/thring01.itm~
     SAY NAME2     @107
     SAY DESC      @108
-  COPY ~thalan/Itm_bg1/Iring09Y.BAM~ ~override~
+  COPY ~%MOD_FOLDER%/itm_bg1/iring09y.bam~ ~override~
 
-  COPY ~thalan/Itm_bg1/thring02.itm~ ~override/thring02.itm~
+  COPY ~%MOD_FOLDER%/itm_bg1/thring02.itm~ ~override/thring02.itm~
     SAY NAME2     @109
     SAY DESC      @110
-  COPY ~thalan/Itm_bg1/Iring09G.BAM~ ~override~
+  COPY ~%MOD_FOLDER%/itm_bg1/iring09g.bam~ ~override~
 
-  COPY ~thalan/Itm/thbrac01.itm~ ~override/thbrac01.itm~
+  COPY ~%MOD_FOLDER%/itm/thbrac01.itm~ ~override/thbrac01.itm~
     SAY NAME2     @111
     SAY DESC      @112
 
-  COPY ~thalan/Itm_bg1/thclck01.itm~ ~override/thclck01.itm~
+  COPY ~%MOD_FOLDER%/itm_bg1/thclck01.itm~ ~override/thclck01.itm~
     SAY NAME2     @113
     SAY DESC      @114
   APPEND ~TOOLTIP.2DA~ ~thclck01          12017        -1          -1~ UNLESS ~thclck01~
-  EXTEND_BOTTOM ~dplayer3.BCS~ ~thalan/Itm_bg1/dplayer3_thclck01AD.BAF~
-  COPY ~thalan/Itm_bg1/inv_cre.CRE~ ~override/thclck01.CRE~
+  EXTEND_BOTTOM ~dplayer3.bcs~ ~%MOD_FOLDER%/itm_bg1/dplayer3_thclck01ad.baf~
+  COPY ~%MOD_FOLDER%/itm_bg1/inv_cre.cre~ ~override/thclck01.cre~
     WRITE_ASCII SCRIPT_OVERRIDE ~thclck01~
-  COMPILE ~thalan/Itm_bg1/thclck01.BAF~
+  COMPILE ~%MOD_FOLDER%/itm_bg1/thclck01.baf~
 
-  COPY ~thalan/Itm/thclck02.itm~ ~override/thclck02.itm~
+  COPY ~%MOD_FOLDER%/itm/thclck02.itm~ ~override/thclck02.itm~
     SAY NAME2     @115
     SAY DESC      @116
 
-  COPY ~thalan/Itm/thbelt01.itm~ ~override/thbelt01.itm~
+  COPY ~%MOD_FOLDER%/itm/thbelt01.itm~ ~override/thbelt01.itm~
     SAY NAME2     @117
     SAY DESC      @118
 
-  COPY ~thalan/Itm_bg1/thsw1h01.itm~ ~override/thsw1h01.itm~
+  COPY ~%MOD_FOLDER%/itm_bg1/thsw1h01.itm~ ~override/thsw1h01.itm~
     SAY NAME2     @119
     SAY DESC      @120
 
-  COPY ~thalan/Itm/thbow01.itm~ ~override/thbow01.itm~
+  COPY ~%MOD_FOLDER%/itm/thbow01.itm~ ~override/thbow01.itm~
     SAY NAME2     @121
     SAY DESC      @122
 
-  COPY ~thalan/Itm_bg1/thboot01.itm~ ~override/thboot01.itm~
+  COPY ~%MOD_FOLDER%/itm_bg1/thboot01.itm~ ~override/thboot01.itm~
     SAY NAME2     @123
     SAY DESC      @124
 
-  COPY ~thalan/Itm/thamul01.itm~ ~override/thamul01.itm~
+  COPY ~%MOD_FOLDER%/itm/thamul01.itm~ ~override/thamul01.itm~
     SAY NAME2     @125
     SAY DESC      @126
 
-  COPY ~thalan/Itm_bg1/thhelm01.itm~ ~override/thhelm01.itm~
+  COPY ~%MOD_FOLDER%/itm_bg1/thhelm01.itm~ ~override/thhelm01.itm~
     SAY NAME2     @127
     SAY DESC      @128
 
-  COPY ~thalan/Itm/thclck03.itm~ ~override/thclck03.itm~
+  COPY ~%MOD_FOLDER%/itm/thclck03.itm~ ~override/thclck03.itm~
     SAY NAME2     @129
     SAY DESC      @130
 
@@ -354,12 +349,11 @@ ELSE BEGIN //BG:TotSC
   APPEND ~ITEMEXCL.2DA~ ~thring01  1~ IF ~RING~ UNLESS ~thring01~
   APPEND ~ITEMEXCL.2DA~ ~thring02  1~ IF ~RING~ UNLESS ~thring02~
 
+  COMPILE ~%MOD_FOLDER%/dlg_bg1/thalan.d~
 
-  COMPILE ~thalan/dlg_bg1/thalan.d~ USING "thalan/tra/%LANGUAGE%/thalan.tra"
-
-  COPY ~thalan/Itm_bg1/inv_cre.CRE~ ~override/z!visual.CRE~
+  COPY ~%MOD_FOLDER%/itm_bg1/inv_cre.cre~ ~override/z!visual.cre~
     WRITE_ASCII SCRIPT_OVERRIDE ~z!visual~
     SAY NAME1 #-1
     SAY NAME2 #-1
-  COMPILE ~thalan/Itm_bg1/z!visual.BAF~
+  COMPILE ~%MOD_FOLDER%/itm_bg1/z!visual.baf~
 END

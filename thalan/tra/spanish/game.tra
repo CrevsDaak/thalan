@@ -1,0 +1,729 @@
+@1    = ~Espada de Rabia~
+@2    = ~Espada de Rabia
+
+Esta espada está hecha de la celebre Espada Maldición de locura +3. Se pudo eliminar la maldición de ella y darle nuevas propiedades.
+
+CARACTERÍSTICAS:
+
+Habilidades especiales:
+    Furia una vez por dia
+    10 % de posibilidades de asustar al objetivo durante un turno con cada golpe
+    
+THACO:  bonificación de +3
+Dańo:  1D10 +3
+Tipo de dańo: cortante
+Peso: 10
+Factor de velocidad: 7
+Talento marcial: Espada de dos manos
+Tipo:  A dos manos
+Requisitos: Fuerza 14 
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+@3    = ~Daga emponzońada +3~
+@4    = ~La daga emponzońada es una potente hoja muy apreciada por todos los asesinos de los Reinos. Esta daga emponzońada en concreto fue creada para ser usada por los Ladrones de las Sombras de Amn. Dad vez que alcanza a un adversario instila un veneno enel flujo sanguóneo de la criatura que actúa rápida y eficazmente.
+Esta daga ha sido modificada mágicamente y ahora es todavía más poderosa.
+
+CARACTERÍSTICAS:
+
+Habilidades de combate:
+  Un ataque adicional por turno
+  Cada golpe ralentiza a la victima 15 segundos (Tirada de salvación contra muerte)
+  
+THAC0: Bonificación +3
+Dańo:  1D4 + 3
+Tipo de dańo: perforante
+Dańo por veneno:  6 puntos por asalto hasta un total de 15 (tirada de salvación contra veneno)
+Peso: 2
+Factor de velocidad: 0
+Talento marcial: Daga
+Tipo:  A una mano
+Requisitos: Fuerza 3
+No permitido a:
+ Clérigo~
+@5    = ~Daga arrojadiza +1~
+@6    = ~Esta daga arrojadiza se ha hecho de una daga +1 modificada magicamente. La daga retorna a las manos del lanzador instantaneamente después de cada ataque.
+
+CARACTERÍSTICAS:
+  
+THAC0: Bonificación +1
+Dańo:  1D4 + 1
+Tipo de dańo: proyectil (perforante)
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Daga
+Tipo:  A una mano
+Requisitos: Fuerza 3
+No permitido a:
+ Clérigo~
+@7    = ~Anillo de Acción Libre +1~
+@8    = ~Anillo de Acción Libre +1
+
+Este anillo fue modificado mágicamente. Auna las habilidades del Anillo de Protección +1: 'El Anillo de la Princesa' y del Anillo de Acción Libre.
+
+CARACTERÍSTICAS:
+
+El portador es inmune a cualquier cosa, mágica o no, que afecte al movimiento de cualquier manera. Esto incluye los conjuros de Celeridad y Ralentizar.
+
+Equipped Abilities:
+ Clase de armadura: Bonificación +1
+ Tiradas de salvación: Bonificación +1
+
+No permitido a:~
+@9    = ~Anillo de Acción Libre +2~
+@10   = ~Anillo de Acción Libre +2 
+
+Este anillo fue modificado mágicamente. Auna las habilidades del Anillo de Protección +1: 'El Anillo del Guardian' y del Anillo de Acción Libre.
+
+CARACTERÍSTICAS:
+
+El portador es inmune a cualquier cosa, mágica o no, que afecte al movimiento de cualquier manera. Esto incluye los conjuros de Celeridad y Ralentizar.
+
+Clase de armadura: Bonificación +2
+Tiradas de salvación: Bonificación +2
+
+No permitido a:~
+@11   = ~Guanteletes de Gran Maestría~
+@12   = ~Guanteletes de Gran Maestría
+
+Un par de estos magníficos guanteletes incorporaron mágicamente las propiedades de varios objetos más simples, por lo tanto proporcionan habilidades defensivas y ofensivas, dignos de cualquier gran guerrero.
+
+CARACTERÍSTICAS:
+
+ THACO: Bonificación +2
+ Dańo: Bonificación +2
+ Clase de armadura: Bonificación +1
+Peso: 2
+No permitido a:
+ Kensai
+ Asesino de Magos~
+@13   = ~Manto de no detección mejorado~
+@14   = ~Manto de no detección mejorado: 'Susurros del Silencio'  
+Este manto fue confeccionado para una estirpe de los ladrones más astutos que jamás pisaron la noche y, aparentemente, fue un éxito. Nada se sabe de sus anteriores dueńos.  
+Se ha unido mágicamente con el Manto de Protección +1.
+
+CARACTERÍSTICAS:
+
+Habilidades equipado:
+ No se puede detectar por medios mágicos como detectar invisibilidad y divisar.
+ 
+Habilidades especiales:
+ Invisibilidad dos veces por dia
+
+Clase de armadura: Bonificación +1
+Tiradas de salvación: Bonificación +1 
+Peso:  3
+No permitido a:
+ Asesino de Magos~
+@15   = ~Túnica de mago 'Protección Práctica'~
+@16   = ~Túnica de mago 'Protección Práctica'
+   
+En esta túnica están concentradas las propiedades útiles de variós objetos más simples confiriendo al portador una protección bastante buena. 
+
+CARACTERÍSTICAS:
+
+Habilidades equipado:
+ +20% de bonificación a la resistencia al fuego, el frío y la electricidad
+
+Clase de armadura: Bonificación +2
+Tiradas de salvación: Bonificación +1 
+Peso:  6
+Permitido a:
+Mago (individual, doble y multiclase)~
+@17   = ~Fajín de Valentía~
+@18   = ~Fajín de Valentía
+  
+En este magnífico cinturón se incorporaron mágicamente las propiedades útiles del Fajín de oro, de contundencia y de perforación. Además incrementa la Fuerza del portador y le ayuda a curar las heridas.
+
+CARACTERÍSTICAS: 
+
+Habilidad equipado:
+ Fuerza: Bonificación +1
+ El portador regenera un punto de golpe cada 6 segundos.
+
+Clase de armadura: Bonificación +3
+Peso:  4
+No permitido a:
+ Asesino de Magos~
+@19   = ~Espada del Asesino~
+@20   = ~Espada del Asesino
+  
+Esta espada es una mejora de la Espada para apuńalar por la espalda: 'La Hoja de la Sombra'. La espada hace dańo adicional al apuńalar y además puede paralizar a la victima.
+
+CARACTERÍSTICAS:
+
+Habilidad equipado:
+ +1 al multiplicador de apuńalar por la espalda
+ 10% de posibilidades de que cada golpe paralice a la victima (sin salvación)
+ 
+THACO:  Bonificación +3
+Dańo:  1D6 +3
+Tipo de dańo: perforante
+Peso: 3 
+Factor de velocidad: 0
+Talento marcial: Espada corta
+Tipo:  A una mano
+Requisitos: Fuerza 5
+No permitido a:
+ Druida
+ Clérigo 
+ Mago~
+@21   = ~Arco de la Tormenta de Nieve~
+@22   = ~Arco de la Tormenta de Nieve
+  
+Este arco se ha forjado mágicamente a partir del Arco argo de punería. Cuando su cuerda está vacia aparece una flecha fuerte aunque invisible que ańade dańo por frío y electricidad.
+
+Nota: evita equipar tu arco con flechas normales o no usará sus flechas fantasma.
+
+CARACTERÍSTICAS:
+
+Habilidades de combate:
+Este poderoso arco no requiere munición
+ 
+THACO:  Bonificación +3
+Dańo:  1D6 + 1D2 de dańo de frio y 1D2 de electricidad 
+Tipo de dańo: proyectil (perforante)
+Peso: 3 
+Factor de velocidad: 4
+Talento marcial: Arco largo
+Tipo:  A dos manos
+Requisitos: Fuerza 6
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+@23   = ~Botas de Ladrón 'Pies Ligeros'~
+@24   = ~Botas de Ladrón 'Pies Ligeros'
+  
+Estas botas no solo ayudan al ladron en su dificil oficio sino que también le permiten moverse más rápido. Desafortunadamente solo pueden usarlas los ladrones.
+
+CARACTERÍSTICAS:
+
+Habilidad equipado:
+
+Incrementa la velocidad de movimiento
+Bonificación a moverse sigilosamente: +20%
+Bonificación a esconderse en las sombras: +15%
+Bonificador a abrir cerraduras: +10%
+Bonificador a encontrar trampas: +10%  
+Bonificación a robar: +10%
+
+Peso: 4
+Permitido a:
+ Ladrón (individual, doble y multiclase)~
+@25   = ~Amuleto de escudo mejorado~
+@26   = ~Amuleto de escudo mejorado
+  
+Este es un amuleto de escudo modificado mágicamente. Protege a su portador algo mejor por lo que es más conveniente usar este.
+
+CARACTERÍSTICAS: 
+
+Clase de armadura: 4
+Tiradas de salvación: Bonificación +1
+
+Peso:  1
+No permitido a:
+ Asesino de Magos~
+@27   = ~Yelmo de la Magnificencia~
+@28   = ~Yelmo de la Magnificencia
+   
+En este casco se han concentrado mágicamente las propiedades del Yelmo de Gloria y el de Defensa: 'El Obsequio de la Paz'. Además confiere al portador una protección bastante buena.
+
+CARACTERÍSTICAS:
+
+Habilidad equipado:
+ +20% de bonificación a la resistencia al fuego, el frío y la electricidad
+Carisma: Bonificación +1
+Clase de armadura: Bonificación +1
+Tiradas de salvación: Bonificación +1 
+Peso:  6
+No permitido a:
+ Bard
+ Mago
+ Ladrón~
+@29   = ~Manto de Balduran mejorado~
+@30   = ~Manto de Balduran mejorado 
+Este manto lo llevo el célebre Balduran, fundador de la Puerta de Baldur. Aunque nunca llevo a utilizarse en combate, otorga la protección digna de un gran lider.  
+Se ha unido mágicamente con el Manto de protección +2.
+
+CARACTERÍSTICAS:
+Resistencia a la magia: +25% 
+Clase de armadura: Bonificación +2
+Tiradas de salvación: Bonificación +2 
+Peso:  3
+No permitido a:
+ Asesino de Magos~
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// for vanilla BG1 //////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+@101    = ~Espada de Rabia~
+@102    = ~Espada de Rabia
+
+Esta espada está hecha de la celebre Espada Maldición de locura +3. Se pudo eliminar la maldición de ella y darle nuevas propiedades.
+
+CARACTERÍSTICAS:
+
+Habilidades especiales:
+    Furia una vez por dia
+    10 % de posibilidades de asustar al objetivo durante un turno con cada golpe
+    
+THACO:  bonificación de +3
+Dańo:  1D10 +3
+Tipo de dańo: cortante
+Peso: 10
+Factor de velocidad: 7
+Talento marcial: Espada grande
+Tipo:  A dos manos
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+@103    = ~Daga emponzońada +3~
+@104    = ~La daga emponzońada es una potente hoja muy apreciada por todos los asesinos de los Reinos. Esta daga emponzońada en concreto fue creada para ser usada por los Ladrones de las Sombras de Amn. Dad vez que alcanza a un adversario instila un veneno enel flujo sanguóneo de la criatura que actúa rápida y eficazmente.
+Esta daga ha sido modificada mágicamente y ahora es todavía más poderosa.
+
+CARACTERÍSTICAS:
+
+Habilidades de combate:
+  Un ataque adicional por turno
+  Cada golpe ralentiza a la victima 15 segundos (Tirada de salvación contra muerte)
+  
+THAC0: Bonificación +3
+Dańo:  1D4 + 3
+Tipo de dańo: perforante
+Dańo por veneno:  6 puntos por asalto hasta un total de 15 (tirada de salvación contra veneno)
+Peso: 2
+Factor de velocidad: 0
+Talento marcial: Espada pequeńa
+Tipo:  A una mano
+No permitido a:
+ Clérigo~
+@105    = ~Daga arrojadiza +1~
+@106    = ~Esta daga arrojadiza se ha hecho de una daga +1 modificada magicamente. La daga retorna a las manos del lanzador instantaneamente después de cada ataque.
+
+CARACTERÍSTICAS:
+  
+THAC0: Bonificación +1
+Dańo:  1D4 + 1
+Tipo de dańo: proyectil (perforante)
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Espada pequeńa
+Tipo:  A una mano
+No permitido a:
+ Clérigo~
+@107    = ~Anillo de Acción Libre +1~
+@108    = ~Anillo de Acción Libre +1
+
+Este anillo fue modificado mágicamente. Auna las habilidades del Anillo de Protección +1: 'El Anillo de la Princesa' y del Anillo de Acción Libre.
+
+CARACTERÍSTICAS:
+
+El portador es inmune a cualquier cosa, mágica o no, que afecte al movimiento de cualquier manera. Esto incluye los conjuros de Celeridad y Ralentizar.
+
+Equipped Abilities:
+ Clase de armadura: Bonificación +1
+ Tiradas de salvación: Bonificación +1
+
+No permitido a:~
+@109    = ~Anillo de Acción Libre +2~
+@110   = ~Anillo de Acción Libre +2 
+
+Este anillo fue modificado mágicamente. Auna las habilidades del Anillo de Protección +1: 'El Anillo del Guardian' y del Anillo de Acción Libre.
+
+CARACTERÍSTICAS:
+
+El portador es inmune a cualquier cosa, mágica o no, que afecte al movimiento de cualquier manera. Esto incluye los conjuros de Celeridad y Ralentizar.
+
+Clase de armadura: Bonificación +2
+Tiradas de salvación: Bonificación +2
+
+No permitido a:~
+@111   = ~Guanteletes de Gran Maestría~
+@112   = ~Guanteletes de Gran Maestría
+
+Un par de estos magníficos guanteletes incorporaron mágicamente las propiedades de varios objetos más simples, por lo tanto proporcionan habilidades defensivas y ofensivas, dignos de cualquier gran guerrero.
+
+CARACTERÍSTICAS:
+
+ THACO: Bonificación +2
+ Dańo: Bonificación +2
+ Clase de armadura: Bonificación +1
+Peso: 2
+No permitido a:~
+@113   = ~Manto de no detección mejorado~
+@114   = ~Manto de no detección mejorado: 'Susurros del Silencio'  
+Este manto fue confeccionado para una estirpe de los ladrones más astutos que jamás pisaron la noche y, aparentemente, fue un éxito. Nada se sabe de sus anteriores dueńos.  
+Se ha unido mágicamente con el Manto de Protección +1.
+
+CARACTERÍSTICAS:
+
+Habilidades equipado:
+ No se puede detectar por medios mágicos como detectar invisibilidad y divisar.
+ 
+Habilidades especiales:
+ Invisibilidad dos veces por dia
+
+Clase de armadura: Bonificación +1
+Tiradas de salvación: Bonificación +1 
+Peso:  3
+No permitido a:~
+@115   = ~Túnica de mago 'Protección Práctica'~
+@116   = ~Túnica de mago 'Protección Práctica'
+   
+En esta túnica están concentradas las propiedades útiles de variós objetos más simples confiriendo al portador una protección bastante buena. 
+
+CARACTERÍSTICAS:
+
+Habilidades equipado:
+ +20% de bonificación a la resistencia al fuego, el frío y la electricidad
+
+Clase de armadura: Bonificación +2
+Tiradas de salvación: Bonificación +1 
+Peso:  6
+Permitido a:
+Mago (individual, doble y multiclase)~
+@117   = ~Fajín de Valentía~
+@118   = ~Fajín de Valentía
+  
+En este magnífico cinturón se incorporaron mágicamente las propiedades útiles del Fajín de oro, de contundencia y de perforación. Además incrementa la Fuerza del portador y le ayuda a curar las heridas.
+
+CARACTERÍSTICAS: 
+
+Habilidad equipado:
+ Fuerza: Bonificación +1
+ El portador regenera un punto de golpe cada 6 segundos.
+
+Clase de armadura: Bonificación +3
+Peso:  4
+No permitido a:~
+@119   = ~Espada del Asesino~
+@120   = ~Espada del Asesino
+  
+Esta espada es una mejora de la Espada para apuńalar por la espalda: 'La Hoja de la Sombra'. La espada hace dańo adicional al apuńalar y además puede paralizar a la victima.
+
+CARACTERÍSTICAS:
+
+Habilidad equipado:
+ 15% de posibilidades de que cada golpe paralice a la victima (sin salvación)
+ 
+THACO:  Bonificación +3
+Dańo:  1D6 +3
+Tipo de dańo: perforante
+Peso: 3 
+Factor de velocidad: 0
+Talento marcial: Espada pequeńa
+Tipo:  A una mano
+No permitido a:
+ Druida
+ Clérigo 
+ Mago~
+@121   = ~Arco de la Tormenta de Nieve~
+@122   = ~Arco de la Tormenta de Nieve
+  
+Este arco se ha forjado mágicamente a partir del Arco argo de punería. Cuando su cuerda está vacia aparece una flecha fuerte aunque invisible que ańade dańo por frío y electricidad.
+
+Nota: evita equipar tu arco con flechas normales o no usará sus flechas fantasma.
+
+CARACTERÍSTICAS:
+
+Habilidades de combate:
+Este poderoso arco no requiere munición
+ 
+THACO:  Bonificación +3
+Dańo:  1D6 + 1D2 de dańo de frio y 1D2 de electricidad 
+Tipo de dańo: proyectil (perforante)
+Peso: 3 
+Factor de velocidad: 4
+Talento marcial: Arco
+Tipo:  A dos manos
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+@123   = ~Botas de Ladrón 'Pies Ligeros'~
+@124   = ~Botas de Ladrón 'Pies Ligeros'
+  
+Estas botas no solo ayudan al ladron en su dificil oficio sino que también le permiten moverse más rápido. Desafortunadamente solo pueden usarlas los ladrones.
+
+CARACTERÍSTICAS:
+
+Habilidad equipado:
+
+Incrementa la velocidad de movimiento
+Bonificación a esconderse en las sombras: +35%
+Bonificador a abrir cerraduras: +10%
+Bonificador a encontrar trampas: +10%  
+Bonificación a robar: +10%
+
+Peso: 4
+Permitido a:
+ Ladrón (individual, doble y multiclase)~
+@125   = ~Amuleto de escudo mejorado~
+@126   = ~Amuleto de escudo mejorado
+  
+Este es un amuleto de escudo modificado mágicamente. Protege a su portador algo mejor por lo que es más conveniente usar este.
+
+CARACTERÍSTICAS: 
+
+Clase de armadura: 4
+Tiradas de salvación: Bonificación +1
+
+Peso:  1
+No permitido a:~
+@127   = ~Yelmo de la Magnificencia~
+@128   = ~Yelmo de la Magnificencia
+   
+En este casco se han concentrado mágicamente las propiedades del Yelmo de Gloria y el de Defensa: 'El Obsequio de la Paz'. Además confiere al portador una protección bastante buena.
+
+CARACTERÍSTICAS:
+
+Habilidad equipado:
+ +20% de bonificación a la resistencia al fuego, el frío y la electricidad
+Carisma: Bonificación +1
+Clase de armadura: Bonificación +1
+Tiradas de salvación: Bonificación +1 
+Peso:  6
+No permitido a:
+ Bard
+ Mago
+ Ladrón~
+@129   = ~Manto de Balduran mejorado~
+@130   = ~Manto de Balduran mejorado 
+Este manto lo llevo el célebre Balduran, fundador de la Puerta de Baldur. Aunque nunca llevo a utilizarse en combate, otorga la protección digna de un gran lider.  
+Se ha unido mágicamente con el Manto de protección +2.
+
+CARACTERÍSTICAS:
+Resistencia a la magia: +25% 
+Clase de armadura: Bonificación +2
+Tiradas de salvación: Bonificación +2 
+Peso:  3~
+
+
+@131   = ~Rabia~
+@132   = ~Objeto agotado~
+@133    = ~Espada de Rabia
+
+Esta espada está hecha de la celebre Espada Maldición de locura +3. Se pudo eliminar la maldición de ella y darle nuevas propiedades.
+
+CARACTERÍSTICAS:
+
+Habilidades especiales:
+    Furia una vez por dia
+    10 % de posibilidades de asustar al objetivo durante un turno con cada golpe
+    
+THACO:  bonificación de +3
+Dańo:  1D10 +3
+Tipo de dańo: cortante
+Peso: 10
+Factor de velocidad: 7
+Talento marcial: Espada de dos manos
+Tipo:  A dos manos
+Requisitos: Fuerza 14 
+~
+@134    = ~La daga emponzońada es una potente hoja muy apreciada por todos los asesinos de los Reinos. Esta daga emponzońada en concreto fue creada para ser usada por los Ladrones de las Sombras de Amn. Dad vez que alcanza a un adversario instila un veneno enel flujo sanguóneo de la criatura que actúa rápida y eficazmente.
+Esta daga ha sido modificada mágicamente y ahora es todavía más poderosa.
+
+CARACTERÍSTICAS:
+
+Habilidades de combate:
+  Un ataque adicional por turno
+  Cada golpe ralentiza a la victima 15 segundos (Tirada de salvación contra muerte)
+  
+THAC0: Bonificación +3
+Dańo:  1D4 + 3
+Tipo de dańo: perforante
+Dańo por veneno:  6 puntos por asalto hasta un total de 15 (tirada de salvación contra veneno)
+Peso: 2
+Factor de velocidad: 0
+Talento marcial: Daga
+Tipo:  A una mano
+Requisitos: Fuerza 3
+~
+@135    = ~Esta daga arrojadiza se ha hecho de una daga +1 modificada magicamente. La daga retorna a las manos del lanzador instantaneamente después de cada ataque.
+
+CARACTERÍSTICAS:
+  
+THAC0: Bonificación +1
+Dańo:  1D4 + 1
+Tipo de dańo: proyectil (perforante)
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Daga
+Tipo:  A una mano
+Requisitos: Fuerza 3
+~
+@136    = ~Anillo de Acción Libre +1
+
+Este anillo fue modificado mágicamente. Auna las habilidades del Anillo de Protección +1: 'El Anillo de la Princesa' y del Anillo de Acción Libre.
+
+CARACTERÍSTICAS:
+
+El portador es inmune a cualquier cosa, mágica o no, que afecte al movimiento de cualquier manera. Esto incluye los conjuros de Celeridad y Ralentizar.
+
+Equipped Abilities:
+ Clase de armadura: Bonificación +1
+ Tiradas de salvación: Bonificación +1
+~
+@137    = ~Anillo de Acción Libre +2 
+
+Este anillo fue modificado mágicamente. Auna las habilidades del Anillo de Protección +1: 'El Anillo del Guardian' y del Anillo de Acción Libre.
+
+CARACTERÍSTICAS:
+
+El portador es inmune a cualquier cosa, mágica o no, que afecte al movimiento de cualquier manera. Esto incluye los conjuros de Celeridad y Ralentizar.
+
+Clase de armadura: Bonificación +2
+Tiradas de salvación: Bonificación +2
+~
+@138   = ~Guanteletes de Gran Maestría
+
+Un par de estos magníficos guanteletes incorporaron mágicamente las propiedades de varios objetos más simples, por lo tanto proporcionan habilidades defensivas y ofensivas, dignos de cualquier gran guerrero.
+
+CARACTERÍSTICAS:
+
+ THACO: Bonificación +2
+ Dańo: Bonificación +2
+ Clase de armadura: Bonificación +1
+Peso: 2
+~
+@139   = ~Manto de no detección mejorado: 'Susurros del Silencio'  
+Este manto fue confeccionado para una estirpe de los ladrones más astutos que jamás pisaron la noche y, aparentemente, fue un éxito. Nada se sabe de sus anteriores dueńos.  
+Se ha unido mágicamente con el Manto de Protección +1.
+
+CARACTERÍSTICAS:
+
+Habilidades equipado:
+ No se puede detectar por medios mágicos como detectar invisibilidad y divisar.
+ 
+Habilidades especiales:
+ Invisibilidad dos veces por dia
+
+Clase de armadura: Bonificación +1
+Tiradas de salvación: Bonificación +1 
+Peso:  3
+~
+@140   = ~Túnica de mago 'Protección Práctica'
+   
+En esta túnica están concentradas las propiedades útiles de variós objetos más simples confiriendo al portador una protección bastante buena. 
+
+CARACTERÍSTICAS:
+
+Habilidades equipado:
+ +20% de bonificación a la resistencia al fuego, el frío y la electricidad
+
+Clase de armadura: Bonificación +2
+Tiradas de salvación: Bonificación +1 
+Peso:  6
+~
+@141   = ~Fajín de Valentía
+  
+En este magnífico cinturón se incorporaron mágicamente las propiedades útiles del Fajín de oro, de contundencia y de perforación. Además incrementa la Fuerza del portador y le ayuda a curar las heridas.
+
+CARACTERÍSTICAS: 
+
+Habilidad equipado:
+ Fuerza: Bonificación +1
+ El portador regenera un punto de golpe cada 6 segundos.
+
+Clase de armadura: Bonificación +3
+Peso:  4
+~
+@142   = ~Espada del Asesino
+  
+Esta espada es una mejora de la Espada para apuńalar por la espalda: 'La Hoja de la Sombra'. La espada hace dańo adicional al apuńalar y además puede paralizar a la victima.
+
+CARACTERÍSTICAS:
+
+Habilidad equipado:
+ +1 al multiplicador de apuńalar por la espalda
+ 10% de posibilidades de que cada golpe paralice a la victima (sin salvación)
+ 
+THACO:  Bonificación +3
+Dańo:  1D6 +3
+Tipo de dańo: perforante
+Peso: 3 
+Factor de velocidad: 0
+Talento marcial: Espada corta
+Tipo:  A una mano
+Requisitos: Fuerza 5
+~
+@143   = ~Arco de la Tormenta de Nieve
+  
+Este arco se ha forjado mágicamente a partir del Arco argo de punería. Cuando su cuerda está vacia aparece una flecha fuerte aunque invisible que ańade dańo por frío y electricidad.
+
+Nota: evita equipar tu arco con flechas normales o no usará sus flechas fantasma.
+
+CARACTERÍSTICAS:
+
+Habilidades de combate:
+Este poderoso arco no requiere munición
+ 
+THACO:  Bonificación +3
+Dańo:  1D6 + 1D2 de dańo de frio y 1D2 de electricidad 
+Tipo de dańo: proyectil (perforante)
+Peso: 3 
+Factor de velocidad: 4
+Talento marcial: Arco largo
+Tipo:  A dos manos
+Requisitos: Fuerza 6
+~
+@144   = ~Botas de Ladrón 'Pies Ligeros'
+  
+Estas botas no solo ayudan al ladron en su dificil oficio sino que también le permiten moverse más rápido. Desafortunadamente solo pueden usarlas los ladrones.
+
+CARACTERÍSTICAS:
+
+Habilidad equipado:
+
+Incrementa la velocidad de movimiento
+Bonificación a moverse sigilosamente: +20%
+Bonificación a esconderse en las sombras: +15%
+Bonificador a abrir cerraduras: +10%
+Bonificador a encontrar trampas: +10%  
+Bonificación a robar: +10%
+
+Peso: 4
+~
+@145   = ~Amuleto de escudo mejorado
+  
+Este es un amuleto de escudo modificado mágicamente. Protege a su portador algo mejor por lo que es más conveniente usar este.
+
+CARACTERÍSTICAS: 
+
+Clase de armadura: 4
+Tiradas de salvación: Bonificación +1
+
+Peso:  1
+~
+@146   = ~Yelmo de la Magnificencia
+   
+En este casco se han concentrado mágicamente las propiedades del Yelmo de Gloria y el de Defensa: 'El Obsequio de la Paz'. Además confiere al portador una protección bastante buena.
+
+CARACTERÍSTICAS:
+
+Habilidad equipado:
+ +20% de bonificación a la resistencia al fuego, el frío y la electricidad
+Carisma: Bonificación +1
+Clase de armadura: Bonificación +1
+Tiradas de salvación: Bonificación +1 
+Peso:  6
+~
+@147   = ~Manto de Balduran mejorado 
+Este manto lo llevo el célebre Balduran, fundador de la Puerta de Baldur. Aunque nunca llevo a utilizarse en combate, otorga la protección digna de un gran lider.  
+Se ha unido mágicamente con el Manto de protección +2.
+
+CARACTERÍSTICAS:
+Resistencia a la magia: +25% 
+Clase de armadura: Bonificación +2
+Tiradas de salvación: Bonificación +2 
+Peso:  3
+~
