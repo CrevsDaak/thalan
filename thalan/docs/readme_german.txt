@@ -17,7 +17,7 @@ Es wurden keine Probleme mit Kompatibilitäten festgestellt.
 
 2. Installation 
 
-Standard für WeiDU Mods. Entpackt den Inhalt dieses Archivs in Eurem Spielordner und startet SETUP-thalan.exe.
+Standard für WeiDU Mods. Entpackt den Inhalt dieses Archivs in Eurem Spielordner und startet setup-thalan.exe.
 
 
 3. Die Liste der verbesserten Gegenstände.
@@ -264,60 +264,7 @@ The BioWare logo is the trademark of BioWare Corp. All Rights Reserved.
 All other trademarks and copyrights are the property of their respective owners.
 
 
-7. Version History:
-
-Version 1
-- Initial public release of the mod.
-
-Version 2 (2 August 2008)
-- Added Russian translation by Badgert
-- Added German translation by Leonardo Watson
-- Added French translation by Deratiseur
-
-Version 3 (9 August 2008)
-- Added Spanish translation by Jondalar
-
-Version 3.1 (1 October 2008)
-- Updated English translation
-- Updated German translation
-
-Version 3.2 (4 October 2008)
-- The mod now patches the files and not overwrite them
-
-Version 3.3 (20 October 2008)
-- Added Italian translation by Ilot
-
-Version 3.4 (8 Januar 2009)
-- Updated German translation
-
-Version 3.5 (18 June 2009)
-- Changed LANGUAGE selection (1st language is English now)
-- Added version-history to English readme
-- Added VERSION-flag
-- Updated to WeiDU v210
-
-Version 3.6 (05 July 2009)
-- Added cross-platform compatibility with EasyTutu (thanks to Ascension64)
-- Updated English translation (thanks to Ascension64)
-- Updated to WeiDU v211
-
-Version 3.7 (26 Mai 2010)
-- Added partially compatibility with BG1:TotSC (Ascension64, Zed Nocear)
-  (Storage bags are not implemented for BG:TotSC)
-- Added Polish translation by morgan (morgan19@interia.pl)
-- Updated to WeiDU v217
-
-Version 4.0 (17 Feb 2015)
-- Added partial compatibility with EET and BG:EE
-- Updated all translations to work with EET/BG:EE (no revised item desc. yet)
-- Updated to WeiDU v237
-
-Version 4.1 (11 March 2015)
-- Use BG:EE strings for the multiple containers items
-- Added a revised strings for Enhanced Edition games
-- Updated to WeiDU v238
-
-8. Most important differences between BG1:TotSC version and BGT/Tutu:
+7. Most important differences between BG1:TotSC version and BGT/Tutu:
 
 ::1:: "Bags of holding" are not implemented in BG1,
 
@@ -350,3 +297,6 @@ There is no opcode for backstab bonus in BG1
 
 ::5:: Inventory BAMS from ~Ring of Free Action +1~ and ~Ring of Free Action +2~
  are slightly recolored to distinguish from "normal" ring of free action.
+
+8. Version History:
+See changelog.md
