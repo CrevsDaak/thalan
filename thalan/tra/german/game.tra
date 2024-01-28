@@ -1,36 +1,36 @@
 @1 = ~Schwert der Wut ~
 @2 = ~Schwert der Wut
   
-Dieses Schwert wurde aus dem berüchtigten Schwert "Verfluchter Berserker" +3 gefertigt. Es war möglich, den Fluch zu entfernen, und ihm neue Eigenschaften zu verleihen.
+Dieses Schwert wurde aus dem berÃ¼chtigten Schwert "Verfluchter Berserker" +3 gefertigt. Es war mÃ¶glich, den Fluch zu entfernen, und ihm neue Eigenschaften zu verleihen.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
-    Macht 1 mal pro Tag wütend
-    Chance von 10 % bei jedem Treffer, das Opfer für 1 Runde zu verängstigen
+Besondere FÃ¤higkeiten:
+    Macht 1 mal pro Tag wÃ¼tend
+    Chance von 10 % bei jedem Treffer, das Opfer fÃ¼r 1 Runde zu verÃ¤ngstigen
       
 ETW0: +3 Bonus
 Schaden: 1W10 +3
 Schadensart: mit Klingenwaffe aufschlitzen
 Gewicht: 10
 Geschwindigkeitsfaktor: 7
-Waffenfertigkeit: Zweihänderschwert
-Waffentyp: Beidhändig
-Mindeststärke: 14 
+Waffenfertigkeit: ZweihÃ¤nderschwert
+Waffentyp: BeidhÃ¤ndig
+MindeststÃ¤rke: 14 
 Kann nicht verwendet werden von:
  Druiden
  Klerikern
  Magiern
  Dieben ~
 @3 = ~Giftdolch +3 ~
-@4 = ~Der Giftdolch ist eine mächtige Klinge, die von Mördern in allen Reichen bevorzugt wird. Dieser besondere Giftdolch wurde für den Gebrauch von den Schattendieben aus Amn geschaffen. Jedesmal, wenn er einen Gegner trifft, sondert er ein Gift in den Blutstrom ab. Das Gift arbeitet schnell und wirkungsvoll.
-Dieser Dolch wurde magisch verändert und ist jetzt eine noch stärkere Waffe.
+@4 = ~Der Giftdolch ist eine mÃ¤chtige Klinge, die von MÃ¶rdern in allen Reichen bevorzugt wird. Dieser besondere Giftdolch wurde fÃ¼r den Gebrauch von den Schattendieben aus Amn geschaffen. Jedesmal, wenn er einen Gegner trifft, sondert er ein Gift in den Blutstrom ab. Das Gift arbeitet schnell und wirkungsvoll.
+Dieser Dolch wurde magisch verÃ¤ndert und ist jetzt eine noch stÃ¤rkere Waffe.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
 Besonderheit:
-  +1 zusätzlicher Angriff pro Runde
-  Jeder Treffer verlangsamt ein Opfer für 15 Sekunden (Rettungswurf gegen Tod)
+  +1 zusÃ¤tzlicher Angriff pro Runde
+  Jeder Treffer verlangsamt ein Opfer fÃ¼r 15 Sekunden (Rettungswurf gegen Tod)
   
 ETW0: +3 Bonus
 Schaden: 1W4 + 3
@@ -39,12 +39,12 @@ Gift-Schaden: 6 Punkte pro Runde bis zu insgesamt 15 Schadenspunkten (Rettungswu
 Gewicht: 2
 Geschwindigkeitsfaktor: 0
 Waffenfertigkeit: Dolch
-Waffentyp: einhändig
-Mindeststärke: 3
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 3
 Kann nicht verwendet werden von:
  Klerikern~
 @5 = ~Wurfdolch +1 ~
-@6 = ~Dieser Wurfdolch wurde aus einem magisch veränderten Dolch +1 gefertigt. Der Dolch kehrt sofort in die Hand des Besitzers zurück, nachdem ein Angriff ausgeführt wurde.
+@6 = ~Dieser Wurfdolch wurde aus einem magisch verÃ¤nderten Dolch +1 gefertigt. Der Dolch kehrt sofort in die Hand des Besitzers zurÃ¼ck, nachdem ein Angriff ausgefÃ¼hrt wurde.
 
 SPEZIFISCHE EIGENSCHAFTEN:
   
@@ -54,66 +54,66 @@ Schadensart: mit Stichwaffe durchbohren (Fernkampf)
 Gewicht: 1
 Geschwindigkeitsfaktor: 1
 Waffenfertigkeit: Dolch
-Waffentyp: einhändig
-Mindeststärke: 3
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 3
 Kann nicht verwendet werden von:
  Klerikern~
 @7 = ~Ring der Handlungsfreiheit +1 ~
 @8 = ~Ring der Handlungsfreiheit +1
 
-Dieser Ring wurde magisch verändert. Es vereint die Fähigkeiten eines Schutzringes +1 "Prinzenring" und eines Ringes der Handlungsfreiheit.
+Dieser Ring wurde magisch verÃ¤ndert. Es vereint die FÃ¤higkeiten eines Schutzringes +1 "Prinzenring" und eines Ringes der Handlungsfreiheit.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Der Träger ist gegen alle Einflüsse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch für Beeinflussung durch "Hast" und "Verlangsamen".
+Der TrÃ¤ger ist gegen alle EinflÃ¼sse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch fÃ¼r Beeinflussung durch "Hast" und "Verlangsamen".
 
 Besonderheit:
- Rüstungsklasse: +1 Bonus
+ RÃ¼stungsklasse: +1 Bonus
  Rettungswurf +1 Bonus
 
 Kann nicht verwendet werden von: ~
 @9 = ~Ring der Handlungsfreiheit +2 ~
 @10 = ~Ring der Handlungsfreiheit +2 
 
-Dieser Ring wurde magisch verändert. Es vereint die Fähigkeiten des Schutzringes +2 "Wächterring" und des Rings der Handlungsfreiheit.
+Dieser Ring wurde magisch verÃ¤ndert. Es vereint die FÃ¤higkeiten des Schutzringes +2 "WÃ¤chterring" und des Rings der Handlungsfreiheit.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Der Träger ist gegen alle Einflüsse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch für "Hast" und "Verlangsamen".
+Der TrÃ¤ger ist gegen alle EinflÃ¼sse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch fÃ¼r "Hast" und "Verlangsamen".
 
-Rüstungsklasse: +2 Bonus
+RÃ¼stungsklasse: +2 Bonus
 Rettungswurf +2 Bonus
 
 Kann nicht verwendet werden von: ~
-@11 = ~Handschuhe der Großmeisterschaft ~
-@12 = ~Handschuhe der Großmeisterschaft
+@11 = ~Handschuhe der GroÃŸmeisterschaft ~
+@12 = ~Handschuhe der GroÃŸmeisterschaft
 
-Ein Paar dieser feinen Panzerhandschuhe vereint auf magische Weise die Eigenschaften von mehreren einfacheren Panzerhandschuhen, deshalb unterstützen sie die Fähigkeiten des Angreifens und des Verteidigens, ganz wie es eines großen Kriegers würdig ist.
+Ein Paar dieser feinen Panzerhandschuhe vereint auf magische Weise die Eigenschaften von mehreren einfacheren Panzerhandschuhen, deshalb unterstÃ¼tzen sie die FÃ¤higkeiten des Angreifens und des Verteidigens, ganz wie es eines groÃŸen Kriegers wÃ¼rdig ist.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
  ETW0: +2 Bonus
  Schaden: +2 Bonus
- Rüstungsklasse: +1 Bonus
+ RÃ¼stungsklasse: +1 Bonus
 Gewicht: 2
 Kann nicht verwendet werden von:
  Kensai
  Magierkiller ~
 @13 = ~Verbesserter Umhang der Unauffindbarkeit ~
-@14 = ~Verbesserter Umhang der Unauffindbarkeit "Flüstern der Stille"
+@14 = ~Verbesserter Umhang der Unauffindbarkeit "FlÃ¼stern der Stille"
   
-Nachweislich geschaffen für die Erbfolge der heimtückischsten Einbrecher, die jemals durch die Nacht schlichen, war diesem Umhang anscheinend durchschlagender Erfolg beschert. Die vorherigen Eigentümer sind nicht bekannt.  
+Nachweislich geschaffen fÃ¼r die Erbfolge der heimtÃ¼ckischsten Einbrecher, die jemals durch die Nacht schlichen, war diesem Umhang anscheinend durchschlagender Erfolg beschert. Die vorherigen EigentÃ¼mer sind nicht bekannt.  
 Der Umhang wurde auf magische Weise mit dem Schutzumhang +1 vereint.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
 
-Besonderheit: Der Träger kann nicht durch magische Mittel wie "Unsichtbares entdecken" enttarnt werden.
+Besonderheit: Der TrÃ¤ger kann nicht durch magische Mittel wie "Unsichtbares entdecken" enttarnt werden.
 
-Besondere Fähigkeiten:
+Besondere FÃ¤higkeiten:
  Unsichtbarkeit 2 mal pro Tag
 
-Rüstungsklasse: +1 Bonus
+RÃ¼stungsklasse: +1 Bonus
 Rettungswurf +1 Bonus 
 Gewicht: 3
 Kann nicht verwendet werden von:
@@ -121,43 +121,43 @@ Kann nicht verwendet werden von:
 @15 = ~Magierrobe "Praktischer Schutz" ~
 @16 = ~Magierrobe "Praktischer Schutz"
     
-In dieser Magierrobe werden nützliche Eigenschaften mehrerer einfacher Gegenstände konzentriert, und sie gewährt dem Eigentümer umfassenden Schutz.
+In dieser Magierrobe werden nÃ¼tzliche Eigenschaften mehrerer einfacher GegenstÃ¤nde konzentriert, und sie gewÃ¤hrt dem EigentÃ¼mer umfassenden Schutz.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
- Bonus von +20 %, bei Feuer-, Kälte- und Elektrizitätsresistenz
+Besondere FÃ¤higkeiten:
+ Bonus von +20 %, bei Feuer-, KÃ¤lte- und ElektrizitÃ¤tsresistenz
 
-Rüstungsklasse: +2 Bonus
+RÃ¼stungsklasse: +2 Bonus
 Rettungswurf +1 Bonus 
 Gewicht: 6
 Kann verwendet werden von:
 Magiern (einzeln, doppel- und mehrklassig) ~
-@17 = ~Gürtel des Muts ~
-@18 = ~Gürtel des Muts
+@17 = ~GÃ¼rtel des Muts ~
+@18 = ~GÃ¼rtel des Muts
   
-In diesem feinen Gürtel sind auf magische Weise nützliche Eigenschaften der Goldenen Schärpe, des Gürtels der Wucht und des Gürtels der Durchdringung vereint. Darüber hinaus erhöht er die Körperkraft des Eigentümers und hilft ihm, Wunden zu heilen.
+In diesem feinen GÃ¼rtel sind auf magische Weise nÃ¼tzliche Eigenschaften der Goldenen SchÃ¤rpe, des GÃ¼rtels der Wucht und des GÃ¼rtels der Durchdringung vereint. DarÃ¼ber hinaus erhÃ¶ht er die KÃ¶rperkraft des EigentÃ¼mers und hilft ihm, Wunden zu heilen.
 
 SPEZIFISCHE EIGENSCHAFTEN: 
 
-Besondere Fähigkeiten:
+Besondere FÃ¤higkeiten:
  Kraft: +1 Bonus
- Träger regeneriert alle 6 Sekunden 1 Trefferpunkt.
+ TrÃ¤ger regeneriert alle 6 Sekunden 1 Trefferpunkt.
 
-Rüstungsklasse: +3 Bonus
+RÃ¼stungsklasse: +3 Bonus
 Gewicht: 4
 Kann nicht verwendet werden von:
  Magierkiller ~
-@19 = ~Schwert des Mörders ~
-@20 = ~Schwert des Mörders
+@19 = ~Schwert des MÃ¶rders ~
+@20 = ~Schwert des MÃ¶rders
   
-Dies ist ein verbessertes Kurzschwert der Heimtücke "Die Klinge des Schattens". Das Schwert verursacht zusätzlichen heimtückischen Schaden und kann außerdem ein Opfer lähmen.
+Dies ist ein verbessertes Kurzschwert der HeimtÃ¼cke "Die Klinge des Schattens". Das Schwert verursacht zusÃ¤tzlichen heimtÃ¼ckischen Schaden und kann auÃŸerdem ein Opfer lÃ¤hmen.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
+Besondere FÃ¤higkeiten:
  +1 zum mehrfachen hinterlistigen Angriff
- Die Chance von 10 % bei jedem Treffer, das Opfer für 2 Runden zu lähmen (kein Rettungswurf)
+ Die Chance von 10 % bei jedem Treffer, das Opfer fÃ¼r 2 Runden zu lÃ¤hmen (kein Rettungswurf)
 
 ETW0: +3 Bonus
 Schaden: 1W6 +3
@@ -165,8 +165,8 @@ Schadensart: mit Stichwaffe durchbohren
 Gewicht: 3 
 Geschwindigkeitsfaktor: 0
 Waffenfertigkeit: Kurzschwert
-Waffentyp: einhändig
-Mindeststärke: 5
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 5
 Kann nicht verwendet werden von:
  Druiden
  Klerikern 
@@ -174,23 +174,23 @@ Kann nicht verwendet werden von:
 @21 = ~Bogen des Schneesturms ~
 @22 = ~Bogen des Schneesturms
   
-Dieser Bogen ist ein magisch veränderter Langbogen der Treffsicherheit. Wenn seine Bogensehne gespannt wird, entsteht ein starker aber unsichtbarer Pfeil. Beim Auftreffen verursacht der Pfeil zusätzlichen Kälte- und Elektrizitätsschaden.
+Dieser Bogen ist ein magisch verÃ¤nderter Langbogen der Treffsicherheit. Wenn seine Bogensehne gespannt wird, entsteht ein starker aber unsichtbarer Pfeil. Beim Auftreffen verursacht der Pfeil zusÃ¤tzlichen KÃ¤lte- und ElektrizitÃ¤tsschaden.
 
-Beachtet: Vermeidet es euren Charakter mit normalen Pfeilen auszustatten, weil der Bogen sonst diese anstatt der Phantompfeile verschießt.
+Beachtet: Vermeidet es euren Charakter mit normalen Pfeilen auszustatten, weil der Bogen sonst diese anstatt der Phantompfeile verschieÃŸt.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
 Besonderheit:
-Dieser starke Bogen benötigt keine Munition
+Dieser starke Bogen benÃ¶tigt keine Munition
 
 ETW0: +3 Bonus
-Schaden: 1W6 + zusätzlicher 1W2 Kälteschaden und 1W2 Elektrizitätsschaden 
+Schaden: 1W6 + zusÃ¤tzlicher 1W2 KÃ¤lteschaden und 1W2 ElektrizitÃ¤tsschaden 
 Schadensart: mit Stichwaffe durchbohren (Fernkampf)
 Gewicht: 3 
 Geschwindigkeitsfaktor: 4
 Waffenfertigkeit: Langbogen
-Waffentyp: Beidhändig
-Mindeststärke: 6
+Waffentyp: BeidhÃ¤ndig
+MindeststÃ¤rke: 6
 Kann nicht verwendet werden von:
  Druiden
  Klerikern
@@ -199,16 +199,16 @@ Kann nicht verwendet werden von:
 @23 = ~Stiefel des Diebs "Schnelle Beine"~
 @24 = ~Stiefel des Diebs "Schnelle Beine"
   
-Diese Stiefel helfen nicht nur dem Dieb bei seinem schwierigen Handwerk, sondern erlauben ihm auch, sich schnell zu bewegen. Leider können ihre spezifischen Eigenschaften nur Dieben zugute kommen.
+Diese Stiefel helfen nicht nur dem Dieb bei seinem schwierigen Handwerk, sondern erlauben ihm auch, sich schnell zu bewegen. Leider kÃ¶nnen ihre spezifischen Eigenschaften nur Dieben zugute kommen.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
+Besondere FÃ¤higkeiten:
 
-Vergrößert die Bewegungsfreiheit
+VergrÃ¶ÃŸert die Bewegungsfreiheit
 Leise bewegen Bonus: +20 %
 Im Schatten verstecken: +15 %
-Schlösser öffnen Bonus: +10 %
+SchlÃ¶sser Ã¶ffnen Bonus: +10 %
 Fallen finden Bonus: +10 %  
 Taschendiebstahl Bonus: +10 %
 
@@ -218,11 +218,11 @@ Kann nur verwendet werden von:
 @25 = ~Verbessertes Schildamulett ~
 @26 = ~Verbessertes Schildamulett
   
-Das ist ein magisch verändertes Schildamulett. Es schützt den Eigentümer noch besser und ist praktischer zu verwenden.
+Das ist ein magisch verÃ¤ndertes Schildamulett. Es schÃ¼tzt den EigentÃ¼mer noch besser und ist praktischer zu verwenden.
 
 SPEZIFISCHE EIGENSCHAFTEN: 
 
-Rüstungsklasse: 4
+RÃ¼stungsklasse: 4
 Rettungswurf +1 Bonus
 
 Gewicht: 1
@@ -231,14 +231,14 @@ Kann nicht verwendet werden von:
 @27 = ~Prachthelm ~
 @28 = ~Prachthelm
     
-Bei diesem Helm sind die nützlichen Eigenschaften des Helms der Ehre und des Abwehrhelms "Geschenk des Friedens" auf magische Weise konzentriert. Darüber hinaus gewährt er dem Eigentümer hilfreichen Schutz.
+Bei diesem Helm sind die nÃ¼tzlichen Eigenschaften des Helms der Ehre und des Abwehrhelms "Geschenk des Friedens" auf magische Weise konzentriert. DarÃ¼ber hinaus gewÃ¤hrt er dem EigentÃ¼mer hilfreichen Schutz.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
- Bonus von +20 % bei Feuer-, Kälte- und Elektrizitätswiderstand
+Besondere FÃ¤higkeiten:
+ Bonus von +20 % bei Feuer-, KÃ¤lte- und ElektrizitÃ¤tswiderstand
 Charisma: +1 Bonus
-Rüstungsklasse: +1 Bonus
+RÃ¼stungsklasse: +1 Bonus
 Rettungswurf +1 Bonus 
 Gewicht: 6
 Kann nicht verwendet werden von:
@@ -247,13 +247,13 @@ Kann nicht verwendet werden von:
  Dieben ~
 @29 = ~Verbesserter Umhang von Balduran ~
 @30 = ~Verbesserter Umhang von Balduran  
-Dieser Umhang wurde angeblich von Balduran, dem Gründer von Baldurs Tor, getragen. Obwohl er nie im Kampf verwendet wurde, gewährt er Schutz wie es eines großen Anführers würdig ist.  
+Dieser Umhang wurde angeblich von Balduran, dem GrÃ¼nder von Baldurs Tor, getragen. Obwohl er nie im Kampf verwendet wurde, gewÃ¤hrt er Schutz wie es eines groÃŸen AnfÃ¼hrers wÃ¼rdig ist.  
 Der Umhang wurde auf magische Weise mit dem Schutzumhang +2 vereint.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
 Magiewiderstand: +25 % 
-Rüstungsklasse: +2 Bonus
+RÃ¼stungsklasse: +2 Bonus
 Rettungswurf +2 Bonus 
 Gewicht: 3
 Kann nicht verwendet werden von:
@@ -267,35 +267,35 @@ Kann nicht verwendet werden von:
 @101 = ~Schwert der Wut ~
 @102 = ~Schwert der Wut
   
-Dieses Schwert wurde aus dem berüchtigten Schwert "Verfluchter Berserker" +3 gefertigt. Es war möglich, den Fluch zu entfernen, und ihm neue Eigenschaften zu verleihen.
+Dieses Schwert wurde aus dem berÃ¼chtigten Schwert "Verfluchter Berserker" +3 gefertigt. Es war mÃ¶glich, den Fluch zu entfernen, und ihm neue Eigenschaften zu verleihen.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
-    Macht 1 mal pro Tag wütend
-    Chance von 10 % bei jedem Treffer, das Opfer für 1 Runde zu verängstigen
+Besondere FÃ¤higkeiten:
+    Macht 1 mal pro Tag wÃ¼tend
+    Chance von 10 % bei jedem Treffer, das Opfer fÃ¼r 1 Runde zu verÃ¤ngstigen
       
 ETW0: +3 Bonus
 Schaden: 1W10 +3
 Schadensart: mit Klingenwaffe aufschlitzen
 Gewicht: 10
 Geschwindigkeitsfaktor: 7
-Waffentyp: Großes Schwert
-Typ: beidhändig
+Waffentyp: GroÃŸes Schwert
+Typ: beidhÃ¤ndig
 Kann nicht verwendet werden von:
  Druiden
  Klerikern
  Magiern
  Dieben ~
 @103 = ~Giftdolch +3 ~
-@104 = ~Der Giftdolch ist eine mächtige Klinge, die von Mördern in allen Reichen bevorzugt wird. Dieser besondere Giftdolch wurde für den Gebrauch von den Schattendieben aus Amn geschaffen. Jedesmal, wenn er einen Gegner trifft, sondert er ein Gift in den Blutstrom ab. Das Gift arbeitet schnell und wirkungsvoll.
-Dieser Dolch wurde magisch verändert und ist jetzt eine noch stärkere Waffe.
+@104 = ~Der Giftdolch ist eine mÃ¤chtige Klinge, die von MÃ¶rdern in allen Reichen bevorzugt wird. Dieser besondere Giftdolch wurde fÃ¼r den Gebrauch von den Schattendieben aus Amn geschaffen. Jedesmal, wenn er einen Gegner trifft, sondert er ein Gift in den Blutstrom ab. Das Gift arbeitet schnell und wirkungsvoll.
+Dieser Dolch wurde magisch verÃ¤ndert und ist jetzt eine noch stÃ¤rkere Waffe.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
 Besonderheit:
-  +1 zusätzlicher Angriff pro Runde
-  Jeder Treffer verlangsamt ein Opfer für 15 Sekunden (Rettungswurf gegen Tod)
+  +1 zusÃ¤tzlicher Angriff pro Runde
+  Jeder Treffer verlangsamt ein Opfer fÃ¼r 15 Sekunden (Rettungswurf gegen Tod)
   
 ETW0: +3 Bonus
 Schaden: 1W4 + 3
@@ -304,11 +304,11 @@ Gift-Schaden: 6 Punkte pro Runde bis zu insgesamt 15 Schadenspunkten (Rettungswu
 Gewicht: 2
 Geschwindigkeitsfaktor: 0
 Waffentyp: Kleines Schwert
-Typ: einhändig
+Typ: einhÃ¤ndig
 Kann nicht verwendet werden von:
  Klerikern~
 @105 = ~Wurfdolch +1 ~
-@106 = ~Dieser Wurfdolch wurde aus einem magisch veränderten Dolch +1 gefertigt. Der Dolch kehrt sofort in die Hand des Besitzers zurück, nachdem ein Angriff ausgeführt wurde.
+@106 = ~Dieser Wurfdolch wurde aus einem magisch verÃ¤nderten Dolch +1 gefertigt. Der Dolch kehrt sofort in die Hand des Besitzers zurÃ¼ck, nachdem ein Angriff ausgefÃ¼hrt wurde.
 
 SPEZIFISCHE EIGENSCHAFTEN:
   
@@ -318,104 +318,104 @@ Schadensart: mit Stichwaffe durchbohren (Fernkampf)
 Gewicht: 1
 Geschwindigkeitsfaktor: 1
 Waffentyp: Kleines Schwert
-Typ: einhändig
+Typ: einhÃ¤ndig
 Kann nicht verwendet werden von:
  Klerikern~
 @107 = ~Ring der Handlungsfreiheit +1 ~
 @108 = ~Ring der Handlungsfreiheit +1
 
-Dieser Ring wurde magisch verändert. Es vereint die Fähigkeiten eines Schutzringes +1 "Prinzenring" und eines Ringes der Handlungsfreiheit.
+Dieser Ring wurde magisch verÃ¤ndert. Es vereint die FÃ¤higkeiten eines Schutzringes +1 "Prinzenring" und eines Ringes der Handlungsfreiheit.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Der Träger ist gegen alle Einflüsse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch für Beeinflussung durch "Hast" und "Verlangsamen".
+Der TrÃ¤ger ist gegen alle EinflÃ¼sse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch fÃ¼r Beeinflussung durch "Hast" und "Verlangsamen".
 
 Besonderheit:
- Rüstungsklasse: +1 Bonus
+ RÃ¼stungsklasse: +1 Bonus
  Rettungswurf +1 Bonus
 
 Kann nicht verwendet werden von: ~
 @109 = ~Ring der Handlungsfreiheit +2 ~
 @110 = ~Ring der Handlungsfreiheit +2 
 
-Dieser Ring wurde magisch verändert. Es vereint die Fähigkeiten des Schutzringes +2 "Wächterring" und des Rings der Handlungsfreiheit.
+Dieser Ring wurde magisch verÃ¤ndert. Es vereint die FÃ¤higkeiten des Schutzringes +2 "WÃ¤chterring" und des Rings der Handlungsfreiheit.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Der Träger ist gegen alle Einflüsse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch für "Hast" und "Verlangsamen".
+Der TrÃ¤ger ist gegen alle EinflÃ¼sse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch fÃ¼r "Hast" und "Verlangsamen".
 
-Rüstungsklasse: +2 Bonus
+RÃ¼stungsklasse: +2 Bonus
 Rettungswurf +2 Bonus
 
 Kann nicht verwendet werden von: ~
-@111 = ~Handschuhe der Großmeisterschaft ~
-@112 = ~Handschuhe der Großmeisterschaft
+@111 = ~Handschuhe der GroÃŸmeisterschaft ~
+@112 = ~Handschuhe der GroÃŸmeisterschaft
 
-Ein Paar dieser feinen Panzerhandschuhe vereint auf magische Weise die Eigenschaften von mehreren einfacheren Panzerhandschuhen, deshalb unterstützen sie die Fähigkeiten des Angreifens und des Verteidigens, ganz wie es eines großen Kriegers würdig ist.
+Ein Paar dieser feinen Panzerhandschuhe vereint auf magische Weise die Eigenschaften von mehreren einfacheren Panzerhandschuhen, deshalb unterstÃ¼tzen sie die FÃ¤higkeiten des Angreifens und des Verteidigens, ganz wie es eines groÃŸen Kriegers wÃ¼rdig ist.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
  ETW0: +2 Bonus
  Schaden: +2 Bonus
- Rüstungsklasse: +1 Bonus
+ RÃ¼stungsklasse: +1 Bonus
 Gewicht: 2
 Kann nicht verwendet werden von:~
 @113 = ~Verbesserter Umhang der Unauffindbarkeit ~
-@114 = ~Verbesserter Umhang der Unauffindbarkeit "Flüstern der Stille"
+@114 = ~Verbesserter Umhang der Unauffindbarkeit "FlÃ¼stern der Stille"
   
-Nachweislich geschaffen für die Erbfolge der heimtückischsten Einbrecher, die jemals durch die Nacht schlichen, war diesem Umhang anscheinend durchschlagender Erfolg beschert. Die vorherigen Eigentümer sind nicht bekannt.  
+Nachweislich geschaffen fÃ¼r die Erbfolge der heimtÃ¼ckischsten Einbrecher, die jemals durch die Nacht schlichen, war diesem Umhang anscheinend durchschlagender Erfolg beschert. Die vorherigen EigentÃ¼mer sind nicht bekannt.  
 Der Umhang wurde auf magische Weise mit dem Schutzumhang +1 vereint.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
 
-Besonderheit: Der Träger kann nicht durch magische Mittel wie "Unsichtbares entdecken" enttarnt werden.
+Besonderheit: Der TrÃ¤ger kann nicht durch magische Mittel wie "Unsichtbares entdecken" enttarnt werden.
 
-Besondere Fähigkeiten:
+Besondere FÃ¤higkeiten:
  Unsichtbarkeit 2 mal pro Tag
 
-Rüstungsklasse: +1 Bonus
+RÃ¼stungsklasse: +1 Bonus
 Rettungswurf +1 Bonus 
 Gewicht: 3
 Kann nicht verwendet werden von:~
 @115 = ~Magierrobe "Praktischer Schutz" ~
 @116 = ~Magierrobe "Praktischer Schutz"
     
-In dieser Magierrobe werden nützliche Eigenschaften mehrerer einfacher Gegenstände konzentriert, und sie gewährt dem Eigentümer umfassenden Schutz.
+In dieser Magierrobe werden nÃ¼tzliche Eigenschaften mehrerer einfacher GegenstÃ¤nde konzentriert, und sie gewÃ¤hrt dem EigentÃ¼mer umfassenden Schutz.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
- Bonus von +20 %, bei Feuer-, Kälte- und Elektrizitätsresistenz
+Besondere FÃ¤higkeiten:
+ Bonus von +20 %, bei Feuer-, KÃ¤lte- und ElektrizitÃ¤tsresistenz
 
-Rüstungsklasse: +2 Bonus
+RÃ¼stungsklasse: +2 Bonus
 Rettungswurf +1 Bonus 
 Gewicht: 6
 Kann verwendet werden von:
 Magiern (einzeln, doppel- und mehrklassig) ~
-@117 = ~Gürtel des Muts ~
-@118 = ~Gürtel des Muts
+@117 = ~GÃ¼rtel des Muts ~
+@118 = ~GÃ¼rtel des Muts
   
-In diesem feinen Gürtel sind auf magische Weise nützliche Eigenschaften der Goldenen Schärpe, des Gürtels der Wucht und des Gürtels der Durchdringung vereint. Darüber hinaus erhöht er die Körperkraft des Eigentümers und hilft ihm, Wunden zu heilen.
+In diesem feinen GÃ¼rtel sind auf magische Weise nÃ¼tzliche Eigenschaften der Goldenen SchÃ¤rpe, des GÃ¼rtels der Wucht und des GÃ¼rtels der Durchdringung vereint. DarÃ¼ber hinaus erhÃ¶ht er die KÃ¶rperkraft des EigentÃ¼mers und hilft ihm, Wunden zu heilen.
 
 SPEZIFISCHE EIGENSCHAFTEN: 
 
-Besondere Fähigkeiten:
+Besondere FÃ¤higkeiten:
  Kraft: +1 Bonus
- Träger regeneriert alle 6 Sekunden 1 Trefferpunkt.
+ TrÃ¤ger regeneriert alle 6 Sekunden 1 Trefferpunkt.
 
-Rüstungsklasse: +3 Bonus
+RÃ¼stungsklasse: +3 Bonus
 Gewicht: 4
 Kann nicht verwendet werden von:~
-@119 = ~Schwert des Mörders ~
-@120 = ~Schwert des Mörders
+@119 = ~Schwert des MÃ¶rders ~
+@120 = ~Schwert des MÃ¶rders
   
-Dies ist ein verbessertes Kurzschwert der Heimtücke "Die Klinge des Schattens". Das Schwert verursacht zusätzlichen heimtückischen Schaden und kann außerdem ein Opfer lähmen.
+Dies ist ein verbessertes Kurzschwert der HeimtÃ¼cke "Die Klinge des Schattens". Das Schwert verursacht zusÃ¤tzlichen heimtÃ¼ckischen Schaden und kann auÃŸerdem ein Opfer lÃ¤hmen.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
- Die Chance von 15 % bei jedem Treffer, das Opfer für 2 Runden zu lähmen (kein Rettungswurf)
+Besondere FÃ¤higkeiten:
+ Die Chance von 15 % bei jedem Treffer, das Opfer fÃ¼r 2 Runden zu lÃ¤hmen (kein Rettungswurf)
 
 ETW0: +3 Bonus
 Schaden: 1W6 +3
@@ -423,7 +423,7 @@ Schadensart: mit Stichwaffe durchbohren
 Gewicht: 3 
 Geschwindigkeitsfaktor: 0
 Waffentyp: Kleines Schwert
-Typ: einhändig
+Typ: einhÃ¤ndig
 Kann nicht verwendet werden von:
  Druiden
  Klerikern 
@@ -431,22 +431,22 @@ Kann nicht verwendet werden von:
 @121 = ~Bogen des Schneesturms ~
 @122 = ~Bogen des Schneesturms
   
-Dieser Bogen ist ein magisch veränderter Langbogen der Treffsicherheit. Wenn seine Bogensehne gespannt wird, entsteht ein starker aber unsichtbarer Pfeil. Beim Auftreffen verursacht der Pfeil zusätzlichen Kälte- und Elektrizitätsschaden.
+Dieser Bogen ist ein magisch verÃ¤nderter Langbogen der Treffsicherheit. Wenn seine Bogensehne gespannt wird, entsteht ein starker aber unsichtbarer Pfeil. Beim Auftreffen verursacht der Pfeil zusÃ¤tzlichen KÃ¤lte- und ElektrizitÃ¤tsschaden.
 
-Beachtet: Vermeidet es euren Charakter mit normalen Pfeilen auszustatten, weil der Bogen sonst diese anstatt der Phantompfeile verschießt.
+Beachtet: Vermeidet es euren Charakter mit normalen Pfeilen auszustatten, weil der Bogen sonst diese anstatt der Phantompfeile verschieÃŸt.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
 Besonderheit:
-Dieser starke Bogen benötigt keine Munition
+Dieser starke Bogen benÃ¶tigt keine Munition
 
 ETW0: +3 Bonus
-Schaden: 1W6 + zusätzlicher 1W2 Kälteschaden und 1W2 Elektrizitätsschaden 
+Schaden: 1W6 + zusÃ¤tzlicher 1W2 KÃ¤lteschaden und 1W2 ElektrizitÃ¤tsschaden 
 Schadensart: mit Stichwaffe durchbohren (Fernkampf)
 Gewicht: 3 
 Geschwindigkeitsfaktor: 4
-Waffentyp: Bögen
-Typ: beidhändig
+Waffentyp: BÃ¶gen
+Typ: beidhÃ¤ndig
 Kann nicht verwendet werden von:
  Druiden
  Klerikern
@@ -455,15 +455,15 @@ Kann nicht verwendet werden von:
 @123 = ~Stiefel des Diebs "Schnelle Beine"~
 @124 = ~Stiefel des Diebs "Schnelle Beine"
   
-Diese Stiefel helfen nicht nur dem Dieb bei seinem schwierigen Handwerk, sondern erlauben ihm auch, sich schnell zu bewegen. Leider können ihre spezifischen Eigenschaften nur Dieben zugute kommen.
+Diese Stiefel helfen nicht nur dem Dieb bei seinem schwierigen Handwerk, sondern erlauben ihm auch, sich schnell zu bewegen. Leider kÃ¶nnen ihre spezifischen Eigenschaften nur Dieben zugute kommen.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
+Besondere FÃ¤higkeiten:
 
-Vergrößert die Bewegungsfreiheit
+VergrÃ¶ÃŸert die Bewegungsfreiheit
 Im Schatten verstecken: +35 %
-Schlösser öffnen Bonus: +10 %
+SchlÃ¶sser Ã¶ffnen Bonus: +10 %
 Fallen finden Bonus: +10 %  
 Taschendiebstahl Bonus: +10 %
 
@@ -473,11 +473,11 @@ Kann nur verwendet werden von:
 @125 = ~Verbessertes Schildamulett ~
 @126 = ~Verbessertes Schildamulett
   
-Das ist ein magisch verändertes Schildamulett. Es schützt den Eigentümer noch besser und ist praktischer zu verwenden.
+Das ist ein magisch verÃ¤ndertes Schildamulett. Es schÃ¼tzt den EigentÃ¼mer noch besser und ist praktischer zu verwenden.
 
 SPEZIFISCHE EIGENSCHAFTEN: 
 
-Rüstungsklasse: 4
+RÃ¼stungsklasse: 4
 Rettungswurf +1 Bonus
 
 Gewicht: 1
@@ -485,14 +485,14 @@ Kann nicht verwendet werden von:~
 @127 = ~Prachthelm ~
 @128 = ~Prachthelm
     
-Bei diesem Helm sind die nützlichen Eigenschaften des Helms der Ehre und des Abwehrhelms "Geschenk des Friedens" auf magische Weise konzentriert. Darüber hinaus gewährt er dem Eigentümer hilfreichen Schutz.
+Bei diesem Helm sind die nÃ¼tzlichen Eigenschaften des Helms der Ehre und des Abwehrhelms "Geschenk des Friedens" auf magische Weise konzentriert. DarÃ¼ber hinaus gewÃ¤hrt er dem EigentÃ¼mer hilfreichen Schutz.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
- Bonus von +20 % bei Feuer-, Kälte- und Elektrizitätswiderstand
+Besondere FÃ¤higkeiten:
+ Bonus von +20 % bei Feuer-, KÃ¤lte- und ElektrizitÃ¤tswiderstand
 Charisma: +1 Bonus
-Rüstungsklasse: +1 Bonus
+RÃ¼stungsklasse: +1 Bonus
 Rettungswurf +1 Bonus 
 Gewicht: 6
 Kann nicht verwendet werden von:
@@ -501,13 +501,13 @@ Kann nicht verwendet werden von:
  Dieben ~
 @129 = ~Verbesserter Umhang von Balduran ~
 @130 = ~Verbesserter Umhang von Balduran  
-Dieser Umhang wurde angeblich von Balduran, dem Gründer von Baldurs Tor, getragen. Obwohl er nie im Kampf verwendet wurde, gewährt er Schutz wie es eines großen Anführers würdig ist.  
+Dieser Umhang wurde angeblich von Balduran, dem GrÃ¼nder von Baldurs Tor, getragen. Obwohl er nie im Kampf verwendet wurde, gewÃ¤hrt er Schutz wie es eines groÃŸen AnfÃ¼hrers wÃ¼rdig ist.  
 Der Umhang wurde auf magische Weise mit dem Schutzumhang +2 vereint.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
 Magiewiderstand: +25 % 
-Rüstungsklasse: +2 Bonus
+RÃ¼stungsklasse: +2 Bonus
 Rettungswurf +2 Bonus 
 Gewicht: 3
 Kann nicht verwendet werden von:~
@@ -518,31 +518,31 @@ Kann nicht verwendet werden von:~
 
 @133 = ~Schwert der Wut
   
-Dieses Schwert wurde aus dem berüchtigten Schwert "Verfluchter Berserker" +3 gefertigt. Es war möglich, den Fluch zu entfernen, und ihm neue Eigenschaften zu verleihen.
+Dieses Schwert wurde aus dem berÃ¼chtigten Schwert "Verfluchter Berserker" +3 gefertigt. Es war mÃ¶glich, den Fluch zu entfernen, und ihm neue Eigenschaften zu verleihen.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
-    Macht 1 mal pro Tag wütend
-    Chance von 10 % bei jedem Treffer, das Opfer für 1 Runde zu verängstigen
+Besondere FÃ¤higkeiten:
+    Macht 1 mal pro Tag wÃ¼tend
+    Chance von 10 % bei jedem Treffer, das Opfer fÃ¼r 1 Runde zu verÃ¤ngstigen
       
 ETW0: +3 Bonus
 Schaden: 1W10 +3
 Schadensart: mit Klingenwaffe aufschlitzen
 Gewicht: 10
 Geschwindigkeitsfaktor: 7
-Waffenfertigkeit: Zweihänderschwert
-Waffentyp: Beidhändig
-Mindeststärke: 14 
+Waffenfertigkeit: ZweihÃ¤nderschwert
+Waffentyp: BeidhÃ¤ndig
+MindeststÃ¤rke: 14 
 ~
-@134 = ~Der Giftdolch ist eine mächtige Klinge, die von Mördern in allen Reichen bevorzugt wird. Dieser besondere Giftdolch wurde für den Gebrauch von den Schattendieben aus Amn geschaffen. Jedesmal, wenn er einen Gegner trifft, sondert er ein Gift in den Blutstrom ab. Das Gift arbeitet schnell und wirkungsvoll.
-Dieser Dolch wurde magisch verändert und ist jetzt eine noch stärkere Waffe.
+@134 = ~Der Giftdolch ist eine mÃ¤chtige Klinge, die von MÃ¶rdern in allen Reichen bevorzugt wird. Dieser besondere Giftdolch wurde fÃ¼r den Gebrauch von den Schattendieben aus Amn geschaffen. Jedesmal, wenn er einen Gegner trifft, sondert er ein Gift in den Blutstrom ab. Das Gift arbeitet schnell und wirkungsvoll.
+Dieser Dolch wurde magisch verÃ¤ndert und ist jetzt eine noch stÃ¤rkere Waffe.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
 Besonderheit:
-  +1 zusätzlicher Angriff pro Runde
-  Jeder Treffer verlangsamt ein Opfer für 15 Sekunden (Rettungswurf gegen Tod)
+  +1 zusÃ¤tzlicher Angriff pro Runde
+  Jeder Treffer verlangsamt ein Opfer fÃ¼r 15 Sekunden (Rettungswurf gegen Tod)
   
 ETW0: +3 Bonus
 Schaden: 1W4 + 3
@@ -551,10 +551,10 @@ Gift-Schaden: 6 Punkte pro Runde bis zu insgesamt 15 Schadenspunkten (Rettungswu
 Gewicht: 2
 Geschwindigkeitsfaktor: 0
 Waffenfertigkeit: Dolch
-Waffentyp: einhändig
-Mindeststärke: 3
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 3
 ~
-@135 = ~Dieser Wurfdolch wurde aus einem magisch veränderten Dolch +1 gefertigt. Der Dolch kehrt sofort in die Hand des Besitzers zurück, nachdem ein Angriff ausgeführt wurde.
+@135 = ~Dieser Wurfdolch wurde aus einem magisch verÃ¤nderten Dolch +1 gefertigt. Der Dolch kehrt sofort in die Hand des Besitzers zurÃ¼ck, nachdem ein Angriff ausgefÃ¼hrt wurde.
 
 SPEZIFISCHE EIGENSCHAFTEN:
   
@@ -564,95 +564,95 @@ Schadensart: mit Stichwaffe durchbohren (Fernkampf)
 Gewicht: 1
 Geschwindigkeitsfaktor: 1
 Waffenfertigkeit: Dolch
-Waffentyp: einhändig
-Mindeststärke: 3
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 3
 ~
 @136 = ~Ring der Handlungsfreiheit +1
 
-Dieser Ring wurde magisch verändert. Es vereint die Fähigkeiten eines Schutzringes +1 "Prinzenring" und eines Ringes der Handlungsfreiheit.
+Dieser Ring wurde magisch verÃ¤ndert. Es vereint die FÃ¤higkeiten eines Schutzringes +1 "Prinzenring" und eines Ringes der Handlungsfreiheit.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Der Träger ist gegen alle Einflüsse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch für Beeinflussung durch "Hast" und "Verlangsamen".
+Der TrÃ¤ger ist gegen alle EinflÃ¼sse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch fÃ¼r Beeinflussung durch "Hast" und "Verlangsamen".
 
 Besonderheit:
- Rüstungsklasse: +1 Bonus
+ RÃ¼stungsklasse: +1 Bonus
  Rettungswurf +1 Bonus
 ~
 @137 = ~Ring der Handlungsfreiheit +2 
 
-Dieser Ring wurde magisch verändert. Es vereint die Fähigkeiten des Schutzringes +2 "Wächterring" und des Rings der Handlungsfreiheit.
+Dieser Ring wurde magisch verÃ¤ndert. Es vereint die FÃ¤higkeiten des Schutzringes +2 "WÃ¤chterring" und des Rings der Handlungsfreiheit.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Der Träger ist gegen alle Einflüsse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch für "Hast" und "Verlangsamen".
+Der TrÃ¤ger ist gegen alle EinflÃ¼sse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt auch fÃ¼r "Hast" und "Verlangsamen".
 
-Rüstungsklasse: +2 Bonus
+RÃ¼stungsklasse: +2 Bonus
 Rettungswurf +2 Bonus
 ~
-@138 = ~Handschuhe der Großmeisterschaft
+@138 = ~Handschuhe der GroÃŸmeisterschaft
 
-Ein Paar dieser feinen Panzerhandschuhe vereint auf magische Weise die Eigenschaften von mehreren einfacheren Panzerhandschuhen, deshalb unterstützen sie die Fähigkeiten des Angreifens und des Verteidigens, ganz wie es eines großen Kriegers würdig ist.
+Ein Paar dieser feinen Panzerhandschuhe vereint auf magische Weise die Eigenschaften von mehreren einfacheren Panzerhandschuhen, deshalb unterstÃ¼tzen sie die FÃ¤higkeiten des Angreifens und des Verteidigens, ganz wie es eines groÃŸen Kriegers wÃ¼rdig ist.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
  ETW0: +2 Bonus
  Schaden: +2 Bonus
- Rüstungsklasse: +1 Bonus
+ RÃ¼stungsklasse: +1 Bonus
 Gewicht: 2
 ~
-@139 = ~Verbesserter Umhang der Unauffindbarkeit "Flüstern der Stille"
+@139 = ~Verbesserter Umhang der Unauffindbarkeit "FlÃ¼stern der Stille"
   
-Nachweislich geschaffen für die Erbfolge der heimtückischsten Einbrecher, die jemals durch die Nacht schlichen, war diesem Umhang anscheinend durchschlagender Erfolg beschert. Die vorherigen Eigentümer sind nicht bekannt.  
+Nachweislich geschaffen fÃ¼r die Erbfolge der heimtÃ¼ckischsten Einbrecher, die jemals durch die Nacht schlichen, war diesem Umhang anscheinend durchschlagender Erfolg beschert. Die vorherigen EigentÃ¼mer sind nicht bekannt.  
 Der Umhang wurde auf magische Weise mit dem Schutzumhang +1 vereint.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
 
-Besonderheit: Der Träger kann nicht durch magische Mittel wie "Unsichtbares entdecken" enttarnt werden.
+Besonderheit: Der TrÃ¤ger kann nicht durch magische Mittel wie "Unsichtbares entdecken" enttarnt werden.
 
-Besondere Fähigkeiten:
+Besondere FÃ¤higkeiten:
  Unsichtbarkeit 2 mal pro Tag
 
-Rüstungsklasse: +1 Bonus
+RÃ¼stungsklasse: +1 Bonus
 Rettungswurf +1 Bonus 
 Gewicht: 3
 ~
 @140 = ~Magierrobe "Praktischer Schutz"
     
-In dieser Magierrobe werden nützliche Eigenschaften mehrerer einfacher Gegenstände konzentriert, und sie gewährt dem Eigentümer umfassenden Schutz.
+In dieser Magierrobe werden nÃ¼tzliche Eigenschaften mehrerer einfacher GegenstÃ¤nde konzentriert, und sie gewÃ¤hrt dem EigentÃ¼mer umfassenden Schutz.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
- Bonus von +20 %, bei Feuer-, Kälte- und Elektrizitätsresistenz
+Besondere FÃ¤higkeiten:
+ Bonus von +20 %, bei Feuer-, KÃ¤lte- und ElektrizitÃ¤tsresistenz
 
-Rüstungsklasse: +2 Bonus
+RÃ¼stungsklasse: +2 Bonus
 Rettungswurf +1 Bonus 
 Gewicht: 6
 ~
-@141 = ~Gürtel des Muts
+@141 = ~GÃ¼rtel des Muts
   
-In diesem feinen Gürtel sind auf magische Weise nützliche Eigenschaften der Goldenen Schärpe, des Gürtels der Wucht und des Gürtels der Durchdringung vereint. Darüber hinaus erhöht er die Körperkraft des Eigentümers und hilft ihm, Wunden zu heilen.
+In diesem feinen GÃ¼rtel sind auf magische Weise nÃ¼tzliche Eigenschaften der Goldenen SchÃ¤rpe, des GÃ¼rtels der Wucht und des GÃ¼rtels der Durchdringung vereint. DarÃ¼ber hinaus erhÃ¶ht er die KÃ¶rperkraft des EigentÃ¼mers und hilft ihm, Wunden zu heilen.
 
 SPEZIFISCHE EIGENSCHAFTEN: 
 
-Besondere Fähigkeiten:
+Besondere FÃ¤higkeiten:
  Kraft: +1 Bonus
- Träger regeneriert alle 6 Sekunden 1 Trefferpunkt.
+ TrÃ¤ger regeneriert alle 6 Sekunden 1 Trefferpunkt.
 
-Rüstungsklasse: +3 Bonus
+RÃ¼stungsklasse: +3 Bonus
 Gewicht: 4
 ~
-@142 = ~Schwert des Mörders
+@142 = ~Schwert des MÃ¶rders
   
-Dies ist ein verbessertes Kurzschwert der Heimtücke "Die Klinge des Schattens". Das Schwert verursacht zusätzlichen heimtückischen Schaden und kann außerdem ein Opfer lähmen.
+Dies ist ein verbessertes Kurzschwert der HeimtÃ¼cke "Die Klinge des Schattens". Das Schwert verursacht zusÃ¤tzlichen heimtÃ¼ckischen Schaden und kann auÃŸerdem ein Opfer lÃ¤hmen.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
+Besondere FÃ¤higkeiten:
  +1 zum mehrfachen hinterlistigen Angriff
- Die Chance von 10 % bei jedem Treffer, das Opfer für 2 Runden zu lähmen (kein Rettungswurf)
+ Die Chance von 10 % bei jedem Treffer, das Opfer fÃ¼r 2 Runden zu lÃ¤hmen (kein Rettungswurf)
 
 ETW0: +3 Bonus
 Schaden: 1W6 +3
@@ -660,41 +660,41 @@ Schadensart: mit Stichwaffe durchbohren
 Gewicht: 3 
 Geschwindigkeitsfaktor: 0
 Waffenfertigkeit: Kurzschwert
-Waffentyp: einhändig
-Mindeststärke: 5
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 5
 ~
 @143 = ~Bogen des Schneesturms
   
-Dieser Bogen ist ein magisch veränderter Langbogen der Treffsicherheit. Wenn seine Bogensehne gespannt wird, entsteht ein starker aber unsichtbarer Pfeil. Beim Auftreffen verursacht der Pfeil zusätzlichen Kälte- und Elektrizitätsschaden.
+Dieser Bogen ist ein magisch verÃ¤nderter Langbogen der Treffsicherheit. Wenn seine Bogensehne gespannt wird, entsteht ein starker aber unsichtbarer Pfeil. Beim Auftreffen verursacht der Pfeil zusÃ¤tzlichen KÃ¤lte- und ElektrizitÃ¤tsschaden.
 
-Beachtet: Vermeidet es euren Charakter mit normalen Pfeilen auszustatten, weil der Bogen sonst diese anstatt der Phantompfeile verschießt.
+Beachtet: Vermeidet es euren Charakter mit normalen Pfeilen auszustatten, weil der Bogen sonst diese anstatt der Phantompfeile verschieÃŸt.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
 Besonderheit:
-Dieser starke Bogen benötigt keine Munition
+Dieser starke Bogen benÃ¶tigt keine Munition
 
 ETW0: +3 Bonus
-Schaden: 1W6 + zusätzlicher 1W2 Kälteschaden und 1W2 Elektrizitätsschaden 
+Schaden: 1W6 + zusÃ¤tzlicher 1W2 KÃ¤lteschaden und 1W2 ElektrizitÃ¤tsschaden 
 Schadensart: mit Stichwaffe durchbohren (Fernkampf)
 Gewicht: 3 
 Geschwindigkeitsfaktor: 4
 Waffenfertigkeit: Langbogen
-Waffentyp: Beidhändig
-Mindeststärke: 6
+Waffentyp: BeidhÃ¤ndig
+MindeststÃ¤rke: 6
 ~
 @144 = ~Stiefel des Diebs "Schnelle Beine"
   
-Diese Stiefel helfen nicht nur dem Dieb bei seinem schwierigen Handwerk, sondern erlauben ihm auch, sich schnell zu bewegen. Leider können ihre spezifischen Eigenschaften nur Dieben zugute kommen.
+Diese Stiefel helfen nicht nur dem Dieb bei seinem schwierigen Handwerk, sondern erlauben ihm auch, sich schnell zu bewegen. Leider kÃ¶nnen ihre spezifischen Eigenschaften nur Dieben zugute kommen.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
+Besondere FÃ¤higkeiten:
 
-Vergrößert die Bewegungsfreiheit
+VergrÃ¶ÃŸert die Bewegungsfreiheit
 Leise bewegen Bonus: +20 %
 Im Schatten verstecken: +15 %
-Schlösser öffnen Bonus: +10 %
+SchlÃ¶sser Ã¶ffnen Bonus: +10 %
 Fallen finden Bonus: +10 %  
 Taschendiebstahl Bonus: +10 %
 
@@ -702,36 +702,36 @@ Gewicht: 4
 ~
 @145 = ~Verbessertes Schildamulett
   
-Das ist ein magisch verändertes Schildamulett. Es schützt den Eigentümer noch besser und ist praktischer zu verwenden.
+Das ist ein magisch verÃ¤ndertes Schildamulett. Es schÃ¼tzt den EigentÃ¼mer noch besser und ist praktischer zu verwenden.
 
 SPEZIFISCHE EIGENSCHAFTEN: 
 
-Rüstungsklasse: 4
+RÃ¼stungsklasse: 4
 Rettungswurf +1 Bonus
 
 Gewicht: 1
 ~
 @146 = ~Prachthelm
     
-Bei diesem Helm sind die nützlichen Eigenschaften des Helms der Ehre und des Abwehrhelms "Geschenk des Friedens" auf magische Weise konzentriert. Darüber hinaus gewährt er dem Eigentümer hilfreichen Schutz.
+Bei diesem Helm sind die nÃ¼tzlichen Eigenschaften des Helms der Ehre und des Abwehrhelms "Geschenk des Friedens" auf magische Weise konzentriert. DarÃ¼ber hinaus gewÃ¤hrt er dem EigentÃ¼mer hilfreichen Schutz.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Besondere Fähigkeiten:
- Bonus von +20 % bei Feuer-, Kälte- und Elektrizitätswiderstand
+Besondere FÃ¤higkeiten:
+ Bonus von +20 % bei Feuer-, KÃ¤lte- und ElektrizitÃ¤tswiderstand
 Charisma: +1 Bonus
-Rüstungsklasse: +1 Bonus
+RÃ¼stungsklasse: +1 Bonus
 Rettungswurf +1 Bonus 
 Gewicht: 6
 ~
 @147 = ~Verbesserter Umhang von Balduran  
-Dieser Umhang wurde angeblich von Balduran, dem Gründer von Baldurs Tor, getragen. Obwohl er nie im Kampf verwendet wurde, gewährt er Schutz wie es eines großen Anführers würdig ist.  
+Dieser Umhang wurde angeblich von Balduran, dem GrÃ¼nder von Baldurs Tor, getragen. Obwohl er nie im Kampf verwendet wurde, gewÃ¤hrt er Schutz wie es eines groÃŸen AnfÃ¼hrers wÃ¼rdig ist.  
 Der Umhang wurde auf magische Weise mit dem Schutzumhang +2 vereint.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
 Magiewiderstand: +25 % 
-Rüstungsklasse: +2 Bonus
+RÃ¼stungsklasse: +2 Bonus
 Rettungswurf +2 Bonus 
 Gewicht: 3
 ~
