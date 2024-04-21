@@ -74,6 +74,9 @@ LANGUAGE ~Polski (tłumaczenie: morgan)~
          ~polish~
          ~thalan/tra/polish/setup.tra~
 
+LANGUAGE ~Simplified Chinese~
+         ~schinese~
+         ~thalan/tra/schinese/setup.tra~
 
 BEGIN @0
 DESIGNATED 0 LABEL "ThalantyrItemUpgrade-Main"
