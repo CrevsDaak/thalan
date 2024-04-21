@@ -1,6 +1,6 @@
 BACKUP ~weidu_external/backup/thalan~
 SUPPORT "crevs.daak@gmail.com" //AUTHOR ~serdrick@yandex.ru~ I think it would be wise to put my email if I'm keeper of the mod
-VERSION ~v4.4~
+VERSION ~v4.5~
 README "%MOD_FOLDER%/docs/readme.txt" "%MOD_FOLDER%/docs/readme_%LANGUAGE%.txt"
 
 ALWAYS
