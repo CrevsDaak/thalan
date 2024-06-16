@@ -1,6 +1,6 @@
 BACKUP ~weidu_external/backup/thalan~
 SUPPORT "crevs.daak@gmail.com" //AUTHOR ~serdrick@yandex.ru~ I think it would be wise to put my email if I'm keeper of the mod
-VERSION ~v4.5~
+VERSION ~v4.5.1~
 README "%MOD_FOLDER%/docs/readme.txt" "%MOD_FOLDER%/docs/readme_%LANGUAGE%.txt"
 
 ALWAYS
@@ -30,7 +30,7 @@ ALWAYS
     INT_VAR
       from_utf8=1
     STR_VAR
-      load="game thalan"
+      load="game"
     RET
       out_path
   END
@@ -43,7 +43,7 @@ ALWAYS
   END
 END
 
-AUTO_TRA "%out_path%/%s"
+AUTO_TRA "%out_path%/%s" // remove this line later if USING solves issue #16
 
 LANGUAGE ~English~
          ~english~
@@ -233,7 +233,7 @@ ACTION_IF !GAME_IS totsc BEGIN
   ACTION_IF GAME_IS ~eet bgee~ BEGIN
     APPEND_OUTER ~weidu_external/workspace/%MOD_FOLDER%/thalan.d~ ~~~~~EXTEND_TOP %tutu_var%THALAN 1 #1 IF ~Global("RumorTalkThalan","GLOBAL",1)~ THEN REPLY @8 GOTO s#tal02 END~~~~~
   END
-  COMPILE EVAL ~weidu_external/workspace/%MOD_FOLDER%/thalan.d~
+  COMPILE EVAL ~weidu_external/workspace/%MOD_FOLDER%/thalan.d~ USING ~%out_path%/%LANGUAGE%/thalan.tra~
 END
 ELSE BEGIN //BG:TotSC
 
@@ -352,7 +352,7 @@ ELSE BEGIN //BG:TotSC
   APPEND ~ITEMEXCL.2DA~ ~thring01  1~ IF ~RING~ UNLESS ~thring01~
   APPEND ~ITEMEXCL.2DA~ ~thring02  1~ IF ~RING~ UNLESS ~thring02~
 
-  COMPILE ~%MOD_FOLDER%/dlg_bg1/thalan.d~
+  COMPILE EVAL ~%MOD_FOLDER%/dlg_bg1/thalan.d~ USING ~%out_path%/%LANGUAGE%/thalan.tra~
 
   COPY ~%MOD_FOLDER%/itm_bg1/inv_cre.cre~ ~override/z!visual.cre~
     WRITE_ASCII SCRIPT_OVERRIDE ~z!visual~
